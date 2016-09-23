@@ -3,7 +3,7 @@ permalink:           pretty
 
 # Setup
 title:               James Moriarty
-tagline:             Software Development Blog
+tagline:             Software Development
 url:                 http://jamesmoriarty.github.io/
 paginate:            1
 baseurl:             ""
