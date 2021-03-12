@@ -22,7 +22,8 @@ gtag('js',new Date());gtag('config','G-NHMWRM0LY9');</script><link type=text/css
 </span><span style=color:#bbb>            </span>- /bin/sh<span style=color:#bbb>
 </span><span style=color:#bbb>            </span>- -c<span style=color:#bbb>
 </span><span style=color:#bbb>            </span>- <span style=color:#d14>|
-</span><span style=color:#d14>              export IP=$(curl --silent ifconfig.me</span><span style=color:#bbb>
+</span><span style=color:#d14>              export IP=$(curl --silent ifconfig.me)</span><span style=color:#bbb>
+</span><span style=color:#bbb>
 </span><span style=color:#bbb>              </span>cat<span style=color:#bbb> </span>&lt;&lt;<span style=color:#bbb> </span>EOF<span style=color:#bbb> </span>&gt;<span style=color:#bbb> </span>/tmp/ingress.yml<span style=color:#bbb> </span><span style=color:#999;font-weight:700;font-style:italic>&amp;&amp;</span><span style=color:#bbb> </span>kubectl<span style=color:#bbb> </span>apply<span style=color:#bbb> </span>-f<span style=color:#bbb> </span>/tmp/ingress.yml<span style=color:#bbb>
 </span><span style=color:#bbb>              </span><span style=color:#000;font-weight:700>apiVersion</span>:<span style=color:#bbb> </span>networking.k8s.io/v1<span style=color:#bbb>
 </span><span style=color:#bbb>              </span><span style=color:#000;font-weight:700>kind</span>:<span style=color:#bbb> </span>Ingress<span style=color:#bbb>
