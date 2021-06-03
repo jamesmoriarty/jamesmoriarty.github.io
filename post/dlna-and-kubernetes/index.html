@@ -21,11 +21,11 @@ PORT     STATE SERVICE
 |     Server: Homeware UPnP/1.1
 |_    Location: http://192.168.0.1:5000/rootDesc.xml
 MAC Address: D4:35:1D:14:F3:FE (Technicolor)
-</code></pre><p>The client utilize this endpoint to programatically interact this server. This coinsides with another post exposed in our manifest.</p><pre><code>ports:
+</code></pre><p>The client uses this endpoint to programatically interact this server. This coinsides with another post exposed in our manifest.</p><pre><code>ports:
 - containerPort: 8200
   hostPort: 8200
   protocol: TCP
-</code></pre><p>To enable the SSDP interaction on Kubernetes I had to run the container with hostNetwork. Pod traffic of this nature is generally not able to leave the pod network. This often enfored with node ip tables.</p><pre><code>hostNetwork: true
+</code></pre><p>To enable the SSDP interaction on Kubernetes I had to run the container with <code>hostNetwork</code>. Pod traffic of this nature is generally not able to leave the pod network. This often enfored via node ip tables.</p><pre><code>hostNetwork: true
 </code></pre><p>To avoid node post conflicts the pod spec needs to use a recreate strategy.</p><pre><code>replicas: 1
 strategy:
   type: Recreate
