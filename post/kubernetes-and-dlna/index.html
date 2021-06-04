@@ -9,7 +9,7 @@ Capturing on 'eno1'
   hostPort: 1900
   protocol: UDP
 </code></pre><p>If we run <code>tshark</code> with <code>-T pdml</code> to examine the contents of the interaction the server - we will see an advertised http endpoint.</p><pre><code>http://192.168.0.211:8200/rootDesc.xml
-</code></pre><p>You also discover the expected endpoints with <code>nmap</code>.</p><pre><code>nmap sU -p 1900 --script=upnp-info 192.168.0.0/24
+</code></pre><p>You also discover the advertised endpoints with <code>nmap</code>.</p><pre><code>nmap sU -p 1900 --script=upnp-info 192.168.0.0/24
 Starting Nmap 7.80 ( https://nmap.org ) at 2021-06-03 13:11 UTC
 Nmap scan report for mymodem.modem (192.168.0.1)
 Host is up (0.0045s latency).
@@ -21,7 +21,7 @@ PORT     STATE SERVICE
 |     Server: Homeware UPnP/1.1
 |_    Location: http://192.168.0.1:5000/rootDesc.xml
 MAC Address: D4:35:1D:14:F3:FE (Technicolor)
-</code></pre><p>The endpoint enables programmatic interaction between client and server. This coincides with another post exposed in our manifest.</p><pre><code>ports:
+</code></pre><p>The endpoint enables programmatic interaction between client and server. This coincides with another port exposed in our manifest.</p><pre><code>ports:
 - containerPort: 8200
   hostPort: 8200
   protocol: TCP
