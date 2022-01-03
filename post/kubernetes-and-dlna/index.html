@@ -29,6 +29,6 @@ MAC Address: D4:35:1D:14:F3:FE (Technicolor)
 </code></pre><p>Otherwise, you can expect the following issues.</p><ul><li>Pod network SSDP advertisement traffic may not reach the host network. This often enforced via node IP tables.</li><li>Host network SSDP discovery traffic may not reach the pod network. This may be Container Network Interface (CNI) dependent.</li><li>The advertise internal pod IP endpoint address may not reachable from the host network.</li></ul><p>To avoid node port conflicts the deployment spec will needs to use a <code>Recreate</code> strategy.</p><pre><code>replicas: 1
 strategy:
   type: Recreate
-</code></pre></div></main><footer><div>&copy; James Moriarty 2021
+</code></pre></div></main><footer><div>&copy; James Moriarty 2022
 ·
 <a href=https://creativecommons.org/licenses/by-sa/4.0 target=_blank>CC BY-SA 4.0</a></div></footer><script src=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/js/all.min.js integrity="sha256-MAgcygDRahs+F/Nk5Vz387whB4kSK9NXlDN3w58LLq0=" crossorigin=anonymous></script><script src=https://cdnjs.cloudflare.com/ajax/libs/turbolinks/5.0.0/turbolinks.js></script><script>Turbolinks.start()</script></body></html>
