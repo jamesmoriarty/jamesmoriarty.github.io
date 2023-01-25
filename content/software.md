@@ -11,15 +11,15 @@ A showcase for some of my personal software projects.
 ## MiniAASM
 
 ```ruby
-  aasm do
-    state :transmitting, initial: true
-    state :waiting_confirmation
-    state :terminated
+aasm do
+  state :transmitting, initial: true
+  state :waiting_confirmation
+  state :terminated
 
-    event :work_succeeded do
-      transitions from: :waiting_confirmation, to: :transmitting
-      transitions from: :transmitting, to: :waiting_confirmation, guard: %i[hold?]
-      # ...
+  event :work_succeeded do
+    transitions from: :waiting_confirmation, to: :transmitting
+    transitions from: :transmitting, to: :waiting_confirmation, guard: %i[hold?]
+    # ...
 ```
 
 A State Machine library intended to be compatible with lightweight implementations of the Ruby language using 100LOC and only standard libraries. Inspired by Heroku Postgres State Machines.
