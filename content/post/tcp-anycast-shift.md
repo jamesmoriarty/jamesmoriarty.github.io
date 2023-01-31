@@ -66,22 +66,3 @@ sequenceDiagram
 ```
 
 Let’s focus on “anycast shift” where a packet unexpectedly arrives at a device without a session. This can result from origins with routes using [equal-cost multipath](https://www.noction.com/blog/equal-cost-multipath-ecmp). The splitting of packets across links means the destination anycast IP may resolve to a different device resulting in reset.
-
-Example flow with multipath:
-
-```mermaid
-graph LR
-%%{init:{'flowchart':{'nodeSpacing': 80, 'rankSpacing': 50}}}%%
-
-Origin(Origin1)
-DestDeviceOne(DestDevice1)
-DestDeviceTwo(DestDevice2)
-HopOne((Hop))
-HopTwo((Hop))
-HopThreeA((Hop))
-HopThreeB((Hop))
-
-Origin -->|1.| HopOne -->|2.| HopTwo
-HopTwo -->|3. equal-cost multipath| HopThreeA --> |4. anycast| DestDeviceOne
-HopTwo -->|5. equal-cost multipath| HopThreeB --> |6. anycast| DestDeviceTwo
-```
