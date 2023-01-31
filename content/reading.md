@@ -6,6 +6,12 @@ aliases = ["reading"]
 author = "James Moriarty"
 +++
 
+## 2023
+
+> Meditations _by Marcus Aurelius_
+
+★★★★★
+
 ## 2022
 
 > Courage Is Calling _by Ryan Holiday_
