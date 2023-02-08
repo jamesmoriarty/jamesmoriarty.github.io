@@ -6,7 +6,7 @@ aliases = []
 author = "James Moriarty"
 +++
 
-This is a showcase for some of my personal software projects. You can find out more about my professional accomplishments on [Linkedin](https://www.linkedin.com/in/jamespaulmoriarty).
+This is a showcase for some of my personal software projects. You can find out more about my professional accomplishments on [LinkedIn](https://www.linkedin.com/in/jamespaulmoriarty).
 
 ## MiniAASM
 
