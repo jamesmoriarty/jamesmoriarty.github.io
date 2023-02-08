@@ -6,7 +6,7 @@ aliases = []
 author = "James Moriarty"
 +++
 
-A showcase for some of my personal software projects.
+This is a showcase for some of my personal software projects. You can find out more about my professional accomplishments on [Linkedin](https://www.linkedin.com/in/jamespaulmoriarty).
 
 ## MiniAASM
 
@@ -22,7 +22,7 @@ aasm do
     # ...
 ```
 
-A State Machine library intended to be compatible with lightweight implementations of the Ruby language using 100LOC and only standard libraries. Inspired by Heroku Postgres State Machines.
+A [Finite-state machine](https://en.wikipedia.org/wiki/Finite-state_machine) library intended to be compatible with [lightweight implementations](https://github.com/mruby/mruby) of the Ruby language using 100LOC and only standard libraries. Inspired by [Heroku Postgres State Machines](https://www.citusdata.com/blog/2016/08/12/state-machines-to-run-databases/).
 
 [Github](https://github.com/jamesmoriarty/mini-aasm)
 
