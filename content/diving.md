@@ -8,8 +8,6 @@ author = "James Moriarty"
 
 This page is dedicated to my interest in diving. I've enjoyed free & scuba diving across New Zealand, Australia, and the Pacific Islands.
 
-## Contents
-
 - [Videos](#videos)
 - [Photos](#photos)
 - [Charts](#charts)
