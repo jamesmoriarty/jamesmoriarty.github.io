@@ -14,6 +14,7 @@ This page is dedicated to my interest in hiking. I'm planning to work through [N
   - [Kiwi Saddle Hut](#kiwi-saddle-hut)
     - [Sections](#sections)
     - [Notes](#notes)
+    - [Links](#links)
 
 ## Pictures
 
@@ -38,11 +39,15 @@ This page is dedicated to my interest in hiking. I'm planning to work through [N
 
 #### Sections
 
-| Start | End | Origin | Destination | Distance | Elevation Gain | Temp |
+| Start | End | Origin | Destination | Distance | Elevation Gain/Loss | Temp |
 | ----- | --- | ------ | ----------- | -------- | -------------- | ------- |
 | 2023/02/04 9:00 | 2023/02/04 13:00 | Lakes Car Park | Kiwi Saddle Hut | 7km | 738m | 18-25'C | 
-| 2023/02/05 8:00 | 2023/02/05 11:00 | Kiwi Saddle Hut | Lakes Car Park | "" | -738m | "" |
+| 2023/02/05 8:00 | 2023/02/05 11:00 | Kiwi Saddle Hut | Lakes Car Park | "" | "" | "" |
 
 #### Notes
 
 The elevation gain was pretty tough. The weather was sunny and hot with evening thunder storms but no rain. The inbound plan was to go on to Cameron Hut but we aborted due to low water. Five others at Kiwi Saddle Hut. Slept in the tent.
+
+#### Links
+
+[Department of Conservation](https://www.doc.govt.nz/parks-and-recreation/places-to-go/hawkes-bay/places/kaweka-forest-park/things-to-do/tracks/kuripapango-tramping-tracks/)
