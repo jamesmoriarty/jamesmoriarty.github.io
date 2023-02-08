@@ -8,7 +8,7 @@ author = "James Moriarty"
 
 This page is dedicated to my interest in hiking. I'm planning to work through [New Zealand Great Walks](https://www.doc.govt.nz/parks-and-recreation/things-to-do/walking-and-tramping/great-walks/).
 
-- [Pictures](#pictures)
+- [Photos](#photos)
 - [Gear](#gear)
 - [Journal](#journal)
   - [Kiwi Saddle Hut](#kiwi-saddle-hut)
@@ -16,7 +16,7 @@ This page is dedicated to my interest in hiking. I'm planning to work through [N
     - [Notes](#notes)
     - [Links](#links)
 
-## Pictures
+## Photos
 
 [![Kaweka Forrest Park, Hawke's Bay, New Zealand, December, 2023](/images/hiking/hiking-kiwi-saddle-1.webp)](/images/hiking/hiking-kiwi-saddle-1.webp)
 > Kaweka Forrest Park, Hawke's Bay, New Zealand, December, 2023.
