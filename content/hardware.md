@@ -8,7 +8,7 @@ author = "James Moriarty"
 
 ## Photos
 
-[![Grafana cluster dashboard](/images/hardware-grafana.png)](/images/hardware-grafana.png)
+[![Grafana cluster dashboard](/images/hardware/hardware-grafana.png)](/images/hardware/hardware-grafana.png)
 > A Grafana dashboard form my Home Lab.
 
 ## Systems

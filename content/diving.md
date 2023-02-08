@@ -32,22 +32,22 @@ This page is dedicated to my interest in diving. I've enjoyed free & scuba divin
 
 ## Photos
 
-[!["The Boil" 3-25m 3km offshore, Te Motu-o-Kura, Hawkes Bay, New Zealand, December, 2016](/images/diving-hawkes-bay.jpg)](/images/diving-hawkes-bay.jpg)
+[!["The Boil" 3-25m 3km offshore, Te Motu-o-Kura, Hawkes Bay, New Zealand, December, 2016](/images/diving/diving-hawkes-bay.jpg)](/images/diving/diving-hawkes-bay.jpg)
 > "The Boil" 3-25m 3km offshore, Te Motu-o-Kura, Hawkes Bay, New Zealand, December, 2016.
 
-![Octopus, Rarotonga, Cook Islands, 2011](/images/diving-raro-two.jpg)
+![Octopus, Rarotonga, Cook Islands, 2011](/images/diving/diving-raro-two.jpg)
 > Octopus, Rarotonga, Cook Islands, 2011.
 
-![Squirrelfish, Rarotonga, Cook Islands, 2011](/images/diving-raro-one.jpg)
+![Squirrelfish, Rarotonga, Cook Islands, 2011](/images/diving/diving-raro-one.jpg)
 > Squirrelfish, Rarotonga, Cook Islands, 2011.
 
 # Charts
 
-![chart of how body weight can affect buoyancy](/images/diving-weight-chart.png)
+![chart of how body weight can affect buoyancy](/images/diving/diving-weight-chart.png)
 <!-- https://docs.google.com/spreadsheets/d/1C2rqTgVQtI3MDU07MTn6Gdh2Mem0eHJZrKK6c7WySC8/edit#gid=0 -->
 > This table show how depth and air can influence the buoyancy of dive equipment.
 
-![chart of how body weight can affect buoyancy](/images/diving-weight-chart2.png)
+![chart of how body weight can affect buoyancy](/images/diving/diving-weight-chart2.png)
 <!-- https://docs.google.com/spreadsheets/d/1C2rqTgVQtI3MDU07MTn6Gdh2Mem0eHJZrKK6c7WySC8/edit#gid=0 -->
 > This charts helps you understand how buoyancy of dive equipment tends over the course of a dive.
 
@@ -57,7 +57,7 @@ This page is dedicated to my interest in diving. I've enjoyed free & scuba divin
 
 The following chart illustrates a point of financial return at around 40-60 dives. I've included ongoing costs with buying to account for air-fills and maintenance. Entry and ongoing costs will vary.
 
-![chart of buy vs rent diving gear](/images/diving-buy-vs-rent.png)
+![chart of buy vs rent diving gear](/images/diving/diving-buy-vs-rent.png)
 <!-- https://docs.google.com/spreadsheets/d/1E23-dx8wTP8lgVMjgnoQr25T7yJ6pzLWsETzZ5nkSck/edit#gid=0 -->
 
 ### Free Diving

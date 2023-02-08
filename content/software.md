@@ -28,7 +28,7 @@ A State Machine library intended to be compatible with lightweight implementatio
 
 ## Alpaca Desktop
 
-[![Alpaca Desktop Screenshot](/images/software-alpaca-desktop2.png)](/images/software-alpaca-desktop2.png)
+[![Alpaca Desktop Screenshot](/images/software/software-alpaca-desktop2.png)](/images/software/software-alpaca-desktop2.png)
 
 Experimental OSX menu bar widget for Alpaca (a local proxy supporting NTLM authentication for command line tools). Built to reduce toil involved in installation and configuration for several hundred engineers.
 
@@ -48,7 +48,7 @@ Minimal forward proxy in 150LOC and using only standard libraries. Useful for de
 
 ## React Instagram Feed
 
-[![React Instagram Screenshot](/images/software-react-instagram.png)](/images/software-react-instagram.png)
+[![React Instagram Screenshot](/images/software/software-react-instagram.png)](/images/software/software-react-instagram.png)
 
 Simple React component to render a [Instagram](http://instagram.com) feed. Used an unofficial client-side integration method to avoid having to use a server-side access token. Archived as a result of [Instagram](http://instagram.com) fixing their Cross-Origin-Request policies.
 
@@ -73,7 +73,7 @@ A Go library to manipulate Windows processes. Useful for developing process memo
 
 ## Cloudformation Cheapest NAT
 
-[![AWS NAT](/images/software-nat.png)](/images/software-nat.png)
+[![AWS NAT](/images/software/software-nat.png)](/images/software/software-nat.png)
 
 Cloudformation for a NAT auto-healing instance running on Spot. Featured in [Last Week In AWS](https://www.lastweekinaws.com/newsletter/word-level-overconfidence/).
 
@@ -81,7 +81,7 @@ Cloudformation for a NAT auto-healing instance running on Spot. Featured in [Las
 
 ## Gohack
 
-[![Gohack terminal output](/images/software-gohack.png)](/images/software-gohack.png)
+[![Gohack terminal output](/images/software/software-gohack.png)](/images/software/software-gohack.png)
 
 Experimental Go language CSGO computer game exploit. Automated tests use stubbed external processes to avoid needing binary compatibility.
 
@@ -89,7 +89,7 @@ Experimental Go language CSGO computer game exploit. Automated tests use stubbed
 
 ## Call Graph
 
-[![Call Graph presentation slide](/images/software-callgraph.png)](/images/software-callgraph.png)
+[![Call Graph presentation slide](/images/software/software-callgraph.png)](/images/software/software-callgraph.png)
 
 A Ruby library to capture execution and create call graphs. Useful for illustrating [Law of Demeter](https://en.wikipedia.org/wiki/Law_of_Demeter) violations.
 
@@ -116,9 +116,9 @@ Minimal Lisp interpreter in 75LOC in Ruby using only standard libraries. Inspire
 
 ## Nebula
 
-<a href="/images/software-nebula.mp4">
+<a href="/images/software/software-nebula.mp4">
   <video width="100%" autoplay loop>
-    <source src="/images/software-nebula.mp4" type="video/mp4" />
+    <source src="/images/software/software-nebula.mp4" type="video/mp4" />
   </video>
 </a>
 
@@ -128,9 +128,9 @@ A prototype 2D Javascript space shooter. Simple physics, unit behaviors, paralla
 
 ## Scorched Earth
 
-<a href="/images/software-scorched.mp4">
+<a href="/images/software/software-scorched.mp4">
   <video width="100%" autoplay loop>
-    <source src="/images/software-scorched.mp4" type="video/mp4" />
+    <source src="/images/software/software-scorched.mp4" type="video/mp4" />
   </video>
 </a>
 
