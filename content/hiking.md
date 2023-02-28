@@ -6,7 +6,7 @@ aliases = ["tramping"]
 author = "James Moriarty"
 +++
 
-This page is dedicated to my interest in hiking. I'm planning to work through [New Zealand Great Walks](https://www.doc.govt.nz/parks-and-recreation/things-to-do/walking-and-tramping/great-walks/).
+This page is dedicated to my interest in hiking.
 
 - [Photos](#photos)
 - [Gear](#gear)
@@ -15,6 +15,7 @@ This page is dedicated to my interest in hiking. I'm planning to work through [N
     - [Sections](#sections)
     - [Notes](#notes)
     - [Links](#links)
+  - [New Zealand Great Walks](#new-zealand-great-walks)
 
 ## Photos
 
@@ -51,3 +52,7 @@ The elevation gain was pretty tough. The weather was sunny and hot with evening 
 #### Links
 
 [Department of Conservation](https://www.doc.govt.nz/parks-and-recreation/places-to-go/hawkes-bay/places/kaweka-forest-park/things-to-do/tracks/kuripapango-tramping-tracks/)
+
+### New Zealand Great Walks
+
+I'm planning to work through [New Zealand Great Walks](https://www.doc.govt.nz/parks-and-recreation/things-to-do/walking-and-tramping/great-walks/).
