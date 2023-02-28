@@ -19,12 +19,12 @@ footer a, .content a, .related-posts li a:hover, .content a:hover {
   height: 100%;
 }
 
-.post h1, .post h1.post-title {
-  margin-bottom: 1rem;
-}
-
 .post .read-more-link {
   margin-top: .5rem;
+}
+
+.post .read-more-link a {
+  display: inline-block;
 }
 
 .post p {

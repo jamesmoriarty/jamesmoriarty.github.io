@@ -26,7 +26,9 @@
         {{ if .Truncated }}
         <div class="read-more-link">
           <a href="{{ .RelPermalink }}">Read More</a>
+          {{ template "partials/categories.html" . }}
         </div>
+        
         {{ end }}
       </article>
     {{- end }}
