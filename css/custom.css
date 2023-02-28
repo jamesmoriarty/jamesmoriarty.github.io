@@ -59,10 +59,15 @@ footer a, .content a, .related-posts li a:hover, .content a:hover {
   margin-right: 1rem;
 }
 
+article .categories {
+  float: right;
+}
+
 .categories .category {
   border-radius: 5px;
   padding: 2px;
   font-size: 16px;
+  font-weight: bold;
   margin-right: 0.25rem;
 }
 
