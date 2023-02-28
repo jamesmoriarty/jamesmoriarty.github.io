@@ -13,13 +13,13 @@ tags = [
 
 My work often involves restricted private networks often found in large enterprises. I run a personal [similarly provisioned AWS VPC](https://github.com/jamesmoriarty/cfn-vpc) for experiments. This comes with the challenge of providing internet egress for `RFC1918` private subnet instances.
 
+AWS provides several solutions for internet egress. After spending some time considering these, I settled on NAT instance running on Spot. The primary driver of this solution is cost.
+
 <hr />
 
 [![tweet](/images/aws-nat.png)](https://twitter.com/jamespmoriarty/status/1369445902251855873)
 
 <hr />
-
-AWS provides several solutions for internet egress. After spending some time considering these, I settled on NAT instance running on Spot. The primary driver of this solution is cost.
 
 The [current solutions](https://github.com/jamesmoriarty/cfn-cheapest-nat) *is*:
 
