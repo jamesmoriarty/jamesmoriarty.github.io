@@ -4,7 +4,7 @@ title = "HTTP Connect By Example"
 date = "2021-02-12"
 description = ""
 images = ["/images/http-connect2.png"]
-categories = ["programming"]
+categories = ["programming", "networking"]
 tags = [
   "http",
   "proxy"

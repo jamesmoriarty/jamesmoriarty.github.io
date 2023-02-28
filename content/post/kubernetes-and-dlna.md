@@ -4,7 +4,7 @@ title = "Kubernetes and DLNA"
 date = "2021-06-03"
 description = ""
 aliases = ["dlna and kubernetes"]
-categories = ["infrastructure"]
+categories = ["infrastructure", "networking"]
 tags = [
   "kubernetes",
   "dlna",

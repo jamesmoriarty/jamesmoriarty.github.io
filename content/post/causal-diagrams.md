@@ -3,7 +3,7 @@ author = "James Moriarty"
 title = "Causal Diagrams"
 date = "2022-05-18"
 description = ""
-categories = ["sre"]
+categories = ["sre", "management"]
 tags = [
   "sre",
   "diagram"

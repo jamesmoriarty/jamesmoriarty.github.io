@@ -3,7 +3,7 @@ author = "James Moriarty"
 title = "AWS NAT Internet Egress"
 date = "2020-06-21"
 description = ""
-categories = ["infrastructure", "sre"]
+categories = ["infrastructure", "sre", "networking"]
 tags = [
   "aws",
   "infrastructure",

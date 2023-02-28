@@ -67,7 +67,7 @@ article .categories {
   border-radius: 5px;
   padding: 2px;
   font-size: 16px;
-  font-weight: bold;
+  font-weight: bolder;
   margin-right: 0.25rem;
 }
 
@@ -84,7 +84,17 @@ article .categories {
   background: #f4e1d2;
 }
 
+.categories .category.networking {
+  background: #d5f4e6;
+}
+
+
 .categories .category.security {
   background: #c94c4c;
+  color: white;
+}
+
+.categories .category.management {
+  background: #80ced6;
   color: white;
 }
