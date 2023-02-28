@@ -3,6 +3,7 @@ author = "James Moriarty"
 title = "AWS NAT Internet Egress"
 date = "2020-06-21"
 description = ""
+categories = ["infrastructure", "sre"]
 tags = [
   "aws",
   "infrastructure",
@@ -35,6 +36,7 @@ Is *not*:
 
 ### Contents
 
+- [Contents](#contents)
 - [Reliability](#reliability)
 - [Cost](#cost)
 - [Performance](#performance)

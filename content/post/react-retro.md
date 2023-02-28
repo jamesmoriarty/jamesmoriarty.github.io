@@ -3,6 +3,7 @@ author = "James Moriarty"
 title = "React Retrospective"
 date = "2020-08-12"
 description = "I worked on the following small projects to familiarizing myself with React."
+categories = ["programming"]
 tags = [
   "react",
   "fed"
@@ -20,6 +21,7 @@ While there were many lessons - here are some points that stood out:
 - [Typescript](#typescript)
 - [Stateless Components](#stateless-components)
 - [Dependency Injection](#dependency-injection)
+- [Redux](#redux)
 - [Cloning](#cloning)
 - [Error Boundaries](#error-boundaries)
 - [Create React App](#create-react-app)

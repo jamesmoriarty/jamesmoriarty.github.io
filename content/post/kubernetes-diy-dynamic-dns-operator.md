@@ -3,6 +3,7 @@ author = "James Moriarty"
 title = "Kubernetes DIY Dynamic DNS Operator"
 date = "2021-03-08"
 description = ""
+categories = ["infrastructure"]
 tags = [
   "kubernetes"
 ]
@@ -28,12 +29,14 @@ A solution to dynamically maintain a DNS record containing my routers public IP.
 
 The design is broken down into the following sections:
 
-- [Discover Router IP](#discovering-router-ip)
-- [Changing DNS Records](#changing-dns-records)
-- [Generating Dynamic Configuration](#generating-dynamic-configuration)
-- [Interaction Diagram](#interaction-diagram)
-- [Network Diagram](#network-diagram)
-- [Example Manifest](#example-manifest)
+- [Design](#design)
+  - [Discovering Router IP](#discovering-router-ip)
+  - [Changing DNS Records](#changing-dns-records)
+  - [Generating Dynamic Configuration](#generating-dynamic-configuration)
+  - [Interaction Diagram](#interaction-diagram)
+  - [Network Diagram](#network-diagram)
+  - [Example Manifest](#example-manifest)
+- [Conclusion](#conclusion)
 
 ### Discovering Router IP
 

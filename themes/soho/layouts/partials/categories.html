@@ -1,0 +1,9 @@
+<span class="categories">
+    {{ if isset .Params "categories" -}}
+    {{ range $index, $name := sort .Params.categories -}}
+        <span class="category {{ $name }}">
+            {{ $name }}
+        </span>
+    {{- end}}
+    {{- end }}
+</span>

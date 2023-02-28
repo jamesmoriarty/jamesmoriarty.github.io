@@ -3,6 +3,7 @@ author = "James Moriarty"
 title = "Consulting SRE Engagements"
 date = "2021-12-05"
 description = ""
+categories = ["sre"]
 tags = [
   "sre",
   "consulting"

@@ -3,6 +3,7 @@ author = "James Moriarty"
 title = "Docker and DLNA"
 date = "2022-04-09"
 description = ""
+categories = ["infrastructure"]
 tags = [
   "docker",
   "dlna",

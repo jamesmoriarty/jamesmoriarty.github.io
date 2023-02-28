@@ -4,6 +4,7 @@ title = "TCP Nagle's Delay"
 date = "2022-04-12"
 description = ""
 aliases = ["TCP Delayed ACK"]
+categories = ["infrastructure", "sre"]
 tags = [
   "tcp",
   "nodelay",

@@ -3,6 +3,7 @@ author = "James Moriarty"
 title = "TCP Anycast Shift"
 date = "2022-04-10"
 description = ""
+categories = ["infrastructure", "sre"]
 tags = [
   "tcp",
   "anycast"

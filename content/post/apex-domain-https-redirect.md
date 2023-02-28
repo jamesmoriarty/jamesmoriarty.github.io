@@ -3,6 +3,7 @@ author = "James Moriarty"
 title = "Apex Domain HTTPS Redirect"
 date = "2021-10-16"
 description = "I recently broke my apex domain HTTPS redirect to my subdomain. "
+categories = ["infrastructure"]
 tags = [
   "dns",
   "http",

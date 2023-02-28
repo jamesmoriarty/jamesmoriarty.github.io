@@ -3,6 +3,7 @@ author = "James Moriarty"
 title = "Go Retrospective"
 date = "2021-01-05"
 description = "I worked on the following small projects to familiarizing myself with Go."
+categories = ["programming"]
 tags = [
   "go"
 ]
@@ -24,7 +25,7 @@ Here are some points that stood out:
 - [Error Handling](#error-handling)
 - [Modules](#modules)
 - [Concurrency](#concurrency)
-- ["Here be dragons"](#here-be-dragons)
+- [Here Be Dragons](#here-be-dragons)
 - [Windows](#windows)
 
 ### Standalone Binaries
