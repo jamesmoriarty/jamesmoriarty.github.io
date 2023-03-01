@@ -23,6 +23,10 @@ footer a, .content a, .related-posts li a:hover, .content a:hover {
   text-align: justify;
 }
 
+.posts .post-title {
+  text-align: left;
+}
+
 .posts time {
   min-width: 12ch;
   text-align: right;
