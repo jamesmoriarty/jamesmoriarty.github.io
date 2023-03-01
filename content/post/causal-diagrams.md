@@ -2,7 +2,7 @@
 author = "James Moriarty"
 title = "Causal Diagrams"
 date = "2022-05-18"
-description = ""
+description = "Incidents often result from contributing factors as opposed to a singular root cause. As a result, causal diagrams can be an effective tool for illustrating incidents."
 categories = ["sre", "management"]
 tags = [
   "sre",
