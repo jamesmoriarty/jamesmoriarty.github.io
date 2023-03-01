@@ -19,6 +19,10 @@ footer a, .content a, .related-posts li a:hover, .content a:hover {
   height: 100%;
 }
 
+.posts time {
+  min-width: 12ch;
+}
+
 .post .read-more-link {
   margin-top: .5rem;
 }
@@ -57,10 +61,6 @@ footer a, .content a, .related-posts li a:hover, .content a:hover {
 
 .social-icons a {
   margin-right: 1rem;
-}
-
-article .categories {
-  float: right;
 }
 
 .categories .category {
