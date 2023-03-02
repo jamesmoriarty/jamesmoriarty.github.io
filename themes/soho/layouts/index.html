@@ -18,9 +18,9 @@
         </div> -->
 
         {{ if .Description }}
-          {{ .Description }}
+          <p>{{ .Description }}</p>
         {{ else }}
-          {{ .Summary }}
+        <p>{{ .Summary }}</p>
         {{ end }}
 
         {{ if .Truncated }}
