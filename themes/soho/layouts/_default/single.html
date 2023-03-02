@@ -1,6 +1,5 @@
 {{ define "main" -}}
 <div class="post">
-  <span class="pull-right">{{ template "partials/categories.html" . }} </span>
   <h1>{{ .Title }}</h1> 
 
   {{ if ne .Type "page" -}}
