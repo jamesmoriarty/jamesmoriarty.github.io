@@ -6,8 +6,6 @@ aliases = ["tramping"]
 author = "James Moriarty"
 +++
 
-This page is dedicated to my interest in hiking.
-
 - [Photos](#photos)
 - [Gear](#gear)
 - [Journal](#journal)
