@@ -18,19 +18,20 @@ This is an example of an incident impacting availability of a service endpoint:
 
 ```mermaid
 graph TD
-  A(Instance Restarts)
-  B(Instance Health Check Passes & Recieves Traffic)
+  A(Instance Terminated)
+  B(New Instance Health Check Passes & Recieves Traffic)
   C(#6 External Service Connection Fails)
   D(Instance Endpoint Returns Error)
   E(Purchase External Service Plan With #5 External Service Connection Limit)
   F(#5 External Service Connections In Use)
-  G(Followed Policy To Minimize Cost)
-  H(Followed Policy To Provision for High Availability)
+  I(Implemented Scaling Policy)
+
   
   A --> B --> C --> D
-  G --> E --> C
-  H --> F
-  F --> A
+  E --> F
+  I --> B
+  I --> C
+  F --> C
 ```
 __Tip__: Causal diagrams should consist of a graph of linked events that contributed to the incident. These events should be things that happened as opposed to the absence of something.
 
@@ -41,7 +42,7 @@ From the above example we can derive the incident might have been avoided if we 
 * Connections in use.
 
 Or broke a link in a sequence:
-* The service wasn't restarted.
+* The service wasn't terminated.
 * The health check didn't pass allowing the instance to recieve traffic.
 
 Address systemic factors:
