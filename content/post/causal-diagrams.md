@@ -22,15 +22,14 @@ graph TD
   B(New Instance Health Check Passes & Recieves Traffic)
   C(#6 External Service Connection Fails)
   D(Instance Endpoint Returns Error)
-  E(Purchase External Service Plan With #5 External Service Connection Limit)
   F(#5 External Service Connections In Use)
-  I(Implemented Scaling Policy)
+  G(Implemented Scaling Policy)
+  E(Purchase External Service Plan With #5 External Service Connection Limit)
 
-  
   A --> B --> C --> D
   E --> F
-  I --> B
-  I --> C
+  G --> B
+  G --> F
   F --> C
 ```
 __Tip__: Causal diagrams should consist of a graph of linked events that contributed to the incident. These events should be things that happened as opposed to the absence of something.
