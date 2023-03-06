@@ -15,11 +15,19 @@ My work often involves restricted private networks often found in large enterpri
 
 AWS provides several solutions for internet egress. After spending some time considering these, I settled on NAT instance running on Spot. The primary driver of this solution is cost.
 
+- [Caveats](#caveats)
+- [Reliability](#reliability)
+- [Cost](#cost)
+- [Performance](#performance)
+- [Conclusion](#conclusion)
+
 <hr />
 
 [![tweet](/images/aws-nat.png)](https://twitter.com/jamespmoriarty/status/1369445902251855873)
 
 <hr />
+
+### Caveats
 
 The [current solutions](https://github.com/jamesmoriarty/cfn-cheapest-nat) *is*:
 
@@ -33,14 +41,6 @@ Is *not*:
   - instance unavailability will cause NAT disruption.
 - Fault Tolerant
   - the persistent network interface results in dependency on a single zone.
-
-### Contents
-
-- [Contents](#contents)
-- [Reliability](#reliability)
-- [Cost](#cost)
-- [Performance](#performance)
-- [Conclusion](#conclusion)
 
 ### Reliability
 
