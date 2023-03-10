@@ -75,16 +75,12 @@ Enabling the SSDP interaction on Kubernetes required the DLNA server pod to be r
 hostNetwork: true
 ```
 
-Otherwise, you can expect the following issues.
+I've trade to summarize the trade offs in the following table:
 
-- Blocked Pod egress SSDP advertisement (CNI/IP Tables).
-- Blocked Pod ingress SSDP discovery (CNI).
-- Incorrect advertised enpdoint IP (Pod vs Host).
-```
-replicas: 1
-strategy:
-  type: Recreate
-```
+| hostNetwork | Multicast | Ingress | Endpoint | Security Posture |
+| ----------- | --------- | ------- | -------- | ---------------- |
+| false | ? CNI | ? CNI | ? (Pod) | ✔ |
+| true | ✔ | ✔ | ✔ (Host) | ? |
 
 [1]: https://en.wikipedia.org/wiki/Digital_Living_Network_Alliance
 [2]: https://en.wikipedia.org/wiki/Universal_Plug_and_Play

@@ -24,7 +24,7 @@ This characteristic is useful for Digital Living Network Alliance (DLNA) / Simpl
 
 ## Example
 
-This workload is a port of my Kubrenetes to `docker-compose.yml` utilizing the [macvlan](https://dockerlabs.collabnix.com/intermediate/macvlan.html) network driver that previously used `host` driver.
+This workload is a port of my Kubernetes to `docker-compose.yml` utilizing the [macvlan](https://dockerlabs.collabnix.com/intermediate/macvlan.html) network driver that previously used `host` driver.
 
 ```
 version: "3.3"
@@ -61,4 +61,4 @@ NETWORK_ADAPTER=eno1
 NETWORK_DLNA_IP=192.168.0.212
 ```
 
-N.B. there is intentionally no route from cointainer from docker host with `macvlan`.
+N.B. there is intentionally no route from container from docker host with `macvlan`.
