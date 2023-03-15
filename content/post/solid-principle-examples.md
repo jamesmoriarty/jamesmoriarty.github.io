@@ -7,7 +7,7 @@ categories = ["programming"]
 tags = []
 +++
 
-Throughout my career I've applied and tested solutions against [SOLID](https://en.wikipedia.org/wiki/SOLID) principles. These principles were conceived to make object-oriented designs more understandable, flexible, and maintainable. The following examples illustrate each principle:
+Throughout my career I've applied and tested solutions against [SOLID Principles](https://en.wikipedia.org/wiki/SOLID). These principles were conceived to make object-oriented designs more understandable, flexible, and maintainable. The following examples illustrate each principle:
 
 - [Single Responsibility Principle](#single-responsibility-principle)
 - [Open/Closed Principle](#openclosed-principle)
