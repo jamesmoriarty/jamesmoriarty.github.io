@@ -12,10 +12,7 @@
 </span></span><span style=display:flex><span>    <span style=color:#000;font-weight:700>end</span>
 </span></span><span style=display:flex><span>
 </span></span><span style=display:flex><span>    <span style=color:#000;font-weight:700>def</span> <span style=color:#900;font-weight:700>call</span>
-</span></span><span style=display:flex><span>      <span style=color:#0086b3>open</span>(uri) <span style=color:#000;font-weight:700>do</span> <span style=color:#000;font-weight:700>|</span>src<span style=color:#000;font-weight:700>|</span>
-</span></span><span style=display:flex><span>        file<span style=color:#000;font-weight:700>.</span>write(src<span style=color:#000;font-weight:700>.</span>read)
-</span></span><span style=display:flex><span>      <span style=color:#000;font-weight:700>end</span>
-</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>      <span style=color:#0086b3>open</span>(uri) { <span style=color:#000;font-weight:700>|</span>src<span style=color:#000;font-weight:700>|</span> file<span style=color:#000;font-weight:700>.</span>write(src<span style=color:#000;font-weight:700>.</span>read) }
 </span></span><span style=display:flex><span>      file<span style=color:#000;font-weight:700>.</span>close
 </span></span><span style=display:flex><span>      file<span style=color:#000;font-weight:700>.</span>path
 </span></span><span style=display:flex><span>    <span style=color:#000;font-weight:700>end</span>
