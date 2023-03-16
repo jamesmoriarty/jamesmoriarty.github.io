@@ -86,11 +86,11 @@ And closed example open of extension:
 
 ```ruby
 class User
-  # ...
-
   def notify(message)
     alert_channel.notify(self, message)
   end
+
+  # ...
 end
 ```
 
@@ -107,6 +107,8 @@ module FileRepository
       def all(prefix:, page:, per_page:)
         # ...
       end
+
+      # ...
     end
   end
 end
@@ -120,6 +122,8 @@ module FileRepository
         def all(prefix:, page:, per_page:)
           # ...
         end
+
+        # ...
       end
     end
   end
@@ -165,8 +169,6 @@ And utilization of different clients:
 ```ruby
 class ContentConsumer
   include ContentRead
-
-  # ...
 end
 ```
 
@@ -174,8 +176,6 @@ end
 class ContentAdmin
   include ContentRead
   include ContentWrite
-
-  # ...
 end
 ```
 
