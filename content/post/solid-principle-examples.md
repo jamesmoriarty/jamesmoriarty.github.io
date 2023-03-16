@@ -140,7 +140,7 @@ end
 And and example of a caller with no knowledge of substitution:
 
 ```ruby
-repository = Poto::FileRepository::AWS::S3.new(bucket: ENV["AWS_S3_BUCKET"])
+repository = FileRepository::AWS::S3.new(bucket: ENV["AWS_S3_BUCKET"])
 
 # GET /api/files
 # GET /api/files/1
