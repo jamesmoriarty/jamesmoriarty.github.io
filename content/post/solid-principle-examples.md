@@ -19,7 +19,7 @@ Throughout my career I've applied and tested solutions against [SOLID Principles
 
 > "There should never be more than one reason for a class to change."
 
-By limiting responsibility of components we can more easily understand their purpose and consequences of change. Take the following `Download` service class - it has a specific use-case given its limited inputs and expected behavior:
+By separating responsibilities into different classes, changes to one part of the code are less likely to affect other parts of the code. Take the following `Download` service class - it has a specific use-case given its limited inputs and expected behavior:
 
 ```ruby
 module Services
@@ -101,7 +101,7 @@ end
 
 > "Functions that use pointers or references to base classes must be able to use objects of derived classes without knowing it."
 
-By constraining dependencies on the receiver - we can substitute it without making changes to the caller. This can reduce coupling between components. Take the following substitutable receivers:
+By constraining dependencies on the receiver - we can substitute it without making changes to the caller. Take the following substitutable receivers:
 
 ```ruby
 module FileRepository
@@ -197,24 +197,9 @@ end
 By allowing the caller to control the receivers dependency we can further extend components. This is extremely useful for configuration and testing. Take the following dependencies.
 
 ```ruby
-repository = FileRepository::AWS::S3.new(bucket: ENV["AWS_S3_BUCKET"])
+Logger.new(io = StringIO.new))
 ```
 
 ```ruby
-client = Google::Cloud::Storage.new(
-  project: ENV["GOOGLE_CLOUD_PROJECT_ID"],
-  keyfile: ENV["GOOGLE_CLOUD_KEYFILE"]
-).bucket(ENV["GOOGLE_CLOUD_STORAGE_BUCKET"])
-
-repository = FileRepository::Google::Cloud::Storage.new(client: client)
-```
-
-And their injection:
-
-```ruby
-# GET /api/files
-# GET /api/files/1
-map("/api") do
-  run API.configure(repository: repository)
-end
+Logger.new(io = STDOUT))
 ```
