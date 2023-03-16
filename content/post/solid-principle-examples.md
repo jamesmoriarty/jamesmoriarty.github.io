@@ -32,10 +32,7 @@ module Services
     end
 
     def call
-      open(uri) do |src|
-        file.write(src.read)
-      end
-
+      open(uri) { |src| file.write(src.read) }
       file.close
       file.path
     end
