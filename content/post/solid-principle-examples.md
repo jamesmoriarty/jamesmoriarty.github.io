@@ -54,11 +54,7 @@ module Services
         send_email(user.email, message)
       end
 
-      private
-
-      def send_email(email, message)
-        # ...
-      end
+      # ...
     end
   end
 end
@@ -72,11 +68,7 @@ module Services
         send_sms(user.mobile_number, message)
       end
 
-      private
-
-      def send_sms(mobile_number, message)
-        # ...
-      end
+      # ...
     end
   end
 end
