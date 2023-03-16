@@ -104,10 +104,6 @@ By constraining dependencies on the receiver - we can substitute it without maki
 module FileRepository
   module AWS
     class S3 < Repository
-      def url(id)
-        # ...
-      end
-
       def all(prefix:, page:, per_page:)
         # ...
       end
@@ -121,10 +117,6 @@ module FileRepository
   module Google
     module Cloud
       class Storage < Repository
-        def url(id)
-          # ...
-        end
-
         def all(prefix:, page:, per_page:)
           # ...
         end
