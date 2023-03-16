@@ -84,12 +84,12 @@
 </span></span><span style=display:flex><span><span style=color:#000;font-weight:700>end</span>
 </span></span></code></pre></div><h2 id=interface-segregation-principle>Interface Segregation Principle</h2><blockquote><p>&ldquo;Clients should not be forced to depend upon interfaces that they do not use.&rdquo;</p></blockquote><p>We can further ensure decoupling components removing unnecessary potential dependencies. This can be extremely important for limiting dependencies on components we don&rsquo;t control e.g. third-party clients. Take the following segregated interfaces:</p><div class=highlight><pre tabindex=0 style=background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-ruby data-lang=ruby><span style=display:flex><span><span style=color:#000;font-weight:700>module</span> <span style=color:#555>ContentRead</span>
 </span></span><span style=display:flex><span>  <span style=color:#000;font-weight:700>def</span> <span style=color:#900;font-weight:700>get</span>(<span style=color:#0086b3>id</span>)
-</span></span><span style=display:flex><span>    <span style=color:#000;font-weight:700>raise</span> <span style=color:teal>NotImplementedError</span>
+</span></span><span style=display:flex><span>    <span style=color:#998;font-style:italic># ...</span>
 </span></span><span style=display:flex><span>  <span style=color:#000;font-weight:700>end</span>
 </span></span><span style=display:flex><span><span style=color:#000;font-weight:700>end</span>
 </span></span></code></pre></div><div class=highlight><pre tabindex=0 style=background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-ruby data-lang=ruby><span style=display:flex><span><span style=color:#000;font-weight:700>module</span> <span style=color:#555>ContentWrite</span>
 </span></span><span style=display:flex><span>  <span style=color:#000;font-weight:700>def</span> <span style=color:#900;font-weight:700>put</span>(<span style=color:#0086b3>id</span>, content)
-</span></span><span style=display:flex><span>    <span style=color:#000;font-weight:700>raise</span> <span style=color:teal>NotImplementedError</span>
+</span></span><span style=display:flex><span>    <span style=color:#998;font-style:italic># ...</span>
 </span></span><span style=display:flex><span>  <span style=color:#000;font-weight:700>end</span>
 </span></span><span style=display:flex><span><span style=color:#000;font-weight:700>end</span>
 </span></span></code></pre></div><p>And utilization of different clients:</p><div class=highlight><pre tabindex=0 style=background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-ruby data-lang=ruby><span style=display:flex><span><span style=color:#000;font-weight:700>class</span> <span style=color:#458;font-weight:700>ContentConsumer</span>
