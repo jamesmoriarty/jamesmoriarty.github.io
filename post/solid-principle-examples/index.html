@@ -49,11 +49,11 @@
 </span></span><span style=display:flex><span>  <span style=color:#000;font-weight:700>end</span>
 </span></span><span style=display:flex><span><span style=color:#000;font-weight:700>end</span>
 </span></span></code></pre></div><p>And closed example open of extension:</p><div class=highlight><pre tabindex=0 style=background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-ruby data-lang=ruby><span style=display:flex><span><span style=color:#000;font-weight:700>class</span> <span style=color:#458;font-weight:700>User</span>
-</span></span><span style=display:flex><span>  <span style=color:#998;font-style:italic># ...</span>
-</span></span><span style=display:flex><span>
 </span></span><span style=display:flex><span>  <span style=color:#000;font-weight:700>def</span> <span style=color:#900;font-weight:700>notify</span>(message)
 </span></span><span style=display:flex><span>    alert_channel<span style=color:#000;font-weight:700>.</span>notify(<span style=color:#0086b3>self</span>, message)
 </span></span><span style=display:flex><span>  <span style=color:#000;font-weight:700>end</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>  <span style=color:#998;font-style:italic># ...</span>
 </span></span><span style=display:flex><span><span style=color:#000;font-weight:700>end</span>
 </span></span></code></pre></div><h2 id=liskov-substitution-principle>Liskov Substitution Principle</h2><blockquote><p>&ldquo;Functions that use pointers or references to base classes must be able to use objects of derived classes without knowing it.&rdquo;</p></blockquote><p>By constraining dependencies on the receiver - we can substitute it without making changes to the caller. Take the following substitutable receivers:</p><div class=highlight><pre tabindex=0 style=background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-ruby data-lang=ruby><span style=display:flex><span><span style=color:#000;font-weight:700>module</span> <span style=color:#555>FileRepository</span>
 </span></span><span style=display:flex><span>  <span style=color:#000;font-weight:700>module</span> <span style=color:#555>AWS</span>
@@ -61,6 +61,8 @@
 </span></span><span style=display:flex><span>      <span style=color:#000;font-weight:700>def</span> <span style=color:#900;font-weight:700>all</span>(<span style=color:#990073>prefix</span>:, <span style=color:#990073>page</span>:, <span style=color:#990073>per_page</span>:)
 </span></span><span style=display:flex><span>        <span style=color:#998;font-style:italic># ...</span>
 </span></span><span style=display:flex><span>      <span style=color:#000;font-weight:700>end</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>      <span style=color:#998;font-style:italic># ...</span>
 </span></span><span style=display:flex><span>    <span style=color:#000;font-weight:700>end</span>
 </span></span><span style=display:flex><span>  <span style=color:#000;font-weight:700>end</span>
 </span></span><span style=display:flex><span><span style=color:#000;font-weight:700>end</span>
@@ -71,6 +73,8 @@
 </span></span><span style=display:flex><span>        <span style=color:#000;font-weight:700>def</span> <span style=color:#900;font-weight:700>all</span>(<span style=color:#990073>prefix</span>:, <span style=color:#990073>page</span>:, <span style=color:#990073>per_page</span>:)
 </span></span><span style=display:flex><span>          <span style=color:#998;font-style:italic># ...</span>
 </span></span><span style=display:flex><span>        <span style=color:#000;font-weight:700>end</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>        <span style=color:#998;font-style:italic># ...</span>
 </span></span><span style=display:flex><span>      <span style=color:#000;font-weight:700>end</span>
 </span></span><span style=display:flex><span>    <span style=color:#000;font-weight:700>end</span>
 </span></span><span style=display:flex><span>  <span style=color:#000;font-weight:700>end</span>
@@ -94,14 +98,10 @@
 </span></span><span style=display:flex><span><span style=color:#000;font-weight:700>end</span>
 </span></span></code></pre></div><p>And utilization of different clients:</p><div class=highlight><pre tabindex=0 style=background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-ruby data-lang=ruby><span style=display:flex><span><span style=color:#000;font-weight:700>class</span> <span style=color:#458;font-weight:700>ContentConsumer</span>
 </span></span><span style=display:flex><span>  <span style=color:#000;font-weight:700>include</span> <span style=color:teal>ContentRead</span>
-</span></span><span style=display:flex><span>
-</span></span><span style=display:flex><span>  <span style=color:#998;font-style:italic># ...</span>
 </span></span><span style=display:flex><span><span style=color:#000;font-weight:700>end</span>
 </span></span></code></pre></div><div class=highlight><pre tabindex=0 style=background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-ruby data-lang=ruby><span style=display:flex><span><span style=color:#000;font-weight:700>class</span> <span style=color:#458;font-weight:700>ContentAdmin</span>
 </span></span><span style=display:flex><span>  <span style=color:#000;font-weight:700>include</span> <span style=color:teal>ContentRead</span>
 </span></span><span style=display:flex><span>  <span style=color:#000;font-weight:700>include</span> <span style=color:teal>ContentWrite</span>
-</span></span><span style=display:flex><span>
-</span></span><span style=display:flex><span>  <span style=color:#998;font-style:italic># ...</span>
 </span></span><span style=display:flex><span><span style=color:#000;font-weight:700>end</span>
 </span></span></code></pre></div><h2 id=dependency-inversion-principle>Dependency Inversion Principle</h2><blockquote><p>&ldquo;Depend upon abstractions, [not] concretions.&rdquo;</p></blockquote><p>By allowing the caller to control the receivers dependency we can further extend components. This is extremely useful for configuration and testing. Take the following injection of two different dependencies.</p><div class=highlight><pre tabindex=0 style=background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-ruby data-lang=ruby><span style=display:flex><span><span style=color:teal>Logger</span><span style=color:#000;font-weight:700>.</span>new(io <span style=color:#000;font-weight:700>=</span> <span style=color:teal>StringIO</span><span style=color:#000;font-weight:700>.</span>new))
 </span></span></code></pre></div><div class=highlight><pre tabindex=0 style=background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-ruby data-lang=ruby><span style=display:flex><span><span style=color:teal>Logger</span><span style=color:#000;font-weight:700>.</span>new(io <span style=color:#000;font-weight:700>=</span> <span style=color:teal>STDOUT</span>))
