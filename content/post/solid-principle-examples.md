@@ -19,7 +19,7 @@ Throughout my career I've applied and tested solutions against [SOLID Principles
 
 > "There should never be more than one reason for a class to change."
 
-By limiting responsibility of components we can more easily predict the consequences of a change. Take the following `Download` service class - it has a specific use-case given its limited inputs and expected behavior:
+By limiting responsibility of components we can more easily understand their purpose and consequences of change. Take the following `Download` service class - it has a specific use-case given its limited inputs and expected behavior:
 
 ```ruby
 module Services
@@ -47,7 +47,7 @@ end
 
 > "Software entities ... should be open for extension, but closed for modification."
 
-This principle allows us to extend behaviors without changing existing entities. This can reduce coupling between components. Take the following example behavior classes:
+In other words, new behavior should be added by writing new code that builds upon the existing code without modifying it. This can allow significant new behaviors without material refactoring. Take the following example behavior classes:
 
 ```ruby
 module Services
