@@ -191,7 +191,7 @@ end
 
 > "Depend upon abstractions, [not] concretions."
 
-By allowing the caller to control the receivers dependency we can further extend components. This is extremely useful for configuration and testing. Take the following dependencies.
+By allowing the caller to control the receivers dependency we can further extend components. This is extremely useful for configuration and testing. Take the following injection of two different dependencies.
 
 ```ruby
 Logger.new(io = StringIO.new))
