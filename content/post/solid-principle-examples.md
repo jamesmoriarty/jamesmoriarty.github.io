@@ -153,7 +153,7 @@ end
 
 > "Clients should not be forced to depend upon interfaces that they do not use."
 
-We can further ensure decoupling components removing unnecessary dependencies. This can be extremely important for limiting dependencies on components we don't control e.g. third-party clients. Take the following segregated interfaces:
+We can further ensure decoupling components removing unnecessary potential dependencies. This can be extremely important for limiting dependencies on components we don't control e.g. third-party clients. Take the following segregated interfaces:
 
 ```ruby
 module ContentRead
