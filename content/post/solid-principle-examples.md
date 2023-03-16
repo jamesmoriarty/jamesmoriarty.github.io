@@ -147,7 +147,7 @@ We can further ensure decoupling components removing unnecessary potential depen
 ```ruby
 module ContentRead
   def get(id)
-    raise NotImplementedError
+    # ...
   end
 end
 ```
@@ -155,7 +155,7 @@ end
 ```ruby
 module ContentWrite
   def put(id, content)
-    raise NotImplementedError
+    # ...
   end
 end
 ```
