@@ -141,17 +141,21 @@ end
 We can further ensure decoupling components removing unnecessary potential dependencies. This can be extremely important for limiting dependencies on components we don't control e.g. third-party clients. Take the following segregated interfaces:
 
 ```ruby
-module ContentRead
-  def get(id)
-    # ...
+module Operations
+  module ContentRead
+    def get(id)
+      # ...
+    end
   end
 end
 ```
 
 ```ruby
-module ContentWrite
-  def put(id, content)
-    # ...
+module Operations
+  module ContentWrite
+    def put(id, content)
+      # ...
+    end
   end
 end
 ```
@@ -160,14 +164,14 @@ And utilization of different clients:
 
 ```ruby
 class ContentConsumer
-  include ContentRead
+  include Operations::ContentRead
 end
 ```
 
 ```ruby
 class ContentAdmin
-  include ContentRead
-  include ContentWrite
+  include Operations::ContentRead
+  include Operations::ContentWrite
 end
 ```
 
