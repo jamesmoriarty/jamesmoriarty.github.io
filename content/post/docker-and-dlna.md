@@ -14,13 +14,11 @@ tags = [
 
 I've recently discovered the Docker network [macvlan](https://dockerlabs.collabnix.com/intermediate/macvlan.html) driver.
 
-> It’s a very lightweight driver, because rather than using any Linux bridging or port mapping, it connects container interfaces directly to host interfaces. Containers are addressed with routable IP addresses that are on the subnet of the external network.
+A [macvlan](https://dockerlabs.collabnix.com/intermediate/macvlan.html) driver creates virtual network interfaces, each with its own unique MAC address, that can be configured to communicate with other devices on a network. These virtual interfaces behave like separate physical network interfaces and can be assigned their own IP addresses and network settings.
 
-This is a more constrained alternative to the Docker network `host` driver.
+[Macvlan](https://dockerlabs.collabnix.com/intermediate/macvlan.html) drivers are commonly used in container environments where multiple containers need to be connected to the same physical network interface, but need to appear as separate devices on the network. They can also be used to create virtual network interfaces for virtual machines or to isolate network traffic between different applications running on the same host.
 
-> As a result of routable IP addresses, containers communicate directly with resources that exist outside a Swarm cluster without the use of NAT and port mapping. This can aid in network visibility and troubleshooting. 
-
-This characteristic is useful for Digital Living Network Alliance (DLNA) / Simple Service Discovery Protocol (SSDP). These workloads utilize service advertisement and discover via UDP multicast and UHTTP.
+Overall, the [macvlan](https://dockerlabs.collabnix.com/intermediate/macvlan.html) driver provides a flexible and efficient way to manage network interfaces in complex network environments. This characteristic is useful for Digital Living Network Alliance (DLNA) / Simple Service Discovery Protocol (SSDP). These workloads utilize service advertisement and discover via UDP multicast and UHTTP.
 
 ## Example
 
