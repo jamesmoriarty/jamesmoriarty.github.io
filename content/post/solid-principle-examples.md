@@ -99,8 +99,6 @@ module FileRepository
       def all(prefix:, page:, per_page:)
         # ...
       end
-
-      # ...
     end
   end
 end
@@ -114,8 +112,6 @@ module FileRepository
         def all(prefix:, page:, per_page:)
           # ...
         end
-
-        # ...
       end
     end
   end
@@ -182,9 +178,9 @@ end
 By allowing the caller to control the receivers dependency we can further extend components. This is extremely useful for configuration and testing. Take the following injection of two different dependencies.
 
 ```ruby
-Logger.new(io = StringIO.new))
+Logger.new(StringIO.new))
 ```
 
 ```ruby
-Logger.new(io = STDOUT))
+Logger.new(STDOUT))
 ```
