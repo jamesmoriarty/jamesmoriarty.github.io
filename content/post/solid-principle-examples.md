@@ -180,7 +180,3 @@ By allowing the caller to control the receivers dependency we can further extend
 ```ruby
 Logger.new(StringIO.new))
 ```
-
-```ruby
-Logger.new(STDOUT))
-```
