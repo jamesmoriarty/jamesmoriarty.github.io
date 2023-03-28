@@ -7,13 +7,36 @@ categories = ["programming"]
 tags = []
 +++
 
+## Contents
+
+- [Introduction](#introduction)
+- [Terminology](#terminology)
+- [Principles](#principles)
+  - [Single Responsibility Principle](#single-responsibility-principle)
+  - [Open/Closed Principle](#openclosed-principle)
+  - [Liskov Substitution Principle](#liskov-substitution-principle)
+  - [Interface Segregation Principle](#interface-segregation-principle)
+  - [Dependency Inversion Principle](#dependency-inversion-principle)
+
+# Introduction
+
 Throughout my career I've applied and tested solutions against [SOLID Principles](https://en.wikipedia.org/wiki/SOLID). These principles were conceived to make object-oriented designs more understandable, flexible, and maintainable. The following examples illustrate each principle:
 
-- [Single Responsibility Principle](#single-responsibility-principle)
-- [Open/Closed Principle](#openclosed-principle)
-- [Liskov Substitution Principle](#liskov-substitution-principle)
-- [Interface Segregation Principle](#interface-segregation-principle)
-- [Dependency Inversion Principle](#dependency-inversion-principle)
+# Terminology
+
+- **Caller** the entity invoking a behavior.
+- **Receiver** the entity carrying out the invoked behavior.
+- **Message** the specific behavior being invoked.
+
+```mermaid
+graph LR
+    A(Caller)
+    B(Receiver)
+   
+    A -- Message --> B
+```
+
+# Principles
 
 ## Single Responsibility Principle
 
