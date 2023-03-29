@@ -7,9 +7,12 @@ categories = ["programming"]
 tags = []
 +++
 
+### Introduction
+
+Throughout my career I've applied and tested solutions against [SOLID Principles](https://en.wikipedia.org/wiki/SOLID). These principles were conceived to make object-oriented designs more understandable, flexible, and maintainable. The following examples illustrate each principle:
+
 ## Contents
 
-- [Introduction](#introduction)
 - [Terminology](#terminology)
 - [Principles](#principles)
   - [Single Responsibility Principle](#single-responsibility-principle)
@@ -17,10 +20,6 @@ tags = []
   - [Liskov Substitution Principle](#liskov-substitution-principle)
   - [Interface Segregation Principle](#interface-segregation-principle)
   - [Dependency Inversion Principle](#dependency-inversion-principle)
-
-# Introduction
-
-Throughout my career I've applied and tested solutions against [SOLID Principles](https://en.wikipedia.org/wiki/SOLID). These principles were conceived to make object-oriented designs more understandable, flexible, and maintainable. The following examples illustrate each principle:
 
 # Terminology
 
