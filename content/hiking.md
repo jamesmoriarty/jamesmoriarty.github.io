@@ -30,6 +30,8 @@ author = "James Moriarty"
 | Kathmandu Four Piece Cook Set                     | 2023 |  $90.00NZD | 1080   |
 | Salomon OUTline GTX Shoes                         | 2022 | $200.00NZD | 350    |
 | Gascraft Camping Backpacker Stove                 | 2023 |  $37.00NZD | 300    |
+| Hydro Flask 532ML                                 | 2023 |  $59.99NZD | 300    |
+| Hydration Bladder 2L                              | 2023 |  $49.99NZD | 200    |
 
 ## Journal
 
