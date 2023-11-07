@@ -46,8 +46,25 @@ author = "James Moriarty"
 
 #### Notes
 
-The elevation gain was pretty tough. The weather was sunny and hot with evening thunder storms but no rain. The inbound plan was to go on to Cameron Hut but we aborted due to low water. Five others at Kiwi Saddle Hut. Slept in the tent.
+The elevation gain was pretty tough. The weather was sunny and hot with evening thunderstorms but no rain. The inbound plan was to go on to Cameron Hut but we aborted due to low water. Five others at Kiwi Saddle Hut. Slept in the tent.
 
 #### Links
 
 [Department of Conservation](https://www.doc.govt.nz/parks-and-recreation/places-to-go/hawkes-bay/places/kaweka-forest-park/things-to-do/tracks/kuripapango-tramping-tracks/)
+
+### Te Puia Hut
+
+#### Sections
+
+| Start | End | Origin | Destination | Distance | Elevation Gain/Loss | Temp |
+| ----- | --- | ------ | ----------- | -------- | -------------- | ------- |
+| 2023/10/21 12:00 | 2023/10/21 17:00 | Car Park | Te Puia Hut | 7km | 400m | 18-25'C |
+| 2023/10/21 9:00  | 2023/10/21 12:00 | Te Puia Hut | Car Park | 7km | 400m | 15-20'C |
+
+#### Notes
+
+First overnight hike with Kate, Lucas, and Theo. Took the tent as bunks might not be available over a public holiday. More elevation than expected following the river. The kids did really well. Slept in the tent with Theo as many were staying in Te Puia Hut (including the Wellington Hiking Club). The river was beautiful. Lots of trout. Left early to beat the rain.
+
+#### Links
+
+[Department of Conservation]([https://www.doc.govt.nz/parks-and-recreation/places-to-go/hawkes-bay/places/kaweka-forest-park/things-to-do/tracks/kuripapango-tramping-tracks/](https://www.doc.govt.nz/parks-and-recreation/places-to-go/hawkes-bay/places/kaweka-forest-park/things-to-do/huts/te-puia-hut-lodge/)https://www.doc.govt.nz/parks-and-recreation/places-to-go/hawkes-bay/places/kaweka-forest-park/things-to-do/huts/te-puia-hut-lodge/)
