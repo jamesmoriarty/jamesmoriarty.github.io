@@ -59,7 +59,7 @@ The elevation gain was pretty tough. The weather was sunny and hot with evening 
 | Start | End | Origin | Destination | Distance | Elevation Gain/Loss | Temp |
 | ----- | --- | ------ | ----------- | -------- | -------------- | ------- |
 | 2023/10/21 12:00 | 2023/10/21 17:00 | Car Park | Te Puia Hut | 7km | 400m | 18-25'C |
-| 2023/10/21 9:00  | 2023/10/21 12:00 | Te Puia Hut | Car Park | 7km | 400m | 15-20'C |
+| 2023/10/21 9:00  | 2023/10/21 12:00 | Te Puia Hut | Car Park | "" | "" | "" |
 
 #### Notes
 
