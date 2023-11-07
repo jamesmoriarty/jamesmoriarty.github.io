@@ -67,4 +67,4 @@ First overnight hike with Kate, Lucas, and Theo. Took the tent as bunks might no
 
 #### Links
 
-[Department of Conservation]([https://www.doc.govt.nz/parks-and-recreation/places-to-go/hawkes-bay/places/kaweka-forest-park/things-to-do/tracks/kuripapango-tramping-tracks/](https://www.doc.govt.nz/parks-and-recreation/places-to-go/hawkes-bay/places/kaweka-forest-park/things-to-do/huts/te-puia-hut-lodge/)https://www.doc.govt.nz/parks-and-recreation/places-to-go/hawkes-bay/places/kaweka-forest-park/things-to-do/huts/te-puia-hut-lodge/)
+[Department of Conservation](https://www.doc.govt.nz/parks-and-recreation/places-to-go/hawkes-bay/places/kaweka-forest-park/things-to-do/huts/te-puia-hut-lodge/)
