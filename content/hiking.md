@@ -10,9 +10,7 @@ author = "James Moriarty"
 - [Gear](#gear)
 - [Journal](#journal)
   - [Kiwi Saddle Hut](#kiwi-saddle-hut)
-    - [Sections](#sections)
-    - [Notes](#notes)
-    - [Links](#links)
+  - [Te Puia Hut](#te-puia-hut)
 
 ## Photos
 
