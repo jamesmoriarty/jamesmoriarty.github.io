@@ -11,6 +11,7 @@ author = "James Moriarty"
 - [Journal](#journal)
   - [Kiwi Saddle Hut](#kiwi-saddle-hut)
   - [Te Puia Hut](#te-puia-hut)
+  - [Turere Lodge](#turere-lodge)
 
 ## Photos
 
@@ -21,10 +22,13 @@ author = "James Moriarty"
 
 | Item                                              | Year | Cost       | Weight |
 | ------------------------------------------------- |:----:| ----------:| ------:|
-| Macpac Torlesse 50L                               | 2023 |   $0.00NZD | 2300   |
-| Macpac Sleeping Mat — 2.5cm                       | 2021 |  $50.00AUD | 850    |
+| Macpac Te Araroa 60L Hiking Backpack              | 2024 | $250.00NZD | 1530   |
+| ~Macpac Torlesse 50L~                             | 2023 |   $0.00NZD | 2300   |
+| Torpedo7 Sleeping Mat — 3cm                       | 2024 |  $50.00NZD | 945    |
+| ~Macpac Sleeping Mat — 2.5cm~                     | 2021 |  $50.00AUD | 850    |
 | Macpac Nautilus Two Person Camping Tent           | 2020 | $300.00AUD | 2600   |
-| Kathmandu Comet Water Repellent Down Sleeping Bag | 2023 |   $0.00NZD | 610    |
+| Kathmandu Hyprid Down Sleeping Bag                | 2024 | $200.00NZD | 1310   |
+| ~Kathmandu Comet Water Repellent Down Sleeping Bag~| 2023 |  $0.00NZD | 610    |
 | Kathmandu Four Piece Cook Set                     | 2023 |  $90.00NZD | 1080   |
 | Salomon OUTline GTX Shoes                         | 2022 | $200.00NZD | 350    |
 | Gascraft Camping Backpacker Stove                 | 2023 |  $37.00NZD | 300    |
@@ -66,3 +70,18 @@ First overnight hike with Kate, Lucas, and Theo. Took the tent as bunks might no
 #### Links
 
 [Department of Conservation](https://www.doc.govt.nz/parks-and-recreation/places-to-go/hawkes-bay/places/kaweka-forest-park/things-to-do/huts/te-puia-hut-lodge/)
+
+### Turere Lodge
+
+| Start | End | Origin | Destination | Distance | Elevation Gain/Loss | Temp |
+| ----- | --- | ------ | ----------- | -------- | -------------- | ------- |
+| 2024/01/07 12:00 | 2024/01/07 14:30 | Car Park | Turere Lodge | ? | ? | ? |
+| 2024/01/08 12:00  | 2024/01/08 14:30 | Turere Lodge | Car Park | "" | "" | "" |
+
+#### Notes
+
+Overnight hike with Kate, Lucas, Theo, and Erin. Easy track but Lucas did take a fall inbound. Great little swimming hole.
+
+#### Links
+
+[Department of Conservation](https://www.doc.govt.nz/parks-and-recreation/places-to-go/wellington-kapiti/places/remutaka-forest-park/things-to-do/huts/turere-lodge/)
