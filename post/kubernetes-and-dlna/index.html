@@ -30,7 +30,7 @@ MAC Address: D4:35:1D:14:F3:FE (Technicolor)
   hostPort: 8200
   protocol: TCP
 </code></pre><p>Enabling the SSDP interaction on Kubernetes required the DLNA server pod to be run with <code>hostNetwork</code>.</p><pre tabindex=0><code>hostNetwork: true
-</code></pre><p>I&rsquo;ve trade to summarize the trade offs in the following table:</p><table><thead><tr><th>hostNetwork</th><th>Multicast</th><th>Ingress</th><th>Endpoint</th><th>Security Posture</th></tr></thead><tbody><tr><td>false</td><td>? CNI</td><td>? CNI</td><td>? (Pod)</td><td>✔</td></tr><tr><td>true</td><td>✔</td><td>✔</td><td>✔ (Host)</td><td>?</td></tr></tbody></table></div></main><footer><div>&copy; James Moriarty 2023
+</code></pre><p>I&rsquo;ve trade to summarize the trade offs in the following table:</p><table><thead><tr><th>hostNetwork</th><th>Multicast</th><th>Ingress</th><th>Endpoint</th><th>Security Posture</th></tr></thead><tbody><tr><td>false</td><td>? CNI</td><td>? CNI</td><td>? (Pod)</td><td>✔</td></tr><tr><td>true</td><td>✔</td><td>✔</td><td>✔ (Host)</td><td>?</td></tr></tbody></table></div></main><footer><div>&copy; James Moriarty 2024
 ·
 <a href=https://creativecommons.org/licenses/by-sa/4.0 target=_blank>CC BY-SA 4.0</a></div></footer><script src=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/js/all.min.js integrity="sha256-MAgcygDRahs+F/Nk5Vz387whB4kSK9NXlDN3w58LLq0=" crossorigin=anonymous></script>
 <script src=https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js></script>

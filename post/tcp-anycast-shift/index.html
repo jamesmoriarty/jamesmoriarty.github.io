@@ -32,7 +32,7 @@ end
 %% Origin->>DestDeviceOne: FIN, ACK, SEQ=n, ACK=m+1
 %% DestDeviceOne-->>Origin: ACK, ACK=n+1
 %% Note over Origin,DestDeviceTwo: 4-way termination
-%%end</div><p>Let’s focus on “anycast shift” where a packet unexpectedly arrives at a device without a session. This can result from origins with routes using <a href=https://www.noction.com/blog/equal-cost-multipath-ecmp>equal-cost multipath</a>. The splitting of packets across links means the destination anycast IP may resolve to a different device resulting in reset.</p></div></main><footer><div>&copy; James Moriarty 2023
+%%end</div><p>Let’s focus on “anycast shift” where a packet unexpectedly arrives at a device without a session. This can result from origins with routes using <a href=https://www.noction.com/blog/equal-cost-multipath-ecmp>equal-cost multipath</a>. The splitting of packets across links means the destination anycast IP may resolve to a different device resulting in reset.</p></div></main><footer><div>&copy; James Moriarty 2024
 ·
 <a href=https://creativecommons.org/licenses/by-sa/4.0 target=_blank>CC BY-SA 4.0</a></div></footer><script src=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/js/all.min.js integrity="sha256-MAgcygDRahs+F/Nk5Vz387whB4kSK9NXlDN3w58LLq0=" crossorigin=anonymous></script>
 <script src=https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js></script>
