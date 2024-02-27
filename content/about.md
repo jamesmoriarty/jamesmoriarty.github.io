@@ -30,10 +30,6 @@ _―David McCullough Jr_
 
 <hr />
 
-> "Wealth consists not in having great possessions, but in having few wants."
-_―Epictetus_
+> "Erase the false impressions from your mind by constantly saying to yourself, I have it my soul to keep out any evil, desire, or any kind of disturbance - instead, seeing the true nature of things, I will give them only their due. Always remember this power that nature gave you"
+_―Marcus Aurelius_
 
-<hr />
-
-> "I had been dead for billions and billions of years before I was born, and had not suffered the slightest inconvenience from it."
-_―Mark Twain_
