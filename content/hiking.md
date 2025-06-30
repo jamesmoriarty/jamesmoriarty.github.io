@@ -47,6 +47,7 @@ This page is dedicated to my interest in hiking. New Zealand is renowned for its
 | Base Layer Bottom                                 | 2023 |  $20.00NZD | 200    | |
 | Rab Balaclava                                     | 2023 |  $20.00NZD | 100    | |
 | Oakley Sutro Lite Sunglasses                      | 2024 | $200.00NZD |  30    | |
+| Black Diamond Trail Back Trekking Poles           | 2023 | $100.00NZD | 500    | |
 
 Base weight: ~8kg Water: ~2kg Food: ~2kg Total: ~12kg
 
