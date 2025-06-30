@@ -13,22 +13,6 @@ author = "James Moriarty"
 
 ## Systems
 
-### Personal Laptop
-
-Despite the majority of my professional career on MacBooks - I use a Surface Pro 6 to run ... Linux. I use this for general open source development and admin.
-
-- Intel i5-8250U 4 Cores@1.6-3.4GHz
-- Samsung 8GB DDR3@1600MHz
-- Toshiba 128GB SSD NVMe
-
-```
-$ hdparm -Tt /dev/sda
-
-/dev/sda:
- Timing cached reads:   17742 MB in  1.99 seconds = 8922.07 MB/sec
- Timing buffered disk reads: 1358 MB in  3.00 seconds = 452.51 MB/sec
-```
-
 ### Budget Build Desktop
 
 I've love value builds.
