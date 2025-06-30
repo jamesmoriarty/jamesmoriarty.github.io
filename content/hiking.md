@@ -15,6 +15,9 @@ author = "James Moriarty"
 [![Kaweka Forrest Park, Hawke's Bay, New Zealand, December, 2023](/images/hiking/hiking-kiwi-saddle-1.webp)](/images/hiking/hiking-kiwi-saddle-1.webp)
 > Kaweka Forrest Park, Hawke's Bay, New Zealand, December, 2023.
 
+[![Dominie Hut 1,500m, Kaweka Forrest Park, Hawke's Bay, New Zealand, June, 2025](/images/hiking/hiking-dominie-hut.png)](/images/hiking/hiking-dominie-hut.png)
+> Dominie Hut 1,500m, Kaweka Forrest Park, Hawke's Bay, New Zealand, June, 2025.
+
 ## Gear
 
 | Item                                              | Year | Cost       | Weight |
@@ -46,9 +49,6 @@ author = "James Moriarty"
 Base weight: ~8kg Water: ~2kg Food: ~2kg Total: ~12kg
 
 ## Huts "Bagged"
-
-[![Dominie Hut 1,500m, Kaweka Forrest Park, Hawke's Bay, New Zealand, June, 2025](/images/hiking/hiking-dominie-hut.png)](/images/hiking/hiking-dominie-hut.png)
-> Dominie Hut 1,500m, Kaweka Forrest Park, Hawke's Bay, New Zealand, June, 2025.
 
 [Hut Bagger Profile](https://hutbagger.co.nz/users/Moriarty)
 
