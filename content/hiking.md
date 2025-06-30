@@ -26,7 +26,7 @@ This page is dedicated to my interest in hiking. New Zealand is renowned for its
 | ------------------------------------------------- |:----:| ----------:| ------:| ----- |
 | Macpac Te Araroa 55L Hiking Backpack              | 2024 | $250.00NZD | 1530   | |
 | Sea to Summit Ether Light XT Extreme Insulated Sleeping Mat (R6.2) | 2025 |  $314.00NZD | 720    | |
-| Kathmandu Icarus Hybrid Down Sleeping Bag (-3)    | 2024 | $200.00NZD | 1310   | |
+| Kathmandu Icarus Hybrid Down Sleeping Bag (-5)    | 2024 | $200.00NZD | 1310   | |
 | Rab Trailhead Bivvy Bag                           | 2025 | $200.00NZD | 400    | |
 | OZtrail Hiker Fly (350 x 210 cm)                  | 2024 |  $39.95NZD | 900    | |
 | LifeStraw Peak Squeeze (650ml)                    | 2023 |  $59.99NZD | 100    | |
