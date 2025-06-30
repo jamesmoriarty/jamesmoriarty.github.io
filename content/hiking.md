@@ -8,10 +8,7 @@ author = "James Moriarty"
 
 - [Photos](#photos)
 - [Gear](#gear)
-- [Journal](#journal)
-  - [Kiwi Saddle Hut](#kiwi-saddle-hut)
-  - [Te Puia Hut](#te-puia-hut)
-  - [Turere Lodge](#turere-lodge)
+- [Huts "Bagged"](#huts-bagged)
 
 ## Photos
 
@@ -22,66 +19,36 @@ author = "James Moriarty"
 
 | Item                                              | Year | Cost       | Weight |
 | ------------------------------------------------- |:----:| ----------:| ------:|
-| Macpac Te Araroa 60L Hiking Backpack              | 2024 | $250.00NZD | 1530   |
-| ~Macpac Torlesse 50L~                             | 2023 |   $0.00NZD | 2300   |
-| Torpedo7 Sleeping Mat — 3cm                       | 2024 |  $50.00NZD | 945    |
-| ~Macpac Sleeping Mat — 2.5cm~                     | 2021 |  $50.00AUD | 850    |
-| Macpac Nautilus Two Person Camping Tent           | 2020 | $300.00AUD | 2600   |
-| Kathmandu Hyprid Down Sleeping Bag                | 2024 | $200.00NZD | 1310   |
-| ~Kathmandu Comet Water Repellent Down Sleeping Bag~| 2023 |  $0.00NZD | 610    |
-| Kathmandu Four Piece Cook Set                     | 2023 |  $90.00NZD | 1080   |
+| Macpac Te Araroa 55L Hiking Backpack              | 2024 | $250.00NZD | 1530   |
+| Sea to Summit Ether Light XT Extreme Insulated Sleeping Mat (R6.2) | 2025 |  $314.00NZD | 720    |
+| Kathmandu Icarus Hybrid Down Sleeping Bag (-3)    | 2024 | $200.00NZD | 1310   |
+| Rab Trailhead Bivvy Bag                           | 2025 | $200.00NZD | 400    |
+| OZtrail Hiker Fly (350 x 210 cm)                  | 2024 |  $39.95NZD | 900    |
+| LifeStraw Peak Squeeze (650ml)                    | 2023 |  $59.99NZD | 100    |
+| Solomon Elite Bladder (1.5L)                      | 2025 |  $79.99NZD | 120    |
+| Gascraft Camping Backpacker Stove                 | 2023 |  $37.00NZD | 200    |
+| Nitecore NU30                                     | 2024 |  $60.00NZD |  90    |
+| Nitecore MH12 V2                                  | 2025 | $135.00NZD |  85    |
+| Smith & Wesson HRT Fixed Blade                    | 2023 |  $39.00NZD | 100    |
+| Custom Trauma/Survival kit                        | 2024 |  $70.00NZD | 400    |
+| Silva Field Compass                               | 2025 |  $50.00NZD |  50    |
+| Garmin inReach Explorer PLB                       | 2024 | $300.00NZD | 300    |
+| Garmin Instinct Solar 2                           | 2025 | $544.00NZD |  50    |
 | Salomon OUTline GTX Shoes                         | 2022 | $200.00NZD | 350    |
-| Gascraft Camping Backpacker Stove                 | 2023 |  $37.00NZD | 300    |
-| Hydro Flask 532ML                                 | 2023 |  $59.99NZD | 300    |
-| Hydration Bladder 2L                              | 2023 |  $49.99NZD | 200    |
+| Rain Jacket                                       | 2023 | $100.00NZD | 300    |
+| Rain Pants                                        | 2023 | $100.00NZD | 300    |
+| Mid Layer Jacket                                  | 2023 | $100.00NZD | 300    |
+| Base Layer Top                                    | 2023 |  $20.00NZD | 200    |
+| Base Layer Bottom                                 | 2023 |  $20.00NZD | 200    |
+| Rab Balaclava                                     | 2023 |  $20.00NZD | 100    |
+| Oakley Sutro Lite Sunglasses                      | 2024 | $200.00NZD |  30    |
 
-## Journal
+Base weight: ~8kg Water: ~2kg Food: ~2kg Total: ~12kg
 
-### Kiwi Saddle Hut
+## Huts "Bagged"
 
-#### Sections
+[![Dominie Hut 1,500m, Kaweka Forrest Park, Hawke's Bay, New Zealand, June, 2025](/images/hiking/hiking-dominie-hut.png)](/images/hiking/hiking-dominie-hut.png)
+> Dominie Hut 1,500m, Kaweka Forrest Park, Hawke's Bay, New Zealand, June, 2025.
 
-| Start | End | Origin | Destination | Distance | Elevation Gain/Loss | Temp |
-| ----- | --- | ------ | ----------- | -------- | -------------- | ------- |
-| 2023/02/04 9:00 | 2023/02/04 13:00 | Lakes Car Park | Kiwi Saddle Hut | 7km | 738m | 18-25'C | 
-| 2023/02/05 8:00 | 2023/02/05 11:00 | Kiwi Saddle Hut | Lakes Car Park | "" | "" | "" |
+[Hut Bagger Profile](https://hutbagger.co.nz/users/Moriarty)
 
-#### Notes
-
-The elevation gain was pretty tough. The weather was sunny and hot with evening thunderstorms but no rain. The inbound plan was to go on to Cameron Hut but we aborted due to low water. Five others at Kiwi Saddle Hut. Slept in the tent.
-
-#### Links
-
-[Department of Conservation](https://www.doc.govt.nz/parks-and-recreation/places-to-go/hawkes-bay/places/kaweka-forest-park/things-to-do/tracks/kuripapango-tramping-tracks/)
-
-### Te Puia Hut
-
-#### Sections
-
-| Start | End | Origin | Destination | Distance | Elevation Gain/Loss | Temp |
-| ----- | --- | ------ | ----------- | -------- | -------------- | ------- |
-| 2023/10/21 12:00 | 2023/10/21 17:00 | Car Park | Te Puia Hut | 7km | 400m | 18-25'C |
-| 2023/10/21 9:00  | 2023/10/21 12:00 | Te Puia Hut | Car Park | "" | "" | "" |
-
-#### Notes
-
-First overnight hike with Kate, Lucas, and Theo. Took the tent as bunks might not be available over a public holiday. More elevation than expected following the river. The kids did really well. Slept in the tent with Theo as many were staying in Te Puia Hut (including the Wellington Hiking Club). The river was beautiful. Lots of trout. Left early to beat the rain.
-
-#### Links
-
-[Department of Conservation](https://www.doc.govt.nz/parks-and-recreation/places-to-go/hawkes-bay/places/kaweka-forest-park/things-to-do/huts/te-puia-hut-lodge/)
-
-### Turere Lodge
-
-| Start | End | Origin | Destination | Distance | Elevation Gain/Loss | Temp |
-| ----- | --- | ------ | ----------- | -------- | -------------- | ------- |
-| 2024/01/07 12:00 | 2024/01/07 14:30 | Car Park | Turere Lodge | ? | ? | ? |
-| 2024/01/08 12:00  | 2024/01/08 14:30 | Turere Lodge | Car Park | "" | "" | "" |
-
-#### Notes
-
-Overnight hike with Kate, Lucas, Theo, and Erin. Easy track but Lucas did take a fall inbound. Great little swimming hole.
-
-#### Links
-
-[Department of Conservation](https://www.doc.govt.nz/parks-and-recreation/places-to-go/wellington-kapiti/places/remutaka-forest-park/things-to-do/huts/turere-lodge/)
