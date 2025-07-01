@@ -155,7 +155,7 @@ A pure JRuby Scorched Earth clone and using only standard libraries. Implemented
 
 ## Garmin Connect Import
 
-[![Garmin Connect Import](/images/software/software-garmin-connect-import.jpg)](/images/software/software-garmin-connect-import.jpg)
+[![Garmin Connect Import](/images/software/garmin-connect-import.jpg)](/images/software/garmin-connect-import.jpg)
 
 [BMI as a measure is inaccurate and misleading](https://www.medicalnewstoday.com/articles/265215). [Index™ S2 Smart Scale](https://www.garmin.com/en-NZ/p/679362) have also been reported with [limited accuracy](https://www.youtube.com/watch?v=lBgNZLh5vmg), so I've built this to manually import data into Garmin Connect. The tool can be found [here](https://www.jamesmoriarty.xyz/garmin-connect-custom-import-data/).
 
