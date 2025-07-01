@@ -30,6 +30,6 @@ _―David McCullough Jr_
 
 <hr />
 
-> "Erase the false impressions from your mind by constantly saying to yourself, I have it my soul to keep out any evil, desire, or any kind of disturbance - instead, seeing the true nature of things, I will give them only their due. Always remember this power that nature gave you"
+> "You have power over your mind – not outside events. Realize this, and you will find strength."
 _―Marcus Aurelius_
 
