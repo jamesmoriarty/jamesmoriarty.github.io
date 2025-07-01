@@ -64,7 +64,7 @@ Minimal forward proxy in 150LOC and using only standard libraries. Useful for de
 
 [![React Instagram Screenshot](/images/software/software-react-instagram.png)](/images/software/software-react-instagram.png)
 
-Simple React component to render a [Instagram](http://instagram.com) feed. Used an unofficial client-side integration method to avoid having to use a server-side access token. Archived as a result of [Instagram](http://instagram.com) fixing their Cross-Origin-Request policies.
+Simple React component to render a [Instagram](http://instagram.com) feed. Used an unofficial client-side integration method to avoid having to use a server-side access token. Archived as a result of [Instagram](http://instagram.com) fixing their Cross-Origin-Request policies. I used this to learn Reach and ironically it was then used by educational institutions to teach React before being archived.
 
 - [Github](https://github.com/jamesmoriarty/react-instagram-authless-feed)
 
