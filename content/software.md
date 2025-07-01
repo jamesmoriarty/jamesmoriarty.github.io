@@ -8,6 +8,20 @@ author = "James Moriarty"
 
 This is a showcase for some of my personal software projects. You can find out more about my professional accomplishments on [LinkedIn](https://www.linkedin.com/in/jamespaulmoriarty).
 
+- [MiniAASM](#miniaasm)
+- [Alpaca Desktop](#alpaca-desktop)
+- [Forward Proxy](#forward-proxy)
+- [React Instagram Feed](#react-instagram-feed)
+- [Gomem](#gomem)
+- [Cloudformation Cheapest NAT](#cloudformation-cheapest-nat)
+- [Gohack](#gohack)
+- [Call Graph](#call-graph)
+- [Lisp](#lisp)
+- [Nebula](#nebula)
+- [Scorched Earth](#scorched-earth)
+- [Garmin Connect Import](#garmin-connect-import)
+
+
 ## MiniAASM
 
 ```ruby
@@ -24,7 +38,7 @@ aasm do
 
 A [Finite-state machine](https://en.wikipedia.org/wiki/Finite-state_machine) library intended to be compatible with [lightweight implementations](https://github.com/mruby/mruby) of the Ruby language using 100LOC and only standard libraries. Inspired by [Heroku Postgres State Machines](https://www.citusdata.com/blog/2016/08/12/state-machines-to-run-databases/).
 
-[Github](https://github.com/jamesmoriarty/mini-aasm)
+- [Github](https://github.com/jamesmoriarty/mini-aasm)
 
 ## Alpaca Desktop
 
@@ -32,7 +46,7 @@ A [Finite-state machine](https://en.wikipedia.org/wiki/Finite-state_machine) lib
 
 Experimental OSX menu bar widget for Alpaca (a local proxy supporting NTLM authentication for command line tools). Built to reduce toil involved in installation and configuration for several hundred engineers.
 
-[Github](https://github.com/jamesmoriarty/alpaca-desktop)
+- [Github](https://github.com/jamesmoriarty/alpaca-desktop)
 
 ## Forward Proxy
 
@@ -44,7 +58,7 @@ $ forward-proxy --binding 0.0.0.0 --port 3182 --threads 2
 
 Minimal forward proxy in 150LOC and using only standard libraries. Useful for development, testing, and teaching. Automated tests simulate a range of destination scenarios including slow network, stream responses, and X509 certificates.
 
-[Github](https://github.com/jamesmoriarty/forward-proxy)
+- [Github](https://github.com/jamesmoriarty/forward-proxy)
 
 ## React Instagram Feed
 
@@ -52,7 +66,7 @@ Minimal forward proxy in 150LOC and using only standard libraries. Useful for de
 
 Simple React component to render a [Instagram](http://instagram.com) feed. Used an unofficial client-side integration method to avoid having to use a server-side access token. Archived as a result of [Instagram](http://instagram.com) fixing their Cross-Origin-Request policies.
 
-[Github](https://github.com/jamesmoriarty/react-instagram-authless-feed)
+- [Github](https://github.com/jamesmoriarty/react-instagram-authless-feed)
 
 ## Gomem
 
@@ -69,7 +83,7 @@ process.WriteByte(valuePtr, value)
 
 A Go library to manipulate Windows processes. Useful for developing process memory based security exploits. Automated tests manipulate and verify its own process memory via Windows APIs.
 
-[Github](https://github.com/jamesmoriarty/gomem)
+- [Github](https://github.com/jamesmoriarty/gomem)
 
 ## Cloudformation Cheapest NAT
 
@@ -77,7 +91,7 @@ A Go library to manipulate Windows processes. Useful for developing process memo
 
 Cloudformation for a NAT auto-healing instance running on Spot. Featured in [Last Week In AWS](https://www.lastweekinaws.com/newsletter/word-level-overconfidence/).
 
-[Github](https://github.com/jamesmoriarty/cfn-cheapest-nat)
+- [Github](https://github.com/jamesmoriarty/cfn-cheapest-nat)
 
 ## Gohack
 
@@ -85,7 +99,7 @@ Cloudformation for a NAT auto-healing instance running on Spot. Featured in [Las
 
 Experimental Go language CSGO computer game exploit. Automated tests use stubbed external processes to avoid needing binary compatibility.
 
-[Github](https://github.com/jamesmoriarty/gohack)
+- [Github](https://github.com/jamesmoriarty/gohack)
 
 ## Call Graph
 
@@ -93,7 +107,7 @@ Experimental Go language CSGO computer game exploit. Automated tests use stubbed
 
 A Ruby library to capture execution and create call graphs. Useful for illustrating [Law of Demeter](https://en.wikipedia.org/wiki/Law_of_Demeter) violations.
 
-[Github](https://github.com/jamesmoriarty/call-graph)
+- [Github](https://github.com/jamesmoriarty/call-graph)
 
 ## Lisp
 
@@ -112,7 +126,7 @@ ctrl-c to exit
 
 Minimal Lisp interpreter in 75LOC in Ruby using only standard libraries. Inspired by Google Research Peter Norvig's [Lis.py](http://norvig.com/lispy.html).
 
-[Github](https://github.com/jamesmoriarty/lisp)
+- [Github](https://github.com/jamesmoriarty/lisp)
 
 ## Nebula
 
@@ -124,7 +138,7 @@ Minimal Lisp interpreter in 75LOC in Ruby using only standard libraries. Inspire
 
 A prototype 2D Javascript space shooter. Simple physics, unit behaviors, parallax effects, and particles.
 
-[Github](https://github.com/jamesmoriarty/nebula)
+- [Github](https://github.com/jamesmoriarty/nebula)
 
 ## Scorched Earth
 
@@ -136,4 +150,13 @@ A prototype 2D Javascript space shooter. Simple physics, unit behaviors, paralla
 
 A pure JRuby Scorched Earth clone and using only standard libraries. Implemented with an event-driven architecture. Dynamically generates color pallettes utilizing Triad Mixing and CIE94 color distances. Headless automated tests enabled through null pattern graphics context injection.
 
-[Github](https://github.com/jamesmoriarty/scorched_earth)
+- [Github](https://github.com/jamesmoriarty/scorched_earth)
+
+
+## Garmin Connect Import
+
+[![Garmin Connect Import](/images/software/software-garmin-connect-import.png)](/images/software/software-garmin-connect-import.png)
+
+[BMI as a measure is inaccurate and misleading](https://www.medicalnewstoday.com/articles/265215). [Index™ S2 Smart Scale](https://www.garmin.com/en-NZ/p/679362) have also been reported with [limited accuracy](https://www.youtube.com/watch?v=lBgNZLh5vmg), so I've built this to manually import data into Garmin Connect. The tool can be found [here](https://www.jamesmoriarty.xyz/garmin-connect-custom-import-data/).
+
+- [Github](https://github.com/jamesmoriarty/garmin-connect-custom-import-data/tree/main)
