@@ -37,7 +37,7 @@ This page is dedicated to my interest in hiking. New Zealand is renowned for its
 | ------------------------------------------------- |:----:| ----------:| ------:| ----- |
 | Macpac Te Araroa 55L Hiking Backpack              | 2024 | $250.00NZD | 1530   | |
 | Catus 15l Dry Bag                                 | 2023 |  $20.00NZD |  100   | |
-| Black Bin Bag                                     |      |            |        | |
+| Macpac 70L pack liner                             | 2025 |            |        | Thanks NZ LandSAR. |
 
 ### Sleep System
 
