@@ -1,29 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>http on James Moriarty</title>
-    <link>https://www.jamesmoriarty.xyz/tags/http/</link>
-    <description>Recent content in http on James Moriarty</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <title>Http on James Moriarty</title>
+    <link>http://localhost:1313/tags/http/</link>
+    <description>Recent content in Http on James Moriarty</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 16 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://www.jamesmoriarty.xyz/tags/http/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 16 Oct 2021 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/http/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Apex Domain HTTPS Redirect</title>
-      <link>https://www.jamesmoriarty.xyz/post/apex-domain-https-redirect/</link>
+      <link>http://localhost:1313/post/apex-domain-https-redirect/</link>
       <pubDate>Sat, 16 Oct 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.jamesmoriarty.xyz/post/apex-domain-https-redirect/</guid>
-      <description>I recently broke the apex domain HTTPS redirect to my sub-domain.</description>
+      <guid>http://localhost:1313/post/apex-domain-https-redirect/</guid>
+      <description>&lt;p&gt;I recently broke the &lt;a href=&#34;https://jamesmoriarty.xyz&#34;&gt;apex domain&lt;/a&gt; HTTPS redirect to my &lt;a href=&#34;https://www.jamesmoriarty.xyz&#34;&gt;sub-domain&lt;/a&gt;. Investigating the issue revealed the complexities of this behavior and, as a result, I’m writing about some of those contributing factors.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>HTTP Connect By Example</title>
-      <link>https://www.jamesmoriarty.xyz/post/http-connect-by-example/</link>
+      <link>http://localhost:1313/post/http-connect-by-example/</link>
       <pubDate>Fri, 12 Feb 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.jamesmoriarty.xyz/post/http-connect-by-example/</guid>
-      <description>HTTP CONNECT is used to establish a tunnel. Tunnels are commonly used to create an end-to-end virtual connection, through one or more proxies, which can then be secured using TLS (Transport Layer Security).</description>
+      <guid>http://localhost:1313/post/http-connect-by-example/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://tools.ietf.org/html/rfc7231#section-4.3.6&#34;&gt;HTTP CONNECT&lt;/a&gt; is used to establish a &lt;a href=&#34;https://en.wikipedia.org/wiki/HTTP_tunnel&#34;&gt;tunnel&lt;/a&gt;. Tunnels are commonly used to create an end-to-end virtual connection, through one or more proxies, which can then be secured using TLS (Transport Layer Security).&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

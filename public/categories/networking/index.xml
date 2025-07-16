@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Networking on James Moriarty</title>
+    <link>http://localhost:1313/categories/networking/</link>
+    <description>Recent content in Networking on James Moriarty</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 12 Apr 2022 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/networking/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>TCP Nagle&#39;s Delay</title>
+      <link>http://localhost:1313/post/tcp-delayed-ack/</link>
+      <pubDate>Tue, 12 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/tcp-delayed-ack/</guid>
+      <description>&lt;p&gt;Someone recently asked me to help diagnose a mysterious delay on a globally deployed Elixir service.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>TCP Anycast Shift</title>
+      <link>http://localhost:1313/post/tcp-anycast-shift/</link>
+      <pubDate>Sun, 10 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/tcp-anycast-shift/</guid>
+      <description>&lt;p&gt;What happens when routing changes for a stateful network protocol and unexpectedly arrives at a device without a session?&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Docker and DLNA</title>
+      <link>http://localhost:1313/post/docker-and-dlna/</link>
+      <pubDate>Sat, 09 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/docker-and-dlna/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;ve recently discovered the Docker network &lt;a href=&#34;https://dockerlabs.collabnix.com/intermediate/macvlan.html&#34;&gt;macvlan&lt;/a&gt; driver.&lt;/p&gt;&#xA;&lt;p&gt;A &lt;a href=&#34;https://dockerlabs.collabnix.com/intermediate/macvlan.html&#34;&gt;macvlan&lt;/a&gt; driver creates virtual network interfaces, each with its own unique MAC address, that can be configured to communicate with other devices on a network. These virtual interfaces behave like separate physical network interfaces and can be assigned their own IP addresses and network settings.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Kubernetes and DLNA</title>
+      <link>http://localhost:1313/post/kubernetes-and-dlna/</link>
+      <pubDate>Thu, 03 Jun 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/kubernetes-and-dlna/</guid>
+      <description>&lt;p&gt;These are some notes taken while deploying a &lt;a href=&#34;https://en.wikipedia.org/wiki/Digital_Living_Network_Alliance&#34;&gt;Digital Living Network Alliance&lt;/a&gt; (DLNA) to Kubernetes. DLNA is derived from &lt;a href=&#34;https://en.wikipedia.org/wiki/Universal_Plug_and_Play&#34;&gt;Universal Plug and Play&lt;/a&gt; (UPnP) specifically for media interoperability. DLNA services are advertised and discovered via &lt;a href=&#34;https://en.wikipedia.org/wiki/Simple_Service_Discovery_Protocol&#34;&gt;Simple Service Discovery Protocol &lt;/a&gt; (SSDP).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>HTTP Connect By Example</title>
+      <link>http://localhost:1313/post/http-connect-by-example/</link>
+      <pubDate>Fri, 12 Feb 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/http-connect-by-example/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://tools.ietf.org/html/rfc7231#section-4.3.6&#34;&gt;HTTP CONNECT&lt;/a&gt; is used to establish a &lt;a href=&#34;https://en.wikipedia.org/wiki/HTTP_tunnel&#34;&gt;tunnel&lt;/a&gt;. Tunnels are commonly used to create an end-to-end virtual connection, through one or more proxies, which can then be secured using TLS (Transport Layer Security).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>AWS NAT Internet Egress</title>
+      <link>http://localhost:1313/post/aws-nat-internet-egress/</link>
+      <pubDate>Sun, 21 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/aws-nat-internet-egress/</guid>
+      <description>&lt;p&gt;My work often involves restricted private networks often found in large enterprises. I run a personal &lt;a href=&#34;https://github.com/jamesmoriarty/cfn-vpc&#34;&gt;similarly provisioned AWS VPC&lt;/a&gt; for experiments. This comes with the challenge of providing internet egress for &lt;code&gt;RFC1918&lt;/code&gt; private subnet instances.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

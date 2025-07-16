@@ -14,9 +14,4 @@
 
 </div>
 
-{{ if (and .Site.DisqusShortname (eq .Params.DisableComments false)) -}}
-<h2>Comments</h2>
-{{ template "_internal/disqus.html" . }}
-{{- end }}
-
 {{- end }}

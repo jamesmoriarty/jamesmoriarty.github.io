@@ -1,34 +1,39 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
-<head>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="generator" content="Hugo 0.96.0" />
+  <meta name="generator" content="Hugo 0.148.1">
 
   <title>TCP Anycast Shift &middot; James Moriarty</title>
 
   <meta name="description" content="" />
 
   
-
-<meta itemprop="name" content="TCP Anycast Shift">
-<meta itemprop="description" content="What happens when the routing changes for a stateful network protocol and arrives at another device?"><meta itemprop="datePublished" content="2022-04-10T00:00:00+00:00" />
-<meta itemprop="dateModified" content="2022-04-10T00:00:00+00:00" />
-<meta itemprop="wordCount" content="193">
-<meta itemprop="keywords" content="tcp,anycast," />
-
-<meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="TCP Anycast Shift"/>
-<meta name="twitter:description" content="What happens when the routing changes for a stateful network protocol and arrives at another device?"/>
+  <meta itemprop="name" content="TCP Anycast Shift">
+  <meta itemprop="description" content="What happens when routing changes for a stateful network protocol and unexpectedly arrives at a device without a session?">
+  <meta itemprop="datePublished" content="2022-04-10T00:00:00+00:00">
+  <meta itemprop="dateModified" content="2022-04-10T00:00:00+00:00">
+  <meta itemprop="wordCount" content="259">
+  <meta itemprop="keywords" content="Tcp,Anycast">
 
 
-<meta property="og:title" content="TCP Anycast Shift" />
-<meta property="og:description" content="What happens when the routing changes for a stateful network protocol and arrives at another device?" />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="https://www.jamesmoriarty.xyz/post/tcp-anycast-shift/" /><meta property="article:section" content="post" />
-<meta property="article:published_time" content="2022-04-10T00:00:00+00:00" />
-<meta property="article:modified_time" content="2022-04-10T00:00:00+00:00" />
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="TCP Anycast Shift">
+  <meta name="twitter:description" content="What happens when routing changes for a stateful network protocol and unexpectedly arrives at a device without a session?">
 
+
+<meta property="og:url" content="http://localhost:1313/post/tcp-anycast-shift/">
+  <meta property="og:site_name" content="James Moriarty">
+  <meta property="og:title" content="TCP Anycast Shift">
+  <meta property="og:description" content="What happens when routing changes for a stateful network protocol and unexpectedly arrives at a device without a session?">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="post">
+    <meta property="article:published_time" content="2022-04-10T00:00:00+00:00">
+    <meta property="article:modified_time" content="2022-04-10T00:00:00+00:00">
+    <meta property="article:tag" content="Tcp">
+    <meta property="article:tag" content="Anycast">
 
 
 
@@ -44,16 +49,16 @@
 
   <link type="text/css"
         rel="stylesheet"
-        href="https://www.jamesmoriarty.xyz/css/print.css"
+        href="http://localhost:1313/css/print.css"
         media="print">
 
   <link type="text/css"
         rel="stylesheet"
-        href="https://www.jamesmoriarty.xyz/css/poole.css">
+        href="http://localhost:1313/css/poole.css">
 
   <link type="text/css"
         rel="stylesheet"
-        href="https://www.jamesmoriarty.xyz/css/hyde.css">
+        href="http://localhost:1313/css/hyde.css">
 
   
 <style type="text/css">
@@ -88,7 +93,7 @@
 
 
 
-  <link type="text/css" rel="stylesheet" href="https://www.jamesmoriarty.xyz/css/custom.css">
+  <link type="text/css" rel="stylesheet" href="http://localhost:1313/css/custom.css">
 
   <link rel="stylesheet"
         href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700&display=swap">
@@ -113,7 +118,7 @@
       
         
         <div class="author-image">
-          <img src="https://www.jamesmoriarty.xyz/images/james-moriarty.jpg" class="img-circle img-headshot center" alt="Profile Picture">
+          <img src="http://localhost:1313/images/james-moriarty.jpg" class="img-circle img-headshot center" alt="Profile Picture">
         </div>
         
       
@@ -126,7 +131,7 @@
     <nav>
       <ul class="sidebar-nav">
         <li>
-          <a href="https://www.jamesmoriarty.xyz/">Home</a>
+          <a href="http://localhost:1313/">Home</a>
         </li>
         <li>
           <a href="/posts/"> Posts </a>
@@ -136,6 +141,8 @@
           <a href="/about/"> About </a>
         </li><li>
           <a href="/diving/"> Diving </a>
+        </li><li>
+          <a href="/hiking/"> Hiking </a>
         </li><li>
           <a href="/reading/"> Reading </a>
         </li><li>
@@ -167,72 +174,79 @@
 
   <main class="content container">
   <div class="post">
-  <h1>TCP Anycast Shift</h1>
+  <h1>TCP Anycast Shift</h1> 
 
   <div class="post-date">
-    
+    <time datetime="2022-04-10T00:00:00Z">Apr 10, 2022</time> · 2 min read
+    <span class="pull-right"><span class="categories">
+    <span class="category networking">
+                networking
+            </span><span class="category sre">
+                sre
+            </span>
+</span></span>
   </div>
 
-  <p>What happens when the routing changes for a stateful network protocol and arrives at another device?</p>
+  <p>What happens when routing changes for a stateful network protocol and unexpectedly arrives at a device without a session?</p>
 <h2 id="terminology">Terminology</h2>
 <ul>
 <li>TCP is a stateful network protocol.</li>
 <li>Anycast is a network addressing and routing method in which devices share a single destination IP address.</li>
+<li>Equal-cost multipath is a mechanism to increase bandwidth using parallel links.</li>
 </ul>
 <h2 id="symptoms">Symptoms</h2>
-<p><code>tcpdump</code> from the source illustrates the different behaviours when accessing the destination via regular and anycast IP address. The regular returned the expected flags <code>[S][.][P.]...[F.]</code> while anycast returned <code>[S][.][P.]...[R]</code>. Where <code> [S] (Start Connection)</code>, <code>[P] (Push Data)</code>, <code>[R] (Reset Connection)</code>, and <code>[F] (Finish Connection)</code>. Connection reset was reproducible with:</p>
+<p><code>tcpdump</code> from the origin illustrates the different behaviors when accessing the destination via regular and anycast IP address. The regular returned the expected flags <code>[S][.][P.]...[F.]</code> while anycast returned <code>[S][.][P.]...[R]</code>. Where <code> [S] (Start Connection)</code>, <code>[P] (Push Data)</code>, <code>[R] (Reset Connection)</code>, and <code>[F] (Finish Connection)</code>. Connection reset was reproducible with:</p>
 <ul>
 <li>Specific origins.</li>
 <li>Larger payloads.</li>
 <li>Persistent connections.</li>
 </ul>
 <h2 id="explanation">Explanation</h2>
-<p>I’ve included lots of details in the following interaction diagram to help illustrate the stateful nature of the interaction.</p>
+<p>Take the following interaction diagram illustrates the above and TCP’s stateful nature:</p>
 <div class="mermaid">sequenceDiagram
-    participant Source
+    participant Origin
     participant DestDeviceOne
     participant DestDeviceTwo
 
-    Source->>DestDeviceOne: SYN i
-    DestDeviceOne-->>Source: SYN j, ACK = i + 1
-    Source->>DestDeviceOne: ACK j + 1
-    Note over Source,DestDeviceOne: 3-way handshake
+    Origin->>DestDeviceOne: SYN=i
+    DestDeviceOne-->>Origin: SYN=j, ACK=i+1
+    Origin->>DestDeviceOne: ACK=j+1
+    Note over Origin,DestDeviceOne: 3-way handshake
 
     loop
-      Source->>DestDeviceOne: SEQ=a, ACK=b, DATA=c
-      DestDeviceOne-->>Source: ACK, SEQ=b, ACK=a+c
-      Note over Source,DestDeviceOne: data transfer
+      alt
+        Origin->>DestDeviceOne: SEQ=a, ACK=b, DATA=c
+        DestDeviceOne-->>Origin: ACK, SEQ=b, ACK=a+c
+        Note over Origin,DestDeviceOne: data transfer
+      else
+        Origin->>DestDeviceTwo: SEQ=a, ACK=b, DATA=c
+        DestDeviceTwo-->>Origin: RST
+        Note over Origin,DestDeviceTwo: anycast shift
+      end
     end
 
-    alt
-      Source->>DestDeviceTwo: SEQ=a, ACK=b, DATA=c
-      DestDeviceTwo-->>Source: RST
-      Note over Source,DestDeviceTwo: anycast shift
-    else
-      Source->>DestDeviceOne: FIN, ACK, SEQ=m, ACK=n
-      DestDeviceOne-->>Source: ACK, ACK=m+1
-      Source->>DestDeviceOne: FIN, ACK, SEQ=n, ACK=m+1
-      DestDeviceOne-->>Source: ACK, ACK=n+1
-      Note over Source,DestDeviceTwo: 4-way termination
-    end
+    %%alt
+    %%  Origin->>DestDeviceTwo: SEQ=a, ACK=b, DATA=c
+    %%  DestDeviceTwo-->>Origin: RST
+    %%  Note over Origin,DestDeviceTwo: anycast shift
+    %%else
+    %%  Origin->>DestDeviceOne: FIN, ACK, SEQ=m, ACK=n
+    %%  DestDeviceOne-->>Origin: ACK, ACK=m+1
+    %%  Origin->>DestDeviceOne: FIN, ACK, SEQ=n, ACK=m+1
+    %%  DestDeviceOne-->>Origin: ACK, ACK=n+1
+    %%  Note over Origin,DestDeviceTwo: 4-way termination
+    %%end
 </div>
 
+<p>Let’s focus on “anycast shift” where a packet unexpectedly arrives at a device without a session. This can result from origins with routes using <a href="https://www.noction.com/blog/equal-cost-multipath-ecmp">equal-cost multipath</a>. The splitting of packets across links means the destination anycast IP may resolve to a different device resulting in reset.</p>
 
-
-  
-  <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
-  <script>
-    mermaid.initialize({ startOnLoad: true });
-  </script>
 
 </div>
-
-
   </main>
 
   <footer>
   <div>
-    &copy; James Moriarty 2022
+    &copy; James Moriarty 2025
     ·
     
     <a href="https://creativecommons.org/licenses/by-sa/4.0"
@@ -250,11 +264,13 @@
   
 
   
-
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/turbolinks/5.0.0/turbolinks.js"></script>
   
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
   <script>
-  Turbolinks.start()
+  mermaid.initialize({ startOnLoad: true });
   </script>
 </body>
 </html>

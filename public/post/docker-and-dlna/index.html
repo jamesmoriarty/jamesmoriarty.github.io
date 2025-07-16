@@ -1,37 +1,44 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
-<head>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="generator" content="Hugo 0.96.0" />
+  <meta name="generator" content="Hugo 0.148.1">
 
   <title>Docker and DLNA &middot; James Moriarty</title>
 
   <meta name="description" content="" />
 
   
-
-<meta itemprop="name" content="Docker and DLNA">
-<meta itemprop="description" content="I&rsquo;ve recently discovered the Docker network macvlan driver.
- It’s a very lightweight driver, because rather than using any Linux bridging or port mapping, it connects container interfaces directly to host interfaces."><meta itemprop="datePublished" content="2022-04-09T00:00:00+00:00" />
-<meta itemprop="dateModified" content="2022-04-09T00:00:00+00:00" />
-<meta itemprop="wordCount" content="183">
-<meta itemprop="keywords" content="docker,dlna,ssdp,macvlan," />
-
-<meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Docker and DLNA"/>
-<meta name="twitter:description" content="I&rsquo;ve recently discovered the Docker network macvlan driver.
- It’s a very lightweight driver, because rather than using any Linux bridging or port mapping, it connects container interfaces directly to host interfaces."/>
+  <meta itemprop="name" content="Docker and DLNA">
+  <meta itemprop="description" content="I’ve recently discovered the Docker network macvlan driver.
+A macvlan driver creates virtual network interfaces, each with its own unique MAC address, that can be configured to communicate with other devices on a network. These virtual interfaces behave like separate physical network interfaces and can be assigned their own IP addresses and network settings.">
+  <meta itemprop="datePublished" content="2022-04-09T00:00:00+00:00">
+  <meta itemprop="dateModified" content="2022-04-09T00:00:00+00:00">
+  <meta itemprop="wordCount" content="232">
+  <meta itemprop="keywords" content="Docker,Dlna,Ssdp,Macvlan">
 
 
-<meta property="og:title" content="Docker and DLNA" />
-<meta property="og:description" content="I&rsquo;ve recently discovered the Docker network macvlan driver.
- It’s a very lightweight driver, because rather than using any Linux bridging or port mapping, it connects container interfaces directly to host interfaces." />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="https://www.jamesmoriarty.xyz/post/docker-and-dlna/" /><meta property="article:section" content="post" />
-<meta property="article:published_time" content="2022-04-09T00:00:00+00:00" />
-<meta property="article:modified_time" content="2022-04-09T00:00:00+00:00" />
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Docker and DLNA">
+  <meta name="twitter:description" content="I’ve recently discovered the Docker network macvlan driver.
+A macvlan driver creates virtual network interfaces, each with its own unique MAC address, that can be configured to communicate with other devices on a network. These virtual interfaces behave like separate physical network interfaces and can be assigned their own IP addresses and network settings.">
 
+
+<meta property="og:url" content="http://localhost:1313/post/docker-and-dlna/">
+  <meta property="og:site_name" content="James Moriarty">
+  <meta property="og:title" content="Docker and DLNA">
+  <meta property="og:description" content="I’ve recently discovered the Docker network macvlan driver.
+A macvlan driver creates virtual network interfaces, each with its own unique MAC address, that can be configured to communicate with other devices on a network. These virtual interfaces behave like separate physical network interfaces and can be assigned their own IP addresses and network settings.">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="post">
+    <meta property="article:published_time" content="2022-04-09T00:00:00+00:00">
+    <meta property="article:modified_time" content="2022-04-09T00:00:00+00:00">
+    <meta property="article:tag" content="Docker">
+    <meta property="article:tag" content="Dlna">
+    <meta property="article:tag" content="Ssdp">
+    <meta property="article:tag" content="Macvlan">
 
 
 
@@ -47,16 +54,16 @@
 
   <link type="text/css"
         rel="stylesheet"
-        href="https://www.jamesmoriarty.xyz/css/print.css"
+        href="http://localhost:1313/css/print.css"
         media="print">
 
   <link type="text/css"
         rel="stylesheet"
-        href="https://www.jamesmoriarty.xyz/css/poole.css">
+        href="http://localhost:1313/css/poole.css">
 
   <link type="text/css"
         rel="stylesheet"
-        href="https://www.jamesmoriarty.xyz/css/hyde.css">
+        href="http://localhost:1313/css/hyde.css">
 
   
 <style type="text/css">
@@ -91,7 +98,7 @@
 
 
 
-  <link type="text/css" rel="stylesheet" href="https://www.jamesmoriarty.xyz/css/custom.css">
+  <link type="text/css" rel="stylesheet" href="http://localhost:1313/css/custom.css">
 
   <link rel="stylesheet"
         href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700&display=swap">
@@ -116,7 +123,7 @@
       
         
         <div class="author-image">
-          <img src="https://www.jamesmoriarty.xyz/images/james-moriarty.jpg" class="img-circle img-headshot center" alt="Profile Picture">
+          <img src="http://localhost:1313/images/james-moriarty.jpg" class="img-circle img-headshot center" alt="Profile Picture">
         </div>
         
       
@@ -129,7 +136,7 @@
     <nav>
       <ul class="sidebar-nav">
         <li>
-          <a href="https://www.jamesmoriarty.xyz/">Home</a>
+          <a href="http://localhost:1313/">Home</a>
         </li>
         <li>
           <a href="/posts/"> Posts </a>
@@ -139,6 +146,8 @@
           <a href="/about/"> About </a>
         </li><li>
           <a href="/diving/"> Diving </a>
+        </li><li>
+          <a href="/hiking/"> Hiking </a>
         </li><li>
           <a href="/reading/"> Reading </a>
         </li><li>
@@ -170,23 +179,25 @@
 
   <main class="content container">
   <div class="post">
-  <h1>Docker and DLNA</h1>
+  <h1>Docker and DLNA</h1> 
 
   <div class="post-date">
-    
+    <time datetime="2022-04-09T00:00:00Z">Apr 9, 2022</time> · 2 min read
+    <span class="pull-right"><span class="categories">
+    <span class="category infrastructure">
+                infrastructure
+            </span><span class="category networking">
+                networking
+            </span>
+</span></span>
   </div>
 
   <p>I&rsquo;ve recently discovered the Docker network <a href="https://dockerlabs.collabnix.com/intermediate/macvlan.html">macvlan</a> driver.</p>
-<blockquote>
-<p>It’s a very lightweight driver, because rather than using any Linux bridging or port mapping, it connects container interfaces directly to host interfaces. Containers are addressed with routable IP addresses that are on the subnet of the external network.</p>
-</blockquote>
-<p>This is a more constrained alternative to the Docker network <code>host</code> driver.</p>
-<blockquote>
-<p>As a result of routable IP addresses, containers communicate directly with resources that exist outside a Swarm cluster without the use of NAT and port mapping. This can aid in network visibility and troubleshooting.</p>
-</blockquote>
-<p>This characteristic is useful for Digital Living Network Alliance (DLNA) / Simple Service Discovery Protocol (SSDP). These workloads utilize service advertisement and discover via UDP multicast and UHTTP.</p>
+<p>A <a href="https://dockerlabs.collabnix.com/intermediate/macvlan.html">macvlan</a> driver creates virtual network interfaces, each with its own unique MAC address, that can be configured to communicate with other devices on a network. These virtual interfaces behave like separate physical network interfaces and can be assigned their own IP addresses and network settings.</p>
+<p><a href="https://dockerlabs.collabnix.com/intermediate/macvlan.html">Macvlan</a> drivers are commonly used in container environments where multiple containers need to be connected to the same physical network interface, but need to appear as separate devices on the network. They can also be used to create virtual network interfaces for virtual machines or to isolate network traffic between different applications running on the same host.</p>
+<p>Overall, the <a href="https://dockerlabs.collabnix.com/intermediate/macvlan.html">macvlan</a> driver provides a flexible and efficient way to manage network interfaces in complex network environments. This characteristic is useful for Digital Living Network Alliance (DLNA) / Simple Service Discovery Protocol (SSDP). These workloads utilize service advertisement and discover via UDP multicast and UHTTP.</p>
 <h2 id="example">Example</h2>
-<p>This workload is a port of my Kubrenetes to <code>docker-compose.yml</code> utilizing the <a href="https://dockerlabs.collabnix.com/intermediate/macvlan.html">macvlan</a> network driver that previously used <code>host</code> driver.</p>
+<p>This workload is a port of my Kubernetes to <code>docker-compose.yml</code> utilizing the <a href="https://dockerlabs.collabnix.com/intermediate/macvlan.html">macvlan</a> network driver that previously used <code>host</code> driver.</p>
 <pre tabindex="0"><code>version: &#34;3.3&#34;
 
 services:
@@ -197,11 +208,11 @@ services:
     restart: always
     image: &#34;vladgh/minidlna:1.2.0&#34;
     environment:
-      - &#34;PUID=1000&#34;
-      - &#34;PGID=1000&#34;
+      - &#34;PUID=${PUID}&#34;
+      - &#34;PGID=${PGID}&#34;
       - &#34;MINIDLNA_MEDIA_DIR=/media&#34;
     volumes:
-      - &#34;./data:/media:ro&#34;
+      - &#34;./media:/media:ro&#34;
 
 networks:
   lan:
@@ -215,17 +226,15 @@ networks:
 <pre tabindex="0"><code>NETWORK_SUBNET=192.168.0.1/24
 NETWORK_ADAPTER=eno1
 NETWORK_DLNA_IP=192.168.0.212
-</code></pre>
+</code></pre><p>N.B. there is intentionally no route from container from docker host with <code>macvlan</code>.</p>
 
-  
+
 </div>
-
-
   </main>
 
   <footer>
   <div>
-    &copy; James Moriarty 2022
+    &copy; James Moriarty 2025
     ·
     
     <a href="https://creativecommons.org/licenses/by-sa/4.0"
@@ -243,11 +252,13 @@ NETWORK_DLNA_IP=192.168.0.212
   
 
   
-
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/turbolinks/5.0.0/turbolinks.js"></script>
   
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
   <script>
-  Turbolinks.start()
+  mermaid.initialize({ startOnLoad: true });
   </script>
 </body>
 </html>

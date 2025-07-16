@@ -1,34 +1,38 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
-<head>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="generator" content="Hugo 0.96.0" />
+  <meta name="generator" content="Hugo 0.148.1">
 
   <title>Go Retrospective &middot; James Moriarty</title>
 
   <meta name="description" content="I worked on the following small projects to familiarizing myself with Go." />
 
   
-
-<meta itemprop="name" content="Go Retrospective">
-<meta itemprop="description" content="I worked on the following small projects to familiarizing myself with Go."><meta itemprop="datePublished" content="2021-01-05T00:00:00+00:00" />
-<meta itemprop="dateModified" content="2021-01-05T00:00:00+00:00" />
-<meta itemprop="wordCount" content="266">
-<meta itemprop="keywords" content="go," />
-
-<meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Go Retrospective"/>
-<meta name="twitter:description" content="I worked on the following small projects to familiarizing myself with Go."/>
+  <meta itemprop="name" content="Go Retrospective">
+  <meta itemprop="description" content="I worked on the following small projects to familiarizing myself with Go.">
+  <meta itemprop="datePublished" content="2021-01-05T00:00:00+00:00">
+  <meta itemprop="dateModified" content="2021-01-05T00:00:00+00:00">
+  <meta itemprop="wordCount" content="266">
+  <meta itemprop="keywords" content="Go">
 
 
-<meta property="og:title" content="Go Retrospective" />
-<meta property="og:description" content="I worked on the following small projects to familiarizing myself with Go." />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="https://www.jamesmoriarty.xyz/post/go-retro/" /><meta property="article:section" content="post" />
-<meta property="article:published_time" content="2021-01-05T00:00:00+00:00" />
-<meta property="article:modified_time" content="2021-01-05T00:00:00+00:00" />
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Go Retrospective">
+  <meta name="twitter:description" content="I worked on the following small projects to familiarizing myself with Go.">
 
+
+<meta property="og:url" content="http://localhost:1313/post/go-retro/">
+  <meta property="og:site_name" content="James Moriarty">
+  <meta property="og:title" content="Go Retrospective">
+  <meta property="og:description" content="I worked on the following small projects to familiarizing myself with Go.">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="post">
+    <meta property="article:published_time" content="2021-01-05T00:00:00+00:00">
+    <meta property="article:modified_time" content="2021-01-05T00:00:00+00:00">
+    <meta property="article:tag" content="Go">
 
 
 
@@ -44,16 +48,16 @@
 
   <link type="text/css"
         rel="stylesheet"
-        href="https://www.jamesmoriarty.xyz/css/print.css"
+        href="http://localhost:1313/css/print.css"
         media="print">
 
   <link type="text/css"
         rel="stylesheet"
-        href="https://www.jamesmoriarty.xyz/css/poole.css">
+        href="http://localhost:1313/css/poole.css">
 
   <link type="text/css"
         rel="stylesheet"
-        href="https://www.jamesmoriarty.xyz/css/hyde.css">
+        href="http://localhost:1313/css/hyde.css">
 
   
 <style type="text/css">
@@ -88,7 +92,7 @@
 
 
 
-  <link type="text/css" rel="stylesheet" href="https://www.jamesmoriarty.xyz/css/custom.css">
+  <link type="text/css" rel="stylesheet" href="http://localhost:1313/css/custom.css">
 
   <link rel="stylesheet"
         href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700&display=swap">
@@ -113,7 +117,7 @@
       
         
         <div class="author-image">
-          <img src="https://www.jamesmoriarty.xyz/images/james-moriarty.jpg" class="img-circle img-headshot center" alt="Profile Picture">
+          <img src="http://localhost:1313/images/james-moriarty.jpg" class="img-circle img-headshot center" alt="Profile Picture">
         </div>
         
       
@@ -126,7 +130,7 @@
     <nav>
       <ul class="sidebar-nav">
         <li>
-          <a href="https://www.jamesmoriarty.xyz/">Home</a>
+          <a href="http://localhost:1313/">Home</a>
         </li>
         <li>
           <a href="/posts/"> Posts </a>
@@ -136,6 +140,8 @@
           <a href="/about/"> About </a>
         </li><li>
           <a href="/diving/"> Diving </a>
+        </li><li>
+          <a href="/hiking/"> Hiking </a>
         </li><li>
           <a href="/reading/"> Reading </a>
         </li><li>
@@ -167,10 +173,15 @@
 
   <main class="content container">
   <div class="post">
-  <h1>Go Retrospective</h1>
+  <h1>Go Retrospective</h1> 
 
   <div class="post-date">
-    
+    <time datetime="2021-01-05T00:00:00Z">Jan 5, 2021</time> · 2 min read
+    <span class="pull-right"><span class="categories">
+    <span class="category programming">
+                programming
+            </span>
+</span></span>
   </div>
 
   <p>I worked on the following small projects to familiarize myself with Go:</p>
@@ -189,7 +200,7 @@
 <li><a href="#error-handling">Error Handling</a></li>
 <li><a href="#modules">Modules</a></li>
 <li><a href="#concurrency">Concurrency</a></li>
-<li><a href="#here-be-dragons">&ldquo;Here be dragons&rdquo;</a></li>
+<li><a href="#here-be-dragons">Here Be Dragons</a></li>
 <li><a href="#windows">Windows</a></li>
 </ul>
 <h3 id="standalone-binaries">Standalone Binaries</h3>
@@ -198,65 +209,62 @@
 <p>The Go toolchain is impressive. I&rsquo;ve worked professionally across many programming languages and found this one of the most enjoyable to pickup and use. The Go ecosystem appears more consistent as a result.</p>
 <h3 id="error-handling">Error Handling</h3>
 <p>I initially found Go&rsquo;s error handling painful but have come to appreciate it. It appears that improper exception handling contributes to a significant proportion of defects.</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-go" data-lang="go"><span style="display:flex;"><span><span style="color:#000;font-weight:bold">func</span> <span style="color:#900;font-weight:bold">GetOffsets</span>() (<span style="color:#000;font-weight:bold">*</span>Offsets, <span style="color:#458;font-weight:bold">error</span>) {
-</span></span><span style="display:flex;"><span>	<span style="color:#000;font-weight:bold">var</span> offsets Offsets
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-go" data-lang="go"><span style="display:flex;"><span><span style="color:#cf222e">func</span> <span style="color:#6639ba">GetOffsets</span><span style="color:#1f2328">()</span> <span style="color:#1f2328">(</span><span style="color:#0550ae">*</span><span style="color:#1f2328">Offsets</span><span style="color:#1f2328">,</span> <span style="color:#cf222e">error</span><span style="color:#1f2328">)</span> <span style="color:#1f2328">{</span>
+</span></span><span style="display:flex;"><span>	<span style="color:#cf222e">var</span> <span style="color:#1f2328">offsets</span> <span style="color:#1f2328">Offsets</span>
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>	resp, err <span style="color:#000;font-weight:bold">:=</span> http.<span style="color:#900;font-weight:bold">Get</span>(OffsetsURL)
+</span></span><span style="display:flex;"><span>	<span style="color:#1f2328">resp</span><span style="color:#1f2328">,</span> <span style="color:#1f2328">err</span> <span style="color:#0550ae">:=</span> <span style="color:#1f2328">http</span><span style="color:#1f2328">.</span><span style="color:#6639ba">Get</span><span style="color:#1f2328">(</span><span style="color:#1f2328">OffsetsURL</span><span style="color:#1f2328">)</span>
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>	<span style="color:#000;font-weight:bold">if</span> err <span style="color:#000;font-weight:bold">!=</span> <span style="color:#000;font-weight:bold">nil</span> {
-</span></span><span style="display:flex;"><span>		<span style="color:#000;font-weight:bold">return</span> <span style="color:#000;font-weight:bold">nil</span>, errors.<span style="color:#900;font-weight:bold">New</span>(<span style="color:#d14">&#34;Failed making offsets request&#34;</span>)
-</span></span><span style="display:flex;"><span>	}
+</span></span><span style="display:flex;"><span>	<span style="color:#cf222e">if</span> <span style="color:#1f2328">err</span> <span style="color:#0550ae">!=</span> <span style="color:#cf222e">nil</span> <span style="color:#1f2328">{</span>
+</span></span><span style="display:flex;"><span>		<span style="color:#cf222e">return</span> <span style="color:#cf222e">nil</span><span style="color:#1f2328">,</span> <span style="color:#1f2328">errors</span><span style="color:#1f2328">.</span><span style="color:#6639ba">New</span><span style="color:#1f2328">(</span><span style="color:#0a3069">&#34;Failed making offsets request&#34;</span><span style="color:#1f2328">)</span>
+</span></span><span style="display:flex;"><span>	<span style="color:#1f2328">}</span>
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>	<span style="color:#000;font-weight:bold">defer</span> resp.Body.<span style="color:#900;font-weight:bold">Close</span>()
+</span></span><span style="display:flex;"><span>	<span style="color:#cf222e">defer</span> <span style="color:#1f2328">resp</span><span style="color:#1f2328">.</span><span style="color:#1f2328">Body</span><span style="color:#1f2328">.</span><span style="color:#6639ba">Close</span><span style="color:#1f2328">()</span>
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>	bytes, err <span style="color:#000;font-weight:bold">:=</span> ioutil.<span style="color:#900;font-weight:bold">ReadAll</span>(resp.Body)
+</span></span><span style="display:flex;"><span>	<span style="color:#1f2328">bytes</span><span style="color:#1f2328">,</span> <span style="color:#1f2328">err</span> <span style="color:#0550ae">:=</span> <span style="color:#1f2328">ioutil</span><span style="color:#1f2328">.</span><span style="color:#6639ba">ReadAll</span><span style="color:#1f2328">(</span><span style="color:#1f2328">resp</span><span style="color:#1f2328">.</span><span style="color:#1f2328">Body</span><span style="color:#1f2328">)</span>
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>	<span style="color:#000;font-weight:bold">if</span> err <span style="color:#000;font-weight:bold">!=</span> <span style="color:#000;font-weight:bold">nil</span> {
-</span></span><span style="display:flex;"><span>		<span style="color:#000;font-weight:bold">return</span> <span style="color:#000;font-weight:bold">nil</span>, errors.<span style="color:#900;font-weight:bold">New</span>(<span style="color:#d14">&#34;Failed reading offsets request&#34;</span>)
-</span></span><span style="display:flex;"><span>	}
+</span></span><span style="display:flex;"><span>	<span style="color:#cf222e">if</span> <span style="color:#1f2328">err</span> <span style="color:#0550ae">!=</span> <span style="color:#cf222e">nil</span> <span style="color:#1f2328">{</span>
+</span></span><span style="display:flex;"><span>		<span style="color:#cf222e">return</span> <span style="color:#cf222e">nil</span><span style="color:#1f2328">,</span> <span style="color:#1f2328">errors</span><span style="color:#1f2328">.</span><span style="color:#6639ba">New</span><span style="color:#1f2328">(</span><span style="color:#0a3069">&#34;Failed reading offsets request&#34;</span><span style="color:#1f2328">)</span>
+</span></span><span style="display:flex;"><span>	<span style="color:#1f2328">}</span>
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>	err = yaml.<span style="color:#900;font-weight:bold">Unmarshal</span>(bytes, <span style="color:#000;font-weight:bold">&amp;</span>offsets)
+</span></span><span style="display:flex;"><span>	<span style="color:#1f2328">err</span> <span style="color:#1f2328">=</span> <span style="color:#1f2328">yaml</span><span style="color:#1f2328">.</span><span style="color:#6639ba">Unmarshal</span><span style="color:#1f2328">(</span><span style="color:#1f2328">bytes</span><span style="color:#1f2328">,</span> <span style="color:#0550ae">&amp;</span><span style="color:#1f2328">offsets</span><span style="color:#1f2328">)</span>
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>	<span style="color:#000;font-weight:bold">if</span> err <span style="color:#000;font-weight:bold">!=</span> <span style="color:#000;font-weight:bold">nil</span> {
-</span></span><span style="display:flex;"><span>		<span style="color:#000;font-weight:bold">return</span> <span style="color:#000;font-weight:bold">nil</span>, errors.<span style="color:#900;font-weight:bold">New</span>(<span style="color:#d14">&#34;Failed parsing offsets request&#34;</span>)
-</span></span><span style="display:flex;"><span>	}
+</span></span><span style="display:flex;"><span>	<span style="color:#cf222e">if</span> <span style="color:#1f2328">err</span> <span style="color:#0550ae">!=</span> <span style="color:#cf222e">nil</span> <span style="color:#1f2328">{</span>
+</span></span><span style="display:flex;"><span>		<span style="color:#cf222e">return</span> <span style="color:#cf222e">nil</span><span style="color:#1f2328">,</span> <span style="color:#1f2328">errors</span><span style="color:#1f2328">.</span><span style="color:#6639ba">New</span><span style="color:#1f2328">(</span><span style="color:#0a3069">&#34;Failed parsing offsets request&#34;</span><span style="color:#1f2328">)</span>
+</span></span><span style="display:flex;"><span>	<span style="color:#1f2328">}</span>
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>	<span style="color:#000;font-weight:bold">return</span> <span style="color:#000;font-weight:bold">&amp;</span>offsets, <span style="color:#000;font-weight:bold">nil</span>
-</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>	<span style="color:#cf222e">return</span> <span style="color:#0550ae">&amp;</span><span style="color:#1f2328">offsets</span><span style="color:#1f2328">,</span> <span style="color:#cf222e">nil</span>
+</span></span><span style="display:flex;"><span><span style="color:#1f2328">}</span>
 </span></span></code></pre></div><h3 id="modules">Modules</h3>
 <p>I really like the way Go has implemented modular programming.</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-go" data-lang="go"><span style="display:flex;"><span><span style="color:#000;font-weight:bold">package</span> robots
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-go" data-lang="go"><span style="display:flex;"><span><span style="color:#cf222e">package</span> <span style="color:#1f2328">robots</span>
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#000;font-weight:bold">import</span> <span style="color:#d14">&#34;github.com/jamesmoriarty/gobot/directions&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#cf222e">import</span> <span style="color:#0a3069">&#34;github.com/jamesmoriarty/gobot/directions&#34;</span>
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#000;font-weight:bold">type</span> Robot <span style="color:#000;font-weight:bold">struct</span> {
-</span></span><span style="display:flex;"><span>	X         <span style="color:#458;font-weight:bold">int64</span>
-</span></span><span style="display:flex;"><span>	Y         <span style="color:#458;font-weight:bold">int64</span>
-</span></span><span style="display:flex;"><span>	Direction directions.Direction
-</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span><span style="color:#cf222e">type</span> <span style="color:#1f2328">Robot</span> <span style="color:#cf222e">struct</span> <span style="color:#1f2328">{</span>
+</span></span><span style="display:flex;"><span>	<span style="color:#1f2328">X</span>         <span style="color:#cf222e">int64</span>
+</span></span><span style="display:flex;"><span>	<span style="color:#1f2328">Y</span>         <span style="color:#cf222e">int64</span>
+</span></span><span style="display:flex;"><span>	<span style="color:#1f2328">Direction</span> <span style="color:#1f2328">directions</span><span style="color:#1f2328">.</span><span style="color:#1f2328">Direction</span>
+</span></span><span style="display:flex;"><span><span style="color:#1f2328">}</span>
 </span></span></code></pre></div><h3 id="concurrency">Concurrency</h3>
 <p>Go &ldquo;routines&rdquo; and &ldquo;channels&rdquo; appear easy to use and well thought out.</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-go" data-lang="go"><span style="display:flex;"><span>shutdown <span style="color:#000;font-weight:bold">:=</span> <span style="color:#0086b3">make</span>(<span style="color:#000;font-weight:bold">chan</span> os.Signal, <span style="color:#099">1</span>)
-</span></span><span style="display:flex;"><span>signal.<span style="color:#900;font-weight:bold">Notify</span>(shutdown, syscall.SIGINT, syscall.SIGTERM)
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-go" data-lang="go"><span style="display:flex;"><span><span style="color:#1f2328">shutdown</span> <span style="color:#0550ae">:=</span> <span style="color:#6639ba">make</span><span style="color:#1f2328">(</span><span style="color:#cf222e">chan</span> <span style="color:#1f2328">os</span><span style="color:#1f2328">.</span><span style="color:#1f2328">Signal</span><span style="color:#1f2328">,</span> <span style="color:#0550ae">1</span><span style="color:#1f2328">)</span>
+</span></span><span style="display:flex;"><span><span style="color:#1f2328">signal</span><span style="color:#1f2328">.</span><span style="color:#6639ba">Notify</span><span style="color:#1f2328">(</span><span style="color:#1f2328">shutdown</span><span style="color:#1f2328">,</span> <span style="color:#1f2328">syscall</span><span style="color:#1f2328">.</span><span style="color:#1f2328">SIGINT</span><span style="color:#1f2328">,</span> <span style="color:#1f2328">syscall</span><span style="color:#1f2328">.</span><span style="color:#1f2328">SIGTERM</span><span style="color:#1f2328">)</span>
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#000;font-weight:bold">go</span> goforward.<span style="color:#900;font-weight:bold">Listen</span>(port, rate, shutdown)
+</span></span><span style="display:flex;"><span><span style="color:#cf222e">go</span> <span style="color:#1f2328">goforward</span><span style="color:#1f2328">.</span><span style="color:#6639ba">Listen</span><span style="color:#1f2328">(</span><span style="color:#1f2328">port</span><span style="color:#1f2328">,</span> <span style="color:#1f2328">rate</span><span style="color:#1f2328">,</span> <span style="color:#1f2328">shutdown</span><span style="color:#1f2328">)</span>
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#000;font-weight:bold">&lt;-</span>shutdown
+</span></span><span style="display:flex;"><span><span style="color:#0550ae">&lt;-</span><span style="color:#1f2328">shutdown</span>
 </span></span></code></pre></div><h3 id="here-be-dragons">Here Be Dragons</h3>
 <p>I enjoyed lower level memory work with Go but <code>unsafe</code> introduces bizarre new possibilities for software defects.</p>
 <h3 id="windows">Windows</h3>
 <p>The APIs also appear to target the Linux and have been retrofitted to Windows.</p>
 
 
-  
 </div>
-
-
   </main>
 
   <footer>
   <div>
-    &copy; James Moriarty 2022
+    &copy; James Moriarty 2025
     ·
     
     <a href="https://creativecommons.org/licenses/by-sa/4.0"
@@ -274,11 +282,13 @@
   
 
   
-
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/turbolinks/5.0.0/turbolinks.js"></script>
   
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
   <script>
-  Turbolinks.start()
+  mermaid.initialize({ startOnLoad: true });
   </script>
 </body>
 </html>

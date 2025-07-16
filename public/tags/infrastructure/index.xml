@@ -1,20 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>infrastructure on James Moriarty</title>
-    <link>https://www.jamesmoriarty.xyz/tags/infrastructure/</link>
-    <description>Recent content in infrastructure on James Moriarty</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <title>Infrastructure on James Moriarty</title>
+    <link>http://localhost:1313/tags/infrastructure/</link>
+    <description>Recent content in Infrastructure on James Moriarty</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 21 Jun 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://www.jamesmoriarty.xyz/tags/infrastructure/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 21 Jun 2020 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/infrastructure/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>AWS NAT Internet Egress</title>
-      <link>https://www.jamesmoriarty.xyz/post/aws-nat-internet-egress/</link>
+      <link>http://localhost:1313/post/aws-nat-internet-egress/</link>
       <pubDate>Sun, 21 Jun 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.jamesmoriarty.xyz/post/aws-nat-internet-egress/</guid>
-      <description>My work often involves restricted private networks often found in large enterprises.</description>
+      <guid>http://localhost:1313/post/aws-nat-internet-egress/</guid>
+      <description>&lt;p&gt;My work often involves restricted private networks often found in large enterprises. I run a personal &lt;a href=&#34;https://github.com/jamesmoriarty/cfn-vpc&#34;&gt;similarly provisioned AWS VPC&lt;/a&gt; for experiments. This comes with the challenge of providing internet egress for &lt;code&gt;RFC1918&lt;/code&gt; private subnet instances.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

@@ -1,20 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>security on James Moriarty</title>
-    <link>https://www.jamesmoriarty.xyz/tags/security/</link>
-    <description>Recent content in security on James Moriarty</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <title>Security on James Moriarty</title>
+    <link>http://localhost:1313/tags/security/</link>
+    <description>Recent content in Security on James Moriarty</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 10 Jun 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://www.jamesmoriarty.xyz/tags/security/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 10 Jun 2020 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/security/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Game Exploit Retrospective</title>
-      <link>https://www.jamesmoriarty.xyz/post/game-exploits-retro/</link>
+      <link>http://localhost:1313/post/game-exploits-retro/</link>
       <pubDate>Wed, 10 Jun 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.jamesmoriarty.xyz/post/game-exploits-retro/</guid>
-      <description>I recently dedicated some time to explore the software security space and gain some hands-on experience through exercises like developing game exploits.</description>
+      <guid>http://localhost:1313/post/game-exploits-retro/</guid>
+      <description>&lt;p&gt;I recently dedicated some time to explore the software security space and gain some hands-on experience through exercises like developing game exploits. I decided to write an exploit for Valve Software&amp;rsquo;s extremely popular Counter-Strike: Global Offensive primarily because of the availability of existing information.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

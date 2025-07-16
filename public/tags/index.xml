@@ -2,208 +2,186 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on James Moriarty</title>
-    <link>https://www.jamesmoriarty.xyz/tags/</link>
+    <link>http://localhost:1313/tags/</link>
     <description>Recent content in Tags on James Moriarty</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 10 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://www.jamesmoriarty.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 15 Mar 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>anycast</title>
-      <link>https://www.jamesmoriarty.xyz/tags/anycast/</link>
+      <title>Index</title>
+      <link>http://localhost:1313/tags/index/</link>
+      <pubDate>Wed, 15 Mar 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/index/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Diagram</title>
+      <link>http://localhost:1313/tags/diagram/</link>
+      <pubDate>Wed, 18 May 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/diagram/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Sre</title>
+      <link>http://localhost:1313/tags/sre/</link>
+      <pubDate>Wed, 18 May 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/sre/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Nagle</title>
+      <link>http://localhost:1313/tags/nagle/</link>
+      <pubDate>Tue, 12 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/nagle/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Nodelay</title>
+      <link>http://localhost:1313/tags/nodelay/</link>
+      <pubDate>Tue, 12 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/nodelay/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tcp</title>
+      <link>http://localhost:1313/tags/tcp/</link>
+      <pubDate>Tue, 12 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/tcp/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Anycast</title>
+      <link>http://localhost:1313/tags/anycast/</link>
       <pubDate>Sun, 10 Apr 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.jamesmoriarty.xyz/tags/anycast/</guid>
+      <guid>http://localhost:1313/tags/anycast/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>tcp</title>
-      <link>https://www.jamesmoriarty.xyz/tags/tcp/</link>
-      <pubDate>Sun, 10 Apr 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.jamesmoriarty.xyz/tags/tcp/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>dlna</title>
-      <link>https://www.jamesmoriarty.xyz/tags/dlna/</link>
+      <title>Dlna</title>
+      <link>http://localhost:1313/tags/dlna/</link>
       <pubDate>Sat, 09 Apr 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.jamesmoriarty.xyz/tags/dlna/</guid>
+      <guid>http://localhost:1313/tags/dlna/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>docker</title>
-      <link>https://www.jamesmoriarty.xyz/tags/docker/</link>
+      <title>Docker</title>
+      <link>http://localhost:1313/tags/docker/</link>
       <pubDate>Sat, 09 Apr 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.jamesmoriarty.xyz/tags/docker/</guid>
+      <guid>http://localhost:1313/tags/docker/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>macvlan</title>
-      <link>https://www.jamesmoriarty.xyz/tags/macvlan/</link>
+      <title>Macvlan</title>
+      <link>http://localhost:1313/tags/macvlan/</link>
       <pubDate>Sat, 09 Apr 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.jamesmoriarty.xyz/tags/macvlan/</guid>
+      <guid>http://localhost:1313/tags/macvlan/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>ssdp</title>
-      <link>https://www.jamesmoriarty.xyz/tags/ssdp/</link>
+      <title>Ssdp</title>
+      <link>http://localhost:1313/tags/ssdp/</link>
       <pubDate>Sat, 09 Apr 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.jamesmoriarty.xyz/tags/ssdp/</guid>
+      <guid>http://localhost:1313/tags/ssdp/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>consulting</title>
-      <link>https://www.jamesmoriarty.xyz/tags/consulting/</link>
+      <title>Consulting</title>
+      <link>http://localhost:1313/tags/consulting/</link>
       <pubDate>Sun, 05 Dec 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.jamesmoriarty.xyz/tags/consulting/</guid>
+      <guid>http://localhost:1313/tags/consulting/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>sre</title>
-      <link>https://www.jamesmoriarty.xyz/tags/sre/</link>
-      <pubDate>Sun, 05 Dec 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.jamesmoriarty.xyz/tags/sre/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>dns</title>
-      <link>https://www.jamesmoriarty.xyz/tags/dns/</link>
+      <title>Dns</title>
+      <link>http://localhost:1313/tags/dns/</link>
       <pubDate>Sat, 16 Oct 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.jamesmoriarty.xyz/tags/dns/</guid>
+      <guid>http://localhost:1313/tags/dns/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>http</title>
-      <link>https://www.jamesmoriarty.xyz/tags/http/</link>
+      <title>Http</title>
+      <link>http://localhost:1313/tags/http/</link>
       <pubDate>Sat, 16 Oct 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.jamesmoriarty.xyz/tags/http/</guid>
+      <guid>http://localhost:1313/tags/http/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>tls</title>
-      <link>https://www.jamesmoriarty.xyz/tags/tls/</link>
+      <title>Tls</title>
+      <link>http://localhost:1313/tags/tls/</link>
       <pubDate>Sat, 16 Oct 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.jamesmoriarty.xyz/tags/tls/</guid>
+      <guid>http://localhost:1313/tags/tls/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>kubernetes</title>
-      <link>https://www.jamesmoriarty.xyz/tags/kubernetes/</link>
+      <title>Kubernetes</title>
+      <link>http://localhost:1313/tags/kubernetes/</link>
       <pubDate>Thu, 03 Jun 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.jamesmoriarty.xyz/tags/kubernetes/</guid>
+      <guid>http://localhost:1313/tags/kubernetes/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>go</title>
-      <link>https://www.jamesmoriarty.xyz/tags/go/</link>
+      <title>Go</title>
+      <link>http://localhost:1313/tags/go/</link>
       <pubDate>Sun, 28 Feb 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.jamesmoriarty.xyz/tags/go/</guid>
+      <guid>http://localhost:1313/tags/go/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>proxy</title>
-      <link>https://www.jamesmoriarty.xyz/tags/proxy/</link>
+      <title>Proxy</title>
+      <link>http://localhost:1313/tags/proxy/</link>
       <pubDate>Fri, 12 Feb 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.jamesmoriarty.xyz/tags/proxy/</guid>
+      <guid>http://localhost:1313/tags/proxy/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>fed</title>
-      <link>https://www.jamesmoriarty.xyz/tags/fed/</link>
+      <title>Fed</title>
+      <link>http://localhost:1313/tags/fed/</link>
       <pubDate>Wed, 12 Aug 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.jamesmoriarty.xyz/tags/fed/</guid>
+      <guid>http://localhost:1313/tags/fed/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>react</title>
-      <link>https://www.jamesmoriarty.xyz/tags/react/</link>
+      <title>React</title>
+      <link>http://localhost:1313/tags/react/</link>
       <pubDate>Wed, 12 Aug 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.jamesmoriarty.xyz/tags/react/</guid>
+      <guid>http://localhost:1313/tags/react/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>aws</title>
-      <link>https://www.jamesmoriarty.xyz/tags/aws/</link>
+      <title>Aws</title>
+      <link>http://localhost:1313/tags/aws/</link>
       <pubDate>Sun, 21 Jun 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.jamesmoriarty.xyz/tags/aws/</guid>
+      <guid>http://localhost:1313/tags/aws/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>iac</title>
-      <link>https://www.jamesmoriarty.xyz/tags/iac/</link>
+      <title>Iac</title>
+      <link>http://localhost:1313/tags/iac/</link>
       <pubDate>Sun, 21 Jun 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.jamesmoriarty.xyz/tags/iac/</guid>
+      <guid>http://localhost:1313/tags/iac/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>infrastructure</title>
-      <link>https://www.jamesmoriarty.xyz/tags/infrastructure/</link>
+      <title>Infrastructure</title>
+      <link>http://localhost:1313/tags/infrastructure/</link>
       <pubDate>Sun, 21 Jun 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.jamesmoriarty.xyz/tags/infrastructure/</guid>
+      <guid>http://localhost:1313/tags/infrastructure/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>games</title>
-      <link>https://www.jamesmoriarty.xyz/tags/games/</link>
+      <title>Games</title>
+      <link>http://localhost:1313/tags/games/</link>
       <pubDate>Wed, 10 Jun 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.jamesmoriarty.xyz/tags/games/</guid>
+      <guid>http://localhost:1313/tags/games/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>security</title>
-      <link>https://www.jamesmoriarty.xyz/tags/security/</link>
+      <title>Security</title>
+      <link>http://localhost:1313/tags/security/</link>
       <pubDate>Wed, 10 Jun 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.jamesmoriarty.xyz/tags/security/</guid>
+      <guid>http://localhost:1313/tags/security/</guid>
       <description></description>
     </item>
-    
-    <item>
-      <title>index</title>
-      <link>https://www.jamesmoriarty.xyz/tags/index/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.jamesmoriarty.xyz/tags/index/</guid>
-      <description></description>
-    </item>
-    
   </channel>
 </rss>

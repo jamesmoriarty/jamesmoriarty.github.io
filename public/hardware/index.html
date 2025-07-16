@@ -1,34 +1,35 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
-<head>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="generator" content="Hugo 0.96.0" />
+  <meta name="generator" content="Hugo 0.148.1">
 
   <title>Hardware &middot; James Moriarty</title>
 
   <meta name="description" content="Hardware used by James Moriarty." />
 
   
-
-<meta itemprop="name" content="Hardware">
-<meta itemprop="description" content="Hardware used by James Moriarty."><meta itemprop="datePublished" content="2021-02-10T00:00:00+00:00" />
-<meta itemprop="dateModified" content="2021-02-10T00:00:00+00:00" />
-<meta itemprop="wordCount" content="228">
-<meta itemprop="keywords" content="" />
-
-<meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Hardware"/>
-<meta name="twitter:description" content="Hardware used by James Moriarty."/>
+  <meta itemprop="name" content="Hardware">
+  <meta itemprop="description" content="Hardware used by James Moriarty.">
+  <meta itemprop="datePublished" content="2021-02-10T00:00:00+00:00">
+  <meta itemprop="dateModified" content="2021-02-10T00:00:00+00:00">
+  <meta itemprop="wordCount" content="196">
 
 
-<meta property="og:title" content="Hardware" />
-<meta property="og:description" content="Hardware used by James Moriarty." />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="https://www.jamesmoriarty.xyz/hardware/" /><meta property="article:section" content="" />
-<meta property="article:published_time" content="2021-02-10T00:00:00+00:00" />
-<meta property="article:modified_time" content="2021-02-10T00:00:00+00:00" />
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Hardware">
+  <meta name="twitter:description" content="Hardware used by James Moriarty.">
 
+
+<meta property="og:url" content="http://localhost:1313/hardware/">
+  <meta property="og:site_name" content="James Moriarty">
+  <meta property="og:title" content="Hardware">
+  <meta property="og:description" content="Hardware used by James Moriarty.">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:published_time" content="2021-02-10T00:00:00+00:00">
+    <meta property="article:modified_time" content="2021-02-10T00:00:00+00:00">
 
 
 
@@ -44,16 +45,16 @@
 
   <link type="text/css"
         rel="stylesheet"
-        href="https://www.jamesmoriarty.xyz/css/print.css"
+        href="http://localhost:1313/css/print.css"
         media="print">
 
   <link type="text/css"
         rel="stylesheet"
-        href="https://www.jamesmoriarty.xyz/css/poole.css">
+        href="http://localhost:1313/css/poole.css">
 
   <link type="text/css"
         rel="stylesheet"
-        href="https://www.jamesmoriarty.xyz/css/hyde.css">
+        href="http://localhost:1313/css/hyde.css">
 
   
 <style type="text/css">
@@ -88,7 +89,7 @@
 
 
 
-  <link type="text/css" rel="stylesheet" href="https://www.jamesmoriarty.xyz/css/custom.css">
+  <link type="text/css" rel="stylesheet" href="http://localhost:1313/css/custom.css">
 
   <link rel="stylesheet"
         href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700&display=swap">
@@ -113,7 +114,7 @@
       
         
         <div class="author-image">
-          <img src="https://www.jamesmoriarty.xyz/images/james-moriarty.jpg" class="img-circle img-headshot center" alt="Profile Picture">
+          <img src="http://localhost:1313/images/james-moriarty.jpg" class="img-circle img-headshot center" alt="Profile Picture">
         </div>
         
       
@@ -126,7 +127,7 @@
     <nav>
       <ul class="sidebar-nav">
         <li>
-          <a href="https://www.jamesmoriarty.xyz/">Home</a>
+          <a href="http://localhost:1313/">Home</a>
         </li>
         <li>
           <a href="/posts/"> Posts </a>
@@ -136,6 +137,8 @@
           <a href="/about/"> About </a>
         </li><li>
           <a href="/diving/"> Diving </a>
+        </li><li>
+          <a href="/hiking/"> Hiking </a>
         </li><li>
           <a href="/reading/"> Reading </a>
         </li><li>
@@ -167,34 +170,22 @@
 
   <main class="content container">
   <div class="post">
-  <h1>Hardware</h1>
+  <h1>Hardware</h1> 
 
   
 
   <h2 id="photos">Photos</h2>
 <p><a href="/images/hardware/hardware-grafana.png"><img src="/images/hardware/hardware-grafana.png" alt="Grafana cluster dashboard"></a></p>
 <blockquote>
-<p>Grafana dashboards from kube-prometheus-stack monitoring for my home single node &ldquo;cluster&rdquo;.</p>
-</blockquote>
+<p>A Grafana dashboard form my Home Lab.</p></blockquote>
 <h2 id="systems">Systems</h2>
-<h3 id="personal-laptop">Personal Laptop</h3>
-<p>After spending the majority of my professional career on MacBooks - I use a Surface Pro 6 to run &hellip; Linux. I use this for general open source development.</p>
-<ul>
-<li>Intel i5-8250U 4 <a href="mailto:Cores@1.6-3.4GHz">Cores@1.6-3.4GHz</a></li>
-<li>Samsung 8GB DDR3@1600MHz</li>
-<li>Toshiba 128GB SSD NVMe</li>
-</ul>
-<pre tabindex="0"><code>$ hdparm -Tt /dev/sda
-
-/dev/sda:
- Timing cached reads:   17742 MB in  1.99 seconds = 8922.07 MB/sec
- Timing buffered disk reads: 1358 MB in  3.00 seconds = 452.51 MB/sec
-</code></pre><h3 id="budget-build-desktop">Budget Build Desktop</h3>
-<p>I&rsquo;ve been continually impressed by the value of AMD&rsquo;s recent offerings. I use this desktop for development of Go, Windows, graphics, and security.</p>
+<h3 id="budget-build-desktop">Budget Build Desktop</h3>
+<p>I&rsquo;ve love value builds.</p>
 <ul>
 <li>AMD Ryzen 3 1300X 4 <a href="mailto:Core@3.5-3.7GHz">Core@3.5-3.7GHz</a></li>
 <li>Corsair Vengeance LPX 16GB (2x8GB) DDR4@2400MHz</li>
 <li>Samsung 960 EVO 250GB SSD NVMe</li>
+<li>WD Green 250GB SSD mSATA</li>
 <li>Asus Strix RX570@1300MHz (2048SP) 4GB DDR5@7000MHz</li>
 </ul>
 <pre tabindex="0"><code>$ hdparm -Tt /dev/sda
@@ -202,8 +193,8 @@
 /dev/sda:
  Timing cached reads:   18744 MB in  2.00 seconds = 9381.70 MB/sec
  Timing buffered disk reads: 5822 MB in  3.00 seconds = 1940.50 MB/sec
-</code></pre><h3 id="home-kubernetes">Home Kubernetes</h3>
-<p>I use this to run low power Intel NUC gitops K3s Kubernetes single node &ldquo;cluster&rdquo;. I use this primarily for media, storage, and monitoring.</p>
+</code></pre><h3 id="home-lab">Home Lab</h3>
+<p>I use this compact and low power Intel NUC to run docker workloads with gitops. I use this primarily for media, storage, and monitoring.</p>
 <ul>
 <li>Intel i3-4010U 2 <a href="mailto:Core@1.7GHz">Core@1.7GHz</a></li>
 <li>Corsair 8GB (1x8GB) DDR3@1600MHz</li>
@@ -214,17 +205,22 @@
 /dev/sda:
  Timing cached reads:   7664 MB in  1.99 seconds = 3854.47 MB/sec
  Timing buffered disk reads: 1348 MB in  3.00 seconds = 448.90 MB/sec
+</code></pre><h3 id="vpcs">VPCs</h3>
+<p>I have workloads running in both AWS and GCP. I use these for work related experiements, testing best practices, and creating examples e.g. CI, CD, IAM, and networking patterns.</p>
+<pre tabindex="0"><code>$ yum install python python-pip -y \
+ &amp;&amp; pip install --upgrade pip \
+ &amp;&amp; pip install speedtest-cli \
+ &amp;&amp; speedtest-cli
+
+Download: 3283.42 Mbit/s Upload: 2274.26 Mbit/s
 </code></pre>
 
-  
 </div>
-
-
   </main>
 
   <footer>
   <div>
-    &copy; James Moriarty 2022
+    &copy; James Moriarty 2025
     ·
     
     <a href="https://creativecommons.org/licenses/by-sa/4.0"
@@ -242,11 +238,13 @@
   
 
   
-
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/turbolinks/5.0.0/turbolinks.js"></script>
   
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
   <script>
-  Turbolinks.start()
+  mermaid.initialize({ startOnLoad: true });
   </script>
 </body>
 </html>

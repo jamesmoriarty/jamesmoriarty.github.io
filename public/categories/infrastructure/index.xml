@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Infrastructure on James Moriarty</title>
+    <link>http://localhost:1313/categories/infrastructure/</link>
+    <description>Recent content in Infrastructure on James Moriarty</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 09 Apr 2022 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/infrastructure/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Docker and DLNA</title>
+      <link>http://localhost:1313/post/docker-and-dlna/</link>
+      <pubDate>Sat, 09 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/docker-and-dlna/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;ve recently discovered the Docker network &lt;a href=&#34;https://dockerlabs.collabnix.com/intermediate/macvlan.html&#34;&gt;macvlan&lt;/a&gt; driver.&lt;/p&gt;&#xA;&lt;p&gt;A &lt;a href=&#34;https://dockerlabs.collabnix.com/intermediate/macvlan.html&#34;&gt;macvlan&lt;/a&gt; driver creates virtual network interfaces, each with its own unique MAC address, that can be configured to communicate with other devices on a network. These virtual interfaces behave like separate physical network interfaces and can be assigned their own IP addresses and network settings.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Apex Domain HTTPS Redirect</title>
+      <link>http://localhost:1313/post/apex-domain-https-redirect/</link>
+      <pubDate>Sat, 16 Oct 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/apex-domain-https-redirect/</guid>
+      <description>&lt;p&gt;I recently broke the &lt;a href=&#34;https://jamesmoriarty.xyz&#34;&gt;apex domain&lt;/a&gt; HTTPS redirect to my &lt;a href=&#34;https://www.jamesmoriarty.xyz&#34;&gt;sub-domain&lt;/a&gt;. Investigating the issue revealed the complexities of this behavior and, as a result, I’m writing about some of those contributing factors.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Kubernetes and DLNA</title>
+      <link>http://localhost:1313/post/kubernetes-and-dlna/</link>
+      <pubDate>Thu, 03 Jun 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/kubernetes-and-dlna/</guid>
+      <description>&lt;p&gt;These are some notes taken while deploying a &lt;a href=&#34;https://en.wikipedia.org/wiki/Digital_Living_Network_Alliance&#34;&gt;Digital Living Network Alliance&lt;/a&gt; (DLNA) to Kubernetes. DLNA is derived from &lt;a href=&#34;https://en.wikipedia.org/wiki/Universal_Plug_and_Play&#34;&gt;Universal Plug and Play&lt;/a&gt; (UPnP) specifically for media interoperability. DLNA services are advertised and discovered via &lt;a href=&#34;https://en.wikipedia.org/wiki/Simple_Service_Discovery_Protocol&#34;&gt;Simple Service Discovery Protocol &lt;/a&gt; (SSDP).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Kubernetes DIY Dynamic DNS Operator</title>
+      <link>http://localhost:1313/post/kubernetes-diy-dynamic-dns-operator/</link>
+      <pubDate>Mon, 08 Mar 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/kubernetes-diy-dynamic-dns-operator/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;ve rolled my own &lt;a href=&#34;https://en.wikipedia.org/wiki/Dynamic_DNS&#34;&gt;Dynamic DNS&lt;/a&gt; Operator with Kubernetes &lt;a href=&#34;https://kubernetes.io/docs/concepts/workloads/controllers/cron-jobs/&#34;&gt;CronJob&lt;/a&gt;, &lt;a href=&#34;https://kubernetes.io/docs/tasks/tools/&#34;&gt;kubectl&lt;/a&gt;, and &lt;a href=&#34;https://github.com/kubernetes-sigs/external-dns&#34;&gt;External DNS&lt;/a&gt;. I&amp;rsquo;m going to try capture the solution in a &lt;a href=&#34;https://www.industrialempathy.com/posts/design-docs-at-google/&#34;&gt;Google Design Document&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>AWS NAT Internet Egress</title>
+      <link>http://localhost:1313/post/aws-nat-internet-egress/</link>
+      <pubDate>Sun, 21 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/aws-nat-internet-egress/</guid>
+      <description>&lt;p&gt;My work often involves restricted private networks often found in large enterprises. I run a personal &lt;a href=&#34;https://github.com/jamesmoriarty/cfn-vpc&#34;&gt;similarly provisioned AWS VPC&lt;/a&gt; for experiments. This comes with the challenge of providing internet egress for &lt;code&gt;RFC1918&lt;/code&gt; private subnet instances.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

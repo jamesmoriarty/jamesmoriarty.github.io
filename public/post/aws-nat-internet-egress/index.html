@@ -1,34 +1,40 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
-<head>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="generator" content="Hugo 0.96.0" />
+  <meta name="generator" content="Hugo 0.148.1">
 
   <title>AWS NAT Internet Egress &middot; James Moriarty</title>
 
   <meta name="description" content="" />
 
   
-
-<meta itemprop="name" content="AWS NAT Internet Egress">
-<meta itemprop="description" content="My work often involves restricted private networks often found in large enterprises."><meta itemprop="datePublished" content="2020-06-21T00:00:00+00:00" />
-<meta itemprop="dateModified" content="2020-06-21T00:00:00+00:00" />
-<meta itemprop="wordCount" content="372">
-<meta itemprop="keywords" content="aws,infrastructure,iac," />
-
-<meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="AWS NAT Internet Egress"/>
-<meta name="twitter:description" content="My work often involves restricted private networks often found in large enterprises."/>
+  <meta itemprop="name" content="AWS NAT Internet Egress">
+  <meta itemprop="description" content="My work often involves restricted private networks often found in large enterprises. I run a personal similarly provisioned AWS VPC for experiments. This comes with the challenge of providing internet egress for RFC1918 private subnet instances.">
+  <meta itemprop="datePublished" content="2020-06-21T00:00:00+00:00">
+  <meta itemprop="dateModified" content="2020-06-21T00:00:00+00:00">
+  <meta itemprop="wordCount" content="373">
+  <meta itemprop="keywords" content="Aws,Infrastructure,Iac">
 
 
-<meta property="og:title" content="AWS NAT Internet Egress" />
-<meta property="og:description" content="My work often involves restricted private networks often found in large enterprises." />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="https://www.jamesmoriarty.xyz/post/aws-nat-internet-egress/" /><meta property="article:section" content="post" />
-<meta property="article:published_time" content="2020-06-21T00:00:00+00:00" />
-<meta property="article:modified_time" content="2020-06-21T00:00:00+00:00" />
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="AWS NAT Internet Egress">
+  <meta name="twitter:description" content="My work often involves restricted private networks often found in large enterprises. I run a personal similarly provisioned AWS VPC for experiments. This comes with the challenge of providing internet egress for RFC1918 private subnet instances.">
 
+
+<meta property="og:url" content="http://localhost:1313/post/aws-nat-internet-egress/">
+  <meta property="og:site_name" content="James Moriarty">
+  <meta property="og:title" content="AWS NAT Internet Egress">
+  <meta property="og:description" content="My work often involves restricted private networks often found in large enterprises. I run a personal similarly provisioned AWS VPC for experiments. This comes with the challenge of providing internet egress for RFC1918 private subnet instances.">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="post">
+    <meta property="article:published_time" content="2020-06-21T00:00:00+00:00">
+    <meta property="article:modified_time" content="2020-06-21T00:00:00+00:00">
+    <meta property="article:tag" content="Aws">
+    <meta property="article:tag" content="Infrastructure">
+    <meta property="article:tag" content="Iac">
 
 
 
@@ -44,16 +50,16 @@
 
   <link type="text/css"
         rel="stylesheet"
-        href="https://www.jamesmoriarty.xyz/css/print.css"
+        href="http://localhost:1313/css/print.css"
         media="print">
 
   <link type="text/css"
         rel="stylesheet"
-        href="https://www.jamesmoriarty.xyz/css/poole.css">
+        href="http://localhost:1313/css/poole.css">
 
   <link type="text/css"
         rel="stylesheet"
-        href="https://www.jamesmoriarty.xyz/css/hyde.css">
+        href="http://localhost:1313/css/hyde.css">
 
   
 <style type="text/css">
@@ -88,7 +94,7 @@
 
 
 
-  <link type="text/css" rel="stylesheet" href="https://www.jamesmoriarty.xyz/css/custom.css">
+  <link type="text/css" rel="stylesheet" href="http://localhost:1313/css/custom.css">
 
   <link rel="stylesheet"
         href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700&display=swap">
@@ -113,7 +119,7 @@
       
         
         <div class="author-image">
-          <img src="https://www.jamesmoriarty.xyz/images/james-moriarty.jpg" class="img-circle img-headshot center" alt="Profile Picture">
+          <img src="http://localhost:1313/images/james-moriarty.jpg" class="img-circle img-headshot center" alt="Profile Picture">
         </div>
         
       
@@ -126,7 +132,7 @@
     <nav>
       <ul class="sidebar-nav">
         <li>
-          <a href="https://www.jamesmoriarty.xyz/">Home</a>
+          <a href="http://localhost:1313/">Home</a>
         </li>
         <li>
           <a href="/posts/"> Posts </a>
@@ -136,6 +142,8 @@
           <a href="/about/"> About </a>
         </li><li>
           <a href="/diving/"> Diving </a>
+        </li><li>
+          <a href="/hiking/"> Hiking </a>
         </li><li>
           <a href="/reading/"> Reading </a>
         </li><li>
@@ -167,17 +175,34 @@
 
   <main class="content container">
   <div class="post">
-  <h1>AWS NAT Internet Egress</h1>
+  <h1>AWS NAT Internet Egress</h1> 
 
   <div class="post-date">
-    
+    <time datetime="2020-06-21T00:00:00Z">Jun 21, 2020</time> · 2 min read
+    <span class="pull-right"><span class="categories">
+    <span class="category infrastructure">
+                infrastructure
+            </span><span class="category networking">
+                networking
+            </span><span class="category sre">
+                sre
+            </span>
+</span></span>
   </div>
 
   <p>My work often involves restricted private networks often found in large enterprises. I run a personal <a href="https://github.com/jamesmoriarty/cfn-vpc">similarly provisioned AWS VPC</a> for experiments. This comes with the challenge of providing internet egress for <code>RFC1918</code> private subnet instances.</p>
+<p>AWS provides several solutions for internet egress. After spending some time considering these, I settled on NAT instance running on Spot. The primary driver of this solution is cost.</p>
+<ul>
+<li><a href="#caveats">Caveats</a></li>
+<li><a href="#reliability">Reliability</a></li>
+<li><a href="#cost">Cost</a></li>
+<li><a href="#performance">Performance</a></li>
+<li><a href="#conclusion">Conclusion</a></li>
+</ul>
 <hr />
 <p><a href="https://twitter.com/jamespmoriarty/status/1369445902251855873"><img src="/images/aws-nat.png" alt="tweet"></a></p>
 <hr />
-<p>AWS provides several solutions for internet egress. After spending some time considering these, I settled on NAT instance running on Spot. The primary driver of this solution is cost.</p>
+<h3 id="caveats">Caveats</h3>
 <p>The <a href="https://github.com/jamesmoriarty/cfn-cheapest-nat">current solutions</a> <em>is</em>:</p>
 <ul>
 <li>Auto Healing
@@ -200,59 +225,52 @@
 </ul>
 </li>
 </ul>
-<h3 id="contents">Contents</h3>
-<ul>
-<li><a href="#reliability">Reliability</a></li>
-<li><a href="#cost">Cost</a></li>
-<li><a href="#performance">Performance</a></li>
-<li><a href="#conclusion">Conclusion</a></li>
-</ul>
 <h3 id="reliability">Reliability</h3>
 <table>
-<thead>
-<tr>
-<th>Risk</th>
-<th>ETTD</th>
-<th>ETTR</th>
-<th>EETF</th>
-<th>Impact</th>
-<th>Notes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Spot Restart</td>
-<td>5m</td>
-<td>5m</td>
-<td>30 days</td>
-<td>100%</td>
-<td>Every month**</td>
-</tr>
-<tr>
-<td>EC2 Fails</td>
-<td>5m</td>
-<td>5m</td>
-<td>90 days</td>
-<td>100%</td>
-<td>Every three months*</td>
-</tr>
-<tr>
-<td>AZ Fails</td>
-<td>5m</td>
-<td>2h</td>
-<td>180 days</td>
-<td>100%</td>
-<td>Every six months*</td>
-</tr>
-<tr>
-<td>Region Fails</td>
-<td>5m</td>
-<td>4h</td>
-<td>730 days</td>
-<td>100%</td>
-<td>Every two years*</td>
-</tr>
-</tbody>
+  <thead>
+      <tr>
+          <th>Risk</th>
+          <th>ETTD</th>
+          <th>ETTR</th>
+          <th>EETF</th>
+          <th>Impact</th>
+          <th>Notes</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Spot Restart</td>
+          <td>5m</td>
+          <td>5m</td>
+          <td>30 days</td>
+          <td>100%</td>
+          <td>Every month**</td>
+      </tr>
+      <tr>
+          <td>EC2 Fails</td>
+          <td>5m</td>
+          <td>5m</td>
+          <td>90 days</td>
+          <td>100%</td>
+          <td>Every three months*</td>
+      </tr>
+      <tr>
+          <td>AZ Fails</td>
+          <td>5m</td>
+          <td>2h</td>
+          <td>180 days</td>
+          <td>100%</td>
+          <td>Every six months*</td>
+      </tr>
+      <tr>
+          <td>Region Fails</td>
+          <td>5m</td>
+          <td>4h</td>
+          <td>730 days</td>
+          <td>100%</td>
+          <td>Every two years*</td>
+      </tr>
+  </tbody>
 </table>
 <p>Looking specifically at <code>Spot Restart</code>:</p>
 <pre tabindex="0"><code>43,200 = 60 min * 24 hours * 30 days (valid minutes)
@@ -262,48 +280,46 @@
 <p>* <a href="https://aws.amazon.com/compute/sla/">90% SLA</a> the SLO appears to be much higher.</p>
 <p>** Based on uptime.</p>
 <blockquote>
-<p>April 2, 2020 at 8:36:05 PM UTC+11 (1919 hours)</p>
-</blockquote>
+<p>April 2, 2020 at 8:36:05 PM UTC+11 (1919 hours)</p></blockquote>
 <h3 id="cost">Cost</h3>
 <p>The following costs are an estimate:</p>
 <table>
-<thead>
-<tr>
-<th>solution</th>
-<th>network</th>
-<th>cost/GB</th>
-<th>cost/hour</th>
-<th>cost/month</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>NAT Gateway</td>
-<td>5-45 Gbps</td>
-<td>0.059</td>
-<td>0.059</td>
-<td>42.48</td>
-</tr>
-<tr>
-<td>NAT Instance</td>
-<td>0-5  Gbps</td>
-<td>0-0.114</td>
-<td>0.0059</td>
-<td>4.25</td>
-</tr>
-<tr>
-<td>NAT Instance (spot)</td>
-<td>0-5  Gbps</td>
-<td>0-0.114</td>
-<td>0.0018</td>
-<td>1.30</td>
-</tr>
-</tbody>
+  <thead>
+      <tr>
+          <th>solution</th>
+          <th>network</th>
+          <th>cost/GB</th>
+          <th>cost/hour</th>
+          <th>cost/month</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>NAT Gateway</td>
+          <td>5-45 Gbps</td>
+          <td>0.059</td>
+          <td>0.059</td>
+          <td>42.48</td>
+      </tr>
+      <tr>
+          <td>NAT Instance</td>
+          <td>0-5  Gbps</td>
+          <td>0-0.114</td>
+          <td>0.0059</td>
+          <td>4.25</td>
+      </tr>
+      <tr>
+          <td>NAT Instance (spot)</td>
+          <td>0-5  Gbps</td>
+          <td>0-0.114</td>
+          <td>0.0018</td>
+          <td>1.30</td>
+      </tr>
+  </tbody>
 </table>
 <p>Spot market costs are variable but current data suggests:</p>
 <blockquote>
-<p>t3a.nano (1) &hellip; total 69% savings</p>
-</blockquote>
+<p>t3a.nano (1) &hellip; total 69% savings</p></blockquote>
 <h3 id="performance">Performance</h3>
 <p>The performance test can be reproduced with the following command:</p>
 <pre tabindex="0"><code>yum install python python-pip -y \
@@ -313,21 +329,17 @@
 </code></pre><p>The <code>t3.nano</code> instances provide several Gbps up and down.</p>
 <blockquote>
 <p>Download: 3283.42 Mbit/s
-Upload: 2274.26 Mbit/s</p>
-</blockquote>
+Upload: 2274.26 Mbit/s</p></blockquote>
 <h3 id="conclusion">Conclusion</h3>
 <p>This solution has proven acceptable for small egress bandwidth requirements in the range of 1-5 Gbps. The Github project can be found <a href="https://github.com/jamesmoriarty/cfn-cheapest-nat">here</a>.</p>
 
 
-  
 </div>
-
-
   </main>
 
   <footer>
   <div>
-    &copy; James Moriarty 2022
+    &copy; James Moriarty 2025
     ·
     
     <a href="https://creativecommons.org/licenses/by-sa/4.0"
@@ -345,11 +357,13 @@ Upload: 2274.26 Mbit/s</p>
   
 
   
-
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/turbolinks/5.0.0/turbolinks.js"></script>
   
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
   <script>
-  Turbolinks.start()
+  mermaid.initialize({ startOnLoad: true });
   </script>
 </body>
 </html>

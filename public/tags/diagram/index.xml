@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Diagram on James Moriarty</title>
+    <link>http://localhost:1313/tags/diagram/</link>
+    <description>Recent content in Diagram on James Moriarty</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 18 May 2022 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/diagram/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Causal Diagrams</title>
+      <link>http://localhost:1313/post/causal-diagrams/</link>
+      <pubDate>Wed, 18 May 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/causal-diagrams/</guid>
+      <description>&lt;p&gt;Incidents often result from contributing factors as opposed to a singular root cause. As a result, causal diagrams can be an effective tool for illustrating incidents.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

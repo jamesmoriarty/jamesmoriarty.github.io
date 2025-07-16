@@ -1,34 +1,40 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
-<head>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="generator" content="Hugo 0.96.0" />
+  <meta name="generator" content="Hugo 0.148.1">
 
   <title>Apex Domain HTTPS Redirect &middot; James Moriarty</title>
 
   <meta name="description" content="I recently broke my apex domain HTTPS redirect to my subdomain. " />
 
   
-
-<meta itemprop="name" content="Apex Domain HTTPS Redirect">
-<meta itemprop="description" content="I recently broke my apex domain HTTPS redirect to my subdomain. "><meta itemprop="datePublished" content="2021-10-16T00:00:00+00:00" />
-<meta itemprop="dateModified" content="2021-10-16T00:00:00+00:00" />
-<meta itemprop="wordCount" content="327">
-<meta itemprop="keywords" content="dns,http,tls," />
-
-<meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Apex Domain HTTPS Redirect"/>
-<meta name="twitter:description" content="I recently broke my apex domain HTTPS redirect to my subdomain. "/>
+  <meta itemprop="name" content="Apex Domain HTTPS Redirect">
+  <meta itemprop="description" content="I recently broke my apex domain HTTPS redirect to my subdomain.">
+  <meta itemprop="datePublished" content="2021-10-16T00:00:00+00:00">
+  <meta itemprop="dateModified" content="2021-10-16T00:00:00+00:00">
+  <meta itemprop="wordCount" content="327">
+  <meta itemprop="keywords" content="Dns,Http,Tls">
 
 
-<meta property="og:title" content="Apex Domain HTTPS Redirect" />
-<meta property="og:description" content="I recently broke my apex domain HTTPS redirect to my subdomain. " />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="https://www.jamesmoriarty.xyz/post/apex-domain-https-redirect/" /><meta property="article:section" content="post" />
-<meta property="article:published_time" content="2021-10-16T00:00:00+00:00" />
-<meta property="article:modified_time" content="2021-10-16T00:00:00+00:00" />
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Apex Domain HTTPS Redirect">
+  <meta name="twitter:description" content="I recently broke my apex domain HTTPS redirect to my subdomain.">
 
+
+<meta property="og:url" content="http://localhost:1313/post/apex-domain-https-redirect/">
+  <meta property="og:site_name" content="James Moriarty">
+  <meta property="og:title" content="Apex Domain HTTPS Redirect">
+  <meta property="og:description" content="I recently broke my apex domain HTTPS redirect to my subdomain.">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="post">
+    <meta property="article:published_time" content="2021-10-16T00:00:00+00:00">
+    <meta property="article:modified_time" content="2021-10-16T00:00:00+00:00">
+    <meta property="article:tag" content="Dns">
+    <meta property="article:tag" content="Http">
+    <meta property="article:tag" content="Tls">
 
 
 
@@ -44,16 +50,16 @@
 
   <link type="text/css"
         rel="stylesheet"
-        href="https://www.jamesmoriarty.xyz/css/print.css"
+        href="http://localhost:1313/css/print.css"
         media="print">
 
   <link type="text/css"
         rel="stylesheet"
-        href="https://www.jamesmoriarty.xyz/css/poole.css">
+        href="http://localhost:1313/css/poole.css">
 
   <link type="text/css"
         rel="stylesheet"
-        href="https://www.jamesmoriarty.xyz/css/hyde.css">
+        href="http://localhost:1313/css/hyde.css">
 
   
 <style type="text/css">
@@ -88,7 +94,7 @@
 
 
 
-  <link type="text/css" rel="stylesheet" href="https://www.jamesmoriarty.xyz/css/custom.css">
+  <link type="text/css" rel="stylesheet" href="http://localhost:1313/css/custom.css">
 
   <link rel="stylesheet"
         href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700&display=swap">
@@ -113,7 +119,7 @@
       
         
         <div class="author-image">
-          <img src="https://www.jamesmoriarty.xyz/images/james-moriarty.jpg" class="img-circle img-headshot center" alt="Profile Picture">
+          <img src="http://localhost:1313/images/james-moriarty.jpg" class="img-circle img-headshot center" alt="Profile Picture">
         </div>
         
       
@@ -126,7 +132,7 @@
     <nav>
       <ul class="sidebar-nav">
         <li>
-          <a href="https://www.jamesmoriarty.xyz/">Home</a>
+          <a href="http://localhost:1313/">Home</a>
         </li>
         <li>
           <a href="/posts/"> Posts </a>
@@ -136,6 +142,8 @@
           <a href="/about/"> About </a>
         </li><li>
           <a href="/diving/"> Diving </a>
+        </li><li>
+          <a href="/hiking/"> Hiking </a>
         </li><li>
           <a href="/reading/"> Reading </a>
         </li><li>
@@ -167,17 +175,21 @@
 
   <main class="content container">
   <div class="post">
-  <h1>Apex Domain HTTPS Redirect</h1>
+  <h1>Apex Domain HTTPS Redirect</h1> 
 
   <div class="post-date">
-    
+    <time datetime="2021-10-16T00:00:00Z">Oct 16, 2021</time> · 2 min read
+    <span class="pull-right"><span class="categories">
+    <span class="category infrastructure">
+                infrastructure
+            </span>
+</span></span>
   </div>
 
   <p>I recently broke the <a href="https://jamesmoriarty.xyz">apex domain</a> HTTPS redirect to my <a href="https://www.jamesmoriarty.xyz">sub-domain</a>. Investigating the issue revealed the complexities of this behavior and, as a result, I’m writing about some of those contributing factors.</p>
 <h2 id="apex-domain">Apex Domain</h2>
 <blockquote>
-<p>An apex domain is a custom domain that does not contain a subdomain, such as example.com . Apex domains are also known as base, bare, naked, root apex, or zone apex domains. An apex domain is configured with an A , ALIAS , or ANAME record through your DNS provider.</p>
-</blockquote>
+<p>An apex domain is a custom domain that does not contain a subdomain, such as example.com . Apex domains are also known as base, bare, naked, root apex, or zone apex domains. An apex domain is configured with an A , ALIAS , or ANAME record through your DNS provider.</p></blockquote>
 <p><a href="https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/about-custom-domains-and-github-pages#using-an-apex-domain-for-your-github-pages-site">Github</a></p>
 <p>We need our apex domain to resolve to something that can preform the redirect. <code>CNAME</code> records are incompatible with apex domains, but we can use traditional <code>A</code> or a DNS specific <code>ALIAS</code> records.</p>
 <pre tabindex="0"><code>$ dig +short jamesmoriarty.xyz
@@ -186,8 +198,7 @@
 65.8.35.39
 65.8.35.18
 </code></pre><blockquote>
-<p>The above example is an Amazon Web Services (AWS) Route53 ALIAS record resolving to CloudFront.</p>
-</blockquote>
+<p>The above example is an Amazon Web Services (AWS) Route53 ALIAS record resolving to CloudFront.</p></blockquote>
 <h2 id="tls">TLS</h2>
 <p>We need to provide the client with TLS connectivity. This requires a certificate and something to facilitate TLS. Automated issuing and renewal of certificates can be facilitated with <a href="https://letsencrypt.org/">Let’s Encrypt</a> or <a href="https://aws.amazon.com/certificate-manager/">AWS Certificate Manager</a>.</p>
 <pre tabindex="0"><code>$ openssl s_client -connect jamesmoriarty.xyz:443
@@ -200,8 +211,7 @@ depth=0 CN = jamesmoriarty.xyz
 verify return:1
 ---
 </code></pre><blockquote>
-<p>The above example is validating TLS connectivity with OpenSSL being facilitated by CloudFront.</p>
-</blockquote>
+<p>The above example is validating TLS connectivity with OpenSSL being facilitated by CloudFront.</p></blockquote>
 <h2 id="http-redirect">HTTP Redirect</h2>
 <p>We will need to redirect the client to the sub-domain. To support the widest possible number of clients, we will often do this at the HTTP protocol level.</p>
 <pre tabindex="0"><code>$ curl -v https://jamesmoriarty.xyz/ -o /dev/null
@@ -216,22 +226,18 @@ verify return:1
 &lt; location: http://www.jamesmoriarty.xyz/index.html
 ...
 </code></pre><blockquote>
-<p>The above example is verbose curl output to validate the HTTP protocol interaction being facilitated by S3 static website hosting redirect function:</p>
-</blockquote>
+<p>The above example is verbose curl output to validate the HTTP protocol interaction being facilitated by S3 static website hosting redirect function:</p></blockquote>
 <h2 id="interaction">Interaction</h2>
 <p>The following diagram illustrates the HTTPS redirect for my personal website.</p>
 <p><img src="/images/apex-domin-https-redirect.drawio.svg" alt="Apex HTTPS redirect for jamesmoriarty.xyz to www.jamesmoriarty.xyz"></p>
 
 
-  
 </div>
-
-
   </main>
 
   <footer>
   <div>
-    &copy; James Moriarty 2022
+    &copy; James Moriarty 2025
     ·
     
     <a href="https://creativecommons.org/licenses/by-sa/4.0"
@@ -249,11 +255,13 @@ verify return:1
   
 
   
-
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/turbolinks/5.0.0/turbolinks.js"></script>
   
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
   <script>
-  Turbolinks.start()
+  mermaid.initialize({ startOnLoad: true });
   </script>
 </body>
 </html>

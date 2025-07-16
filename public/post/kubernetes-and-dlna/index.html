@@ -1,34 +1,40 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
-<head>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="generator" content="Hugo 0.96.0" />
+  <meta name="generator" content="Hugo 0.148.1">
 
   <title>Kubernetes and DLNA &middot; James Moriarty</title>
 
   <meta name="description" content="" />
 
   
-
-<meta itemprop="name" content="Kubernetes and DLNA">
-<meta itemprop="description" content="These are some notes taken while deploying a Digital Living Network Alliance (DLNA) to Kubernetes."><meta itemprop="datePublished" content="2021-06-03T00:00:00+00:00" />
-<meta itemprop="dateModified" content="2021-06-03T00:00:00+00:00" />
-<meta itemprop="wordCount" content="264">
-<meta itemprop="keywords" content="kubernetes,dlna,ssdp," />
-
-<meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Kubernetes and DLNA"/>
-<meta name="twitter:description" content="These are some notes taken while deploying a Digital Living Network Alliance (DLNA) to Kubernetes."/>
+  <meta itemprop="name" content="Kubernetes and DLNA">
+  <meta itemprop="description" content="These are some notes taken while deploying a Digital Living Network Alliance (DLNA) to Kubernetes. DLNA is derived from Universal Plug and Play (UPnP) specifically for media interoperability. DLNA services are advertised and discovered via Simple Service Discovery Protocol (SSDP).">
+  <meta itemprop="datePublished" content="2021-06-03T00:00:00+00:00">
+  <meta itemprop="dateModified" content="2021-06-03T00:00:00+00:00">
+  <meta itemprop="wordCount" content="263">
+  <meta itemprop="keywords" content="Kubernetes,Dlna,Ssdp">
 
 
-<meta property="og:title" content="Kubernetes and DLNA" />
-<meta property="og:description" content="These are some notes taken while deploying a Digital Living Network Alliance (DLNA) to Kubernetes." />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="https://www.jamesmoriarty.xyz/post/kubernetes-and-dlna/" /><meta property="article:section" content="post" />
-<meta property="article:published_time" content="2021-06-03T00:00:00+00:00" />
-<meta property="article:modified_time" content="2021-06-03T00:00:00+00:00" />
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Kubernetes and DLNA">
+  <meta name="twitter:description" content="These are some notes taken while deploying a Digital Living Network Alliance (DLNA) to Kubernetes. DLNA is derived from Universal Plug and Play (UPnP) specifically for media interoperability. DLNA services are advertised and discovered via Simple Service Discovery Protocol (SSDP).">
 
+
+<meta property="og:url" content="http://localhost:1313/post/kubernetes-and-dlna/">
+  <meta property="og:site_name" content="James Moriarty">
+  <meta property="og:title" content="Kubernetes and DLNA">
+  <meta property="og:description" content="These are some notes taken while deploying a Digital Living Network Alliance (DLNA) to Kubernetes. DLNA is derived from Universal Plug and Play (UPnP) specifically for media interoperability. DLNA services are advertised and discovered via Simple Service Discovery Protocol (SSDP).">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="post">
+    <meta property="article:published_time" content="2021-06-03T00:00:00+00:00">
+    <meta property="article:modified_time" content="2021-06-03T00:00:00+00:00">
+    <meta property="article:tag" content="Kubernetes">
+    <meta property="article:tag" content="Dlna">
+    <meta property="article:tag" content="Ssdp">
 
 
 
@@ -44,16 +50,16 @@
 
   <link type="text/css"
         rel="stylesheet"
-        href="https://www.jamesmoriarty.xyz/css/print.css"
+        href="http://localhost:1313/css/print.css"
         media="print">
 
   <link type="text/css"
         rel="stylesheet"
-        href="https://www.jamesmoriarty.xyz/css/poole.css">
+        href="http://localhost:1313/css/poole.css">
 
   <link type="text/css"
         rel="stylesheet"
-        href="https://www.jamesmoriarty.xyz/css/hyde.css">
+        href="http://localhost:1313/css/hyde.css">
 
   
 <style type="text/css">
@@ -88,7 +94,7 @@
 
 
 
-  <link type="text/css" rel="stylesheet" href="https://www.jamesmoriarty.xyz/css/custom.css">
+  <link type="text/css" rel="stylesheet" href="http://localhost:1313/css/custom.css">
 
   <link rel="stylesheet"
         href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700&display=swap">
@@ -113,7 +119,7 @@
       
         
         <div class="author-image">
-          <img src="https://www.jamesmoriarty.xyz/images/james-moriarty.jpg" class="img-circle img-headshot center" alt="Profile Picture">
+          <img src="http://localhost:1313/images/james-moriarty.jpg" class="img-circle img-headshot center" alt="Profile Picture">
         </div>
         
       
@@ -126,7 +132,7 @@
     <nav>
       <ul class="sidebar-nav">
         <li>
-          <a href="https://www.jamesmoriarty.xyz/">Home</a>
+          <a href="http://localhost:1313/">Home</a>
         </li>
         <li>
           <a href="/posts/"> Posts </a>
@@ -136,6 +142,8 @@
           <a href="/about/"> About </a>
         </li><li>
           <a href="/diving/"> Diving </a>
+        </li><li>
+          <a href="/hiking/"> Hiking </a>
         </li><li>
           <a href="/reading/"> Reading </a>
         </li><li>
@@ -167,10 +175,17 @@
 
   <main class="content container">
   <div class="post">
-  <h1>Kubernetes and DLNA</h1>
+  <h1>Kubernetes and DLNA</h1> 
 
   <div class="post-date">
-    
+    <time datetime="2021-06-03T00:00:00Z">Jun 3, 2021</time> · 2 min read
+    <span class="pull-right"><span class="categories">
+    <span class="category infrastructure">
+                infrastructure
+            </span><span class="category networking">
+                networking
+            </span>
+</span></span>
   </div>
 
   <p>These are some notes taken while deploying a <a href="https://en.wikipedia.org/wiki/Digital_Living_Network_Alliance">Digital Living Network Alliance</a> (DLNA) to Kubernetes. DLNA is derived from <a href="https://en.wikipedia.org/wiki/Universal_Plug_and_Play">Universal Plug and Play</a> (UPnP) specifically for media interoperability. DLNA services are advertised and discovered via <a href="https://en.wikipedia.org/wiki/Simple_Service_Discovery_Protocol">Simple Service Discovery Protocol </a> (SSDP).</p>
@@ -209,26 +224,42 @@ MAC Address: D4:35:1D:14:F3:FE (Technicolor)
   protocol: TCP
 </code></pre><p>Enabling the SSDP interaction on Kubernetes required the DLNA server pod to be run with <code>hostNetwork</code>.</p>
 <pre tabindex="0"><code>hostNetwork: true
-</code></pre><p>Otherwise, you can expect the following issues.</p>
-<ul>
-<li>Blocked Pod egress SSDP advertisement (CNI/IP Tables).</li>
-<li>Blocked Pod ingress SSDP discovery (CNI).</li>
-<li>Incorrect advertised enpdoint IP (Pod vs Host).</li>
-</ul>
-<pre tabindex="0"><code>replicas: 1
-strategy:
-  type: Recreate
-</code></pre>
+</code></pre><p>I&rsquo;ve trade to summarize the trade offs in the following table:</p>
+<table>
+  <thead>
+      <tr>
+          <th>hostNetwork</th>
+          <th>Multicast</th>
+          <th>Ingress</th>
+          <th>Endpoint</th>
+          <th>Security Posture</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>false</td>
+          <td>? CNI</td>
+          <td>? CNI</td>
+          <td>? (Pod)</td>
+          <td>✔</td>
+      </tr>
+      <tr>
+          <td>true</td>
+          <td>✔</td>
+          <td>✔</td>
+          <td>✔ (Host)</td>
+          <td>?</td>
+      </tr>
+  </tbody>
+</table>
 
-  
+
 </div>
-
-
   </main>
 
   <footer>
   <div>
-    &copy; James Moriarty 2022
+    &copy; James Moriarty 2025
     ·
     
     <a href="https://creativecommons.org/licenses/by-sa/4.0"
@@ -246,11 +277,13 @@ strategy:
   
 
   
-
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/turbolinks/5.0.0/turbolinks.js"></script>
   
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
   <script>
-  Turbolinks.start()
+  mermaid.initialize({ startOnLoad: true });
   </script>
 </body>
 </html>
