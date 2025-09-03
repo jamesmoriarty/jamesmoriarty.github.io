@@ -3,7 +3,7 @@
 <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="generator" content="Hugo 0.148.1">
+  <meta name="generator" content="Hugo 0.149.0">
 
   <title>Software &middot; James Moriarty</title>
 
@@ -224,15 +224,15 @@
 <li><a href="https://github.com/jamesmoriarty/react-instagram-authless-feed">Github</a></li>
 </ul>
 <h2 id="gomem">Gomem</h2>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-go" data-lang="go"><span style="display:flex;"><span><span style="color:#cf222e">import</span> <span style="color:#0a3069">&#34;github.com/jamesmoriarty/gomem&#34;</span>
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#57606a">// Open process with handle.</span>
-</span></span><span style="display:flex;"><span><span style="color:#1f2328">process</span><span style="color:#1f2328">,</span> <span style="color:#1f2328">err</span>  <span style="color:#0550ae">:=</span> <span style="color:#1f2328">gomem</span><span style="color:#1f2328">.</span><span style="color:#6639ba">GetOpenProcessFromName</span><span style="color:#1f2328">(</span><span style="color:#0a3069">&#34;example.exe&#34;</span><span style="color:#1f2328">)</span>
-</span></span><span style="display:flex;"><span><span style="color:#57606a">// Read from process memory.</span>
-</span></span><span style="display:flex;"><span><span style="color:#1f2328">valuePtr</span><span style="color:#1f2328">,</span> <span style="color:#1f2328">err</span> <span style="color:#0550ae">:=</span> <span style="color:#1f2328">process</span><span style="color:#1f2328">.</span><span style="color:#6639ba">ReadUInt32</span><span style="color:#1f2328">(</span><span style="color:#1f2328">offsetPtr</span><span style="color:#1f2328">)</span>
-</span></span><span style="display:flex;"><span><span style="color:#57606a">// Write to process memory.</span>
-</span></span><span style="display:flex;"><span><span style="color:#1f2328">process</span><span style="color:#1f2328">.</span><span style="color:#6639ba">WriteByte</span><span style="color:#1f2328">(</span><span style="color:#1f2328">valuePtr</span><span style="color:#1f2328">,</span> <span style="color:#1f2328">value</span><span style="color:#1f2328">)</span>
-</span></span></code></pre></div><p>A Go library to manipulate Windows processes. Useful for developing process memory based security exploits. Automated tests manipulate and verify its own process memory via Windows APIs.</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-go" data-lang="go"><span style="display:flex;"><span><span style="color:#cf222e">import</span><span style="color:#fff"> </span><span style="color:#0a3069">&#34;github.com/jamesmoriarty/gomem&#34;</span><span style="color:#fff">
+</span></span></span><span style="display:flex;"><span><span style="color:#fff">
+</span></span></span><span style="display:flex;"><span><span style="color:#fff"></span><span style="color:#57606a">// Open process with handle.</span><span style="color:#fff">
+</span></span></span><span style="display:flex;"><span><span style="color:#fff"></span><span style="color:#1f2328">process</span><span style="color:#1f2328">,</span><span style="color:#fff"> </span><span style="color:#1f2328">err</span><span style="color:#fff">  </span><span style="color:#0550ae">:=</span><span style="color:#fff"> </span><span style="color:#1f2328">gomem</span><span style="color:#1f2328">.</span><span style="color:#6639ba">GetOpenProcessFromName</span><span style="color:#1f2328">(</span><span style="color:#0a3069">&#34;example.exe&#34;</span><span style="color:#1f2328">)</span><span style="color:#fff">
+</span></span></span><span style="display:flex;"><span><span style="color:#fff"></span><span style="color:#57606a">// Read from process memory.</span><span style="color:#fff">
+</span></span></span><span style="display:flex;"><span><span style="color:#fff"></span><span style="color:#1f2328">valuePtr</span><span style="color:#1f2328">,</span><span style="color:#fff"> </span><span style="color:#1f2328">err</span><span style="color:#fff"> </span><span style="color:#0550ae">:=</span><span style="color:#fff"> </span><span style="color:#1f2328">process</span><span style="color:#1f2328">.</span><span style="color:#6639ba">ReadUInt32</span><span style="color:#1f2328">(</span><span style="color:#1f2328">offsetPtr</span><span style="color:#1f2328">)</span><span style="color:#fff">
+</span></span></span><span style="display:flex;"><span><span style="color:#fff"></span><span style="color:#57606a">// Write to process memory.</span><span style="color:#fff">
+</span></span></span><span style="display:flex;"><span><span style="color:#fff"></span><span style="color:#1f2328">process</span><span style="color:#1f2328">.</span><span style="color:#6639ba">WriteByte</span><span style="color:#1f2328">(</span><span style="color:#1f2328">valuePtr</span><span style="color:#1f2328">,</span><span style="color:#fff"> </span><span style="color:#1f2328">value</span><span style="color:#1f2328">)</span><span style="color:#fff">
+</span></span></span></code></pre></div><p>A Go library to manipulate Windows processes. Useful for developing process memory based security exploits. Automated tests manipulate and verify its own process memory via Windows APIs.</p>
 <ul>
 <li><a href="https://github.com/jamesmoriarty/gomem">Github</a></li>
 </ul>
