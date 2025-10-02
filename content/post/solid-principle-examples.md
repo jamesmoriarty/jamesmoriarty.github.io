@@ -55,8 +55,8 @@ module Services
 
     def call
       open(uri) { |src| file.write(src.read) }
+      
       file.close
-      file.path
     end
   end
 end
@@ -200,5 +200,13 @@ end
 By allowing the caller to control the receivers dependency we can further extend components. This is extremely useful for configuration and testing. Take the following injection of two different dependencies.
 
 ```ruby
-Logger.new(StringIO.new))
+logger = Logger.new(StringIO.new)
+```
+
+```ruby
+logger = Logger.new(STDOUT)
+```
+
+```ruby
+logger.info('¯\_(ツ)_/¯')
 ```
