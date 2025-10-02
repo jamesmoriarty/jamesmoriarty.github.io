@@ -102,7 +102,8 @@ This page is dedicated to my interest in hiking. New Zealand is renowned for its
 
 ### Total Weight
 
-Base weight: ~7kg Water: ~2kg Food: ~2kg Total: ~12kg
+Base weight: ~7kg
++ Water weight: ~2kg
 
 ## Huts "Bagged"
 
