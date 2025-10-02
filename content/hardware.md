@@ -13,6 +13,28 @@ author = "James Moriarty"
 
 ## Systems
 
+### M4 Macbook Air
+
+- Apple M4 10 Core CPU@4.4 GHz
+- 16GB Unified Memory LPDDR5@7500MHz
+- 16-core Neural Engine
+- 256GB SSD
+
+```
+$ disktest /tmp
+
+...
+Testing cached reads...
+Timing cached reads:   4096 MB in  0.25 seconds = 16489.01 MB/sec
+Testing mounted volume performance...
+Using mount point: /System/Volumes/Data
+Testing write performance...
+Timing buffered disk writes: 1024 MB in  1.87 seconds = 548.42 MB/sec
+Testing read performance...
+Timing buffered disk reads:  1024 MB in  0.36 seconds = 2816.55 MB/sec
+```
+
+
 ### Budget Build Desktop
 
 I've love value builds.
@@ -20,7 +42,6 @@ I've love value builds.
 - AMD Ryzen 3 1300X 4 Core@3.5-3.7GHz
 - Corsair Vengeance LPX 16GB (2x8GB) DDR4@2400MHz
 - Samsung 960 EVO 250GB SSD NVMe
-- WD Green 250GB SSD mSATA
 - Asus Strix RX570@1300MHz (2048SP) 4GB DDR5@7000MHz
 
 ```

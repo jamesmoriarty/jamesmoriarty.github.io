@@ -36,7 +36,6 @@ This page is dedicated to my interest in hiking. New Zealand is renowned for its
 | Item                                              | Year | Cost       | Weight | Notes |
 | ------------------------------------------------- |:----:| ----------:| ------:| ----- |
 | Macpac Te Araroa 55L Hiking Backpack              | 2024 | $250.00NZD | 1530   | |
-| Catus 15l Dry Bag                                 | 2023 |  $20.00NZD |  100   | |
 | Macpac 70L pack liner                             | 2025 |            |        | Thanks NZ LandSAR. |
 
 ### Sleep System
@@ -51,7 +50,7 @@ This page is dedicated to my interest in hiking. New Zealand is renowned for its
 | Item                                              | Year | Cost       | Weight | Notes |
 | ------------------------------------------------- |:----:| ----------:| ------:| ----- |
 | Rab Trailhead Bivvy Bag                           | 2025 | $200.00NZD | 400    | |
-| OZtrail Hiker Fly (350 x 210 cm)                  | 2024 |  $39.95NZD | 900    | |
+| Aricxi Ultralight Tarp (210 x 150 cm)             | 2025 |  $39.95NZD | 200    | Replaces OZtrail Hiker Fly |
 
 
 ### Water Filtration
@@ -66,7 +65,7 @@ This page is dedicated to my interest in hiking. New Zealand is renowned for its
 | Item                                              | Year | Cost       | Weight | Notes |
 | ------------------------------------------------- |:----:| ----------:| ------:| ----- |
 | Gascraft Camping Backpacker Stove                 | 2023 |  $37.00NZD | 200    | |
-| Pot                                               |      |            |        | |
+| Macpac Solo Pot Set                               | 2025 |  $36.00NZD | 230    | |
 | Spork                                             |      |            |        | |
 | Smith & Wesson HRT Fixed Blade                    | 2023 |  $39.00NZD | 100    | |
 
@@ -90,7 +89,7 @@ This page is dedicated to my interest in hiking. New Zealand is renowned for its
 | Mid Layer Jacket                                  | 2023 | $100.00NZD | 300    | |
 | Base Layer Top                                    | 2023 |  $20.00NZD | 200    | |
 | Base Layer Bottom                                 | 2023 |  $20.00NZD | 200    | |
-| Rab Balaclava                                     | 2023 |  $20.00NZD | 100    | |
+| Rab Balaclava                                     | 2025 |  $40.00NZD | 100    | |
 | Oakley Sutro Lite Sunglasses                      | 2024 | $200.00NZD |  30    | |
 | Black Diamond Trail Back Trekking Poles           | 2023 | $100.00NZD | 500    | |
 
@@ -103,7 +102,7 @@ This page is dedicated to my interest in hiking. New Zealand is renowned for its
 
 ### Total Weight
 
-Base weight: ~8kg Water: ~2kg Food: ~2kg Total: ~12kg
+Base weight: ~7kg Water: ~2kg Food: ~2kg Total: ~12kg
 
 ## Huts "Bagged"
 
