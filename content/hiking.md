@@ -83,7 +83,7 @@ This page is dedicated to my interest in hiking. New Zealand is renowned for its
 
 | Item                                              | Year | Cost       | Weight | Notes |
 | ------------------------------------------------- |:----:| ----------:| ------:| ----- |
-| Salomon OUTline GTX Shoes                         | 2022 | $200.00NZD | 350    | |
+| Oboz Men's Katabatic Mid                          | 2025 | $100.00NZD | 800    | Replaces Salomon OUTline GTX |
 | Rain Jacket                                       | 2023 | $100.00NZD | 300    | |
 | Rain Pants                                        | 2023 | $100.00NZD | 300    | |
 | Mid Layer Jacket                                  | 2023 | $100.00NZD | 300    | |
