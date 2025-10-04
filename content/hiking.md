@@ -36,29 +36,28 @@ This page is dedicated to my interest in hiking. New Zealand is renowned for its
 | Item                                              | Year | Cost       | Weight | Notes |
 | ------------------------------------------------- |:----:| ----------:| ------:| ----- |
 | Macpac Te Araroa 55L Hiking Backpack              | 2024 | $250.00NZD | 1530   | |
-| Macpac 70L pack liner                             | 2025 |            |        | Thanks NZ LandSAR. |
+| Macpac 70L pack liner                             | 2025 |            |        | - Thanks NZ LandSAR. |
 
 ### Sleep System
 
 | Item                                              | Year | Cost       | Weight | Notes |
 | ------------------------------------------------- |:----:| ----------:| ------:| ----- |
-| Sea to Summit Ether Light XT Extreme Insulated Sleeping Mat (R6.2) | 2025 |  $314.00NZD | 720    | |
-| Kathmandu Icarus Hybrid Down Sleeping Bag (-5)    | 2024 | $200.00NZD | 1310   | |
+| Sea to Summit Ether Light XT Extreme Insulated Sleeping Mat | 2025 |  $314.00NZD | 720   | - R6.2 |
+| Kathmandu Icarus Hybrid Down Sleeping Bag                   | 2024 | $200.00NZD | 1310   | - -5'C|
 
 ### Shelter
 
 | Item                                              | Year | Cost       | Weight | Notes |
 | ------------------------------------------------- |:----:| ----------:| ------:| ----- |
 | Rab Trailhead Bivvy Bag                           | 2025 | $200.00NZD | 400    | |
-| Aricxi Ultralight Tarp (210 x 150 cm)             | 2025 |  $39.95NZD | 200    | Replaces OZtrail Hiker Fly |
-
+| Aricxi Ultralight Tarp                            | 2025 |  $39.95NZD | 200    | - 210 x 150 cm <br/> - Replaces OZtrail Hiker Fly |
 
 ### Water Filtration
 
 | Item                                              | Year | Cost       | Weight | Notes |
 | ------------------------------------------------- |:----:| ----------:| ------:| ----- |
-| LifeStraw Peak Squeeze (650ml)                    | 2023 |  $59.99NZD | 100    | |
-| Solomon Elite Bladder (1.5L)                      | 2025 |  $79.99NZD | 120    | |
+| LifeStraw Peak Squeeze                            | 2023 |  $59.99NZD | 100    | - 650ml |
+| Solomon Elite Bladder                             | 2025 |  $79.99NZD | 120    | - 1.5L |
 
 ### Cooking
 
@@ -83,7 +82,7 @@ This page is dedicated to my interest in hiking. New Zealand is renowned for its
 
 | Item                                              | Year | Cost       | Weight | Notes |
 | ------------------------------------------------- |:----:| ----------:| ------:| ----- |
-| Oboz Men's Katabatic Mid                          | 2025 | $100.00NZD | 800    | Replaces Salomon OUTline GTX |
+| Oboz Men's Katabatic Mid                          | 2025 | $100.00NZD | 800    | - Replaces Salomon OUTline GTX |
 | Rain Jacket                                       | 2023 | $100.00NZD | 300    | |
 | Rain Pants                                        | 2023 | $100.00NZD | 300    | |
 | Mid Layer Jacket                                  | 2023 | $100.00NZD | 300    | |
@@ -103,7 +102,7 @@ This page is dedicated to my interest in hiking. New Zealand is renowned for its
 ### Total Weight
 
 Base weight: ~7kg
-+ Water weight: ~2kg
+\+ Water weight: ~2kg
 
 ## Huts "Bagged"
 
