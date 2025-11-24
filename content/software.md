@@ -8,6 +8,8 @@ author = "James Moriarty"
 
 This is a showcase for some of my personal software projects. You can find out more about my professional accomplishments on [LinkedIn](https://www.linkedin.com/in/jamespaulmoriarty).
 
+- [Magic GPX Editor](#magic-gpx-editor)
+- [Storage Performance](#storage-performance)
 - [MiniAASM](#miniaasm)
 - [Alpaca Desktop](#alpaca-desktop)
 - [Forward Proxy](#forward-proxy)
@@ -21,6 +23,22 @@ This is a showcase for some of my personal software projects. You can find out m
 - [Scorched Earth](#scorched-earth)
 - [Garmin Connect Import](#garmin-connect-import)
 
+
+## Magic GPX Editor
+
+![Screenshot of Magic GPX Editor](https://www.jamesmoriarty.xyz/magic-gpx-editor-support/screenshot.png)
+
+After volunteering for New Zealand Land Search & Rescue for a time - I had to manage a lot of maps. I built this to manage tracks, and points of interest for my devices. I've put it on the Apple app store for people to use. It launched at #1 paid app for the travel category on the New Zealand store.
+
+[Website](https://www.jamesmoriarty.xyz/magic-gpx-editor-support/) | [App Store](https://apps.apple.com/nz/app/magic-gpx-editor/id6755287800?mt=12)
+
+## Storage Performance
+
+![Screenshot of Storage Performance](https://www.jamesmoriarty.xyz/storage-performance-support/screenshot.png)
+
+After wasting time trying to get external storage drives to perform at the advertised speed, I built Storage Performance to encompass my debugging workflow. It lists a device tree to inform users of the USB speeds reported by MacOS and runs benchmarks and reports against the theoretical limits. I've put it on the Apple app store for people to use for free. It launched at #8 paid app for the utility category on the New Zealand store.
+
+[Website](https://www.jamesmoriarty.xyz/storage-performance-support/) | [App Store](https://apps.apple.com/nz/app/storage-performance/id6754225827?mt=12)
 
 ## MiniAASM
 
