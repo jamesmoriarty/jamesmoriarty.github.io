@@ -39,8 +39,8 @@ Timing buffered disk reads:  1024 MB in  0.36 seconds = 2816.55 MB/sec
 
 I've love value builds.
 
-- AMD Ryzen 3 1300X 4 Core@3.5-3.7GHz
-- Corsair Vengeance LPX 16GB (2x8GB) DDR4@2400MHz
+- AMD Ryzen 5 5500X 6 Core@3.6-4.2GHz
+- Corsair Vengeance LPX 16GB (2x8GB) DDR4@2666MHz
 - Samsung 960 EVO 250GB SSD NVMe
 - Asus Strix RX570@1300MHz (2048SP) 4GB DDR5@7000MHz
 
