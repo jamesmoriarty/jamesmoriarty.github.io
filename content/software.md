@@ -28,7 +28,7 @@ This is a showcase for some of my personal software projects. You can find out m
 
 ![Screenshot of Magic GPX Editor](https://www.jamesmoriarty.xyz/magic-gpx-editor-support/screenshot.png)
 
-After volunteering for New Zealand Land Search & Rescue for a time - I had to manage a lot of maps. I built this to manage tracks, and points of interest for my devices. I've put it on the Apple app store for people to use. It launched at #1 paid app for the travel category on the New Zealand store.
+After volunteering for New Zealand Land Search & Rescue for a time - I had to maintain lots of maps. I built this to manage tracks, and points of interest for my devices. I've put it on the Apple app store for people to use. It launched at #1 paid app for the travel category on the New Zealand store.
 
 [Website](https://www.jamesmoriarty.xyz/magic-gpx-editor-support/) | [App Store](https://apps.apple.com/nz/app/magic-gpx-editor/id6755287800?mt=12)
 
