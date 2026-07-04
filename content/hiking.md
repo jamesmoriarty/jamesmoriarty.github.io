@@ -42,8 +42,8 @@ This page is dedicated to my interest in hiking. New Zealand is renowned for its
 
 | Item                                              | Year | Cost       | Weight | Notes |
 | ------------------------------------------------- |:----:| ----------:| ------:| ----- |
-| Sea to Summit Ether Light XT Extreme Insulated Sleeping Mat | 2025 |  $314.00NZD | 720   | - R6.2 |
-| Kathmandu Icarus Hybrid Down Sleeping Bag                   | 2024 | $200.00NZD | 1310   | - -5'C|
+| Sea to Summit Ether Light XT Extreme Insulated Sleeping Mat | 2025 |  $314.00NZD | 750   | - R6.2 |
+| Macpac 350 Down Quilt V2                          | 2026 | $350.00NZD | 750   | - -2'C |
 
 ### Shelter
 
@@ -63,7 +63,7 @@ This page is dedicated to my interest in hiking. New Zealand is renowned for its
 
 | Item                                              | Year | Cost       | Weight | Notes |
 | ------------------------------------------------- |:----:| ----------:| ------:| ----- |
-| Gascraft Camping Backpacker Stove                 | 2023 |  $37.00NZD | 200    | |
+| Ultralight.      Backpacker Stove                 | 2025 |  $25.00NZD | 25     | |
 | Macpac Solo Pot Set                               | 2025 |  $36.00NZD | 230    | |
 | Spork                                             |      |            |        | |
 | Smith & Wesson HRT Fixed Blade                    | 2023 |  $39.00NZD | 100    | |
@@ -98,10 +98,11 @@ This page is dedicated to my interest in hiking. New Zealand is renowned for its
 | ------------------------------------------------- |:----:| ----------:| ------:| ----- |
 | Custom Trauma/Survival kit                        | 2024 |  $70.00NZD | 700    | |
 | Silva Field Compass                               | 2025 |  $50.00NZD |  50    | |
+| Leatherman Rev Multitool                          | 2025 | $150.00NZD | 200    | | 
 
 ### Total Weight
 
-Base weight: ~7kg
+Base weight: ~5.9kg
 \+ Water weight: ~2kg
 
 ## Huts "Bagged"
